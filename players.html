@@ -1,11 +1,11 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Players — rivalry cross-table and every champion — Tennis Lab</title></head><body>
 <div id="site-header"></div>
-<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Players</div><h1>Rivalries and champions</h1><p class="lead">Pick any two players in the cross-table to watch their matches: curated meetings with real videos, grouped by Grand Slam, Olympics, team events, Masters and Finals. The current generation sits at the top; the full list of <a href="#champions">champions and stars</a> follows.</p></section>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Players</div><h1>Rivalries and champions</h1><p class="lead">Pick any two players in the cross-table to watch their matches: curated meetings with real videos, grouped by Grand Slam, Olympics, team events, Masters and Finals. The all-time greats come first, then the current generation; the full list of <a href="#champions">champions and stars</a> follows.</p></section>
 
 <div class="section-head" id="crosstable"><h2>Rivalry cross-table</h2><span class="legend"><span><i style="background:rgba(67,179,106,.5)"></i>curated matches + videos</span><span><i style="background:var(--bg2)"></i>search only</span></span></div>
 <div class="controls">
  <div class="seg" id="xtour"><button class="on" data-v="ATP">Men</button><button data-v="WTA">Women</button></div>
- <div class="seg" id="xscope"><button class="on" data-v="current">Current generation</button><button data-v="featured">Legends</button><button data-v="all">Everyone</button></div>
+ <div class="seg" id="xscope"><button class="on" data-v="mix">All-time greats + current</button><button data-v="current">Current only</button><button data-v="featured">All-time greats</button><button data-v="all">Everyone</button></div>
  <input type="search" id="xq" placeholder="Jump to a player…" style="min-width:160px;flex:0 1 220px">
 </div>
 <div class="xt-wrap"><table class="xt" id="xt"></table></div>
@@ -42,7 +42,12 @@
   document.querySelectorAll('[data-riv]').forEach(a=>a.onclick=e=>{e.preventDefault();const p=byId[a.dataset.riv];state.xtour=p.tour;state.xscope=p.active?'current':'all';syncSeg('xtour',p.tour);syncSeg('xscope',state.xscope);table();document.getElementById('crosstable').scrollIntoView({behavior:'smooth'});setTimeout(()=>{const th=document.querySelector(`[data-row="${p.id}"]`);th&&th.scrollIntoView({block:'center',inline:'nearest'});},400)});
  }
  function syncSeg(id,v){document.querySelectorAll(`#${id} button`).forEach(b=>b.classList.toggle('on',b.dataset.v===v));}
- function scopeList(){return P.filter(p=>p.tour===state.xtour&&(state.xscope==='all'||(state.xscope==='current'?p.active:p.featured))).sort((a,b)=>b.born-a.born||slamsOf(b)-slamsOf(a)||a.name.localeCompare(b.name));}
+ function scopeList(){
+  const inScope=p=>state.xscope==="all"||(state.xscope==="current"?p.active:state.xscope==="featured"?p.featured:(p.active||p.featured));
+  // all-time greats first (by majors, then era), then the current generation youngest-first, then everyone else
+  const tier=p=>p.featured?0:p.active?1:2;
+  return P.filter(p=>p.tour===state.xtour&&inScope(p)).sort((a,b)=>tier(a)-tier(b)||(tier(a)===1?(b.born-a.born):(slamsOf(b)-slamsOf(a)||b.born-a.born))||a.name.localeCompare(b.name));
+ }
  function table(){
   const list=scopeList(); const t=document.getElementById('xt');
   t.innerHTML=`<thead><tr><th></th>${list.map(p=>`<th><span class="rot" title="${TL.esc(p.name)}">${TL.esc(last(p.name))}</span></th>`).join('')}</tr></thead><tbody>${list.map(a=>`<tr><th data-row="${a.id}">${TL.flag(a)} ${TL.esc(a.name)}</th>${list.map(b=>{if(a===b)return`<td class="self">·</td>`;const r=riv[rkey(a.name,b.name)];const lab=r?(r.h2h.match(/\d+–\d+/)||[''])[0]||'✓':'▶';return`<td class="${r?'has':''}"><button data-a="${a.id}" data-b="${b.id}" title="${TL.esc(a.name)} vs ${TL.esc(b.name)}${r?' · '+TL.esc(r.h2h):''}">${lab}</button></td>`}).join('')}</tr>`).join('')}</tbody>`;
