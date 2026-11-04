@@ -84,7 +84,8 @@
      "Move forward after it to cover the reply"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "serena-williams",
@@ -157,7 +158,8 @@
      "Finish high"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "rafael-nadal",
@@ -244,7 +246,8 @@
      "Punch through, do not swing"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "steffi-graf",
@@ -303,7 +306,8 @@
      "Use it to set up the forehand"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "roger-federer",
@@ -390,7 +394,8 @@
      "Non-hitting arm goes back for counter-balance; finish high"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "chris-evert",
@@ -449,7 +454,8 @@
      "Long follow-through"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "martina-navratilova",
@@ -508,7 +514,8 @@
      "Close for the second"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "pete-sampras",
@@ -581,7 +588,8 @@
      "Leap, reach high and snap the wrist through contact"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "bjorn-borg",
@@ -640,7 +648,8 @@
      "Aim crosscourt at a sharp angle or down the line at the feet"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "margaret-court",
@@ -658,7 +667,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "billie-jean-king",
@@ -676,7 +686,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "monica-seles",
@@ -735,7 +746,8 @@
      "Dominate the next ball"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "andre-agassi",
@@ -794,7 +806,8 @@
      "Short finish, ready for the next ball"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "ivan-lendl",
@@ -853,7 +866,8 @@
      "Land and recover to the baseline"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "jimmy-connors",
@@ -912,7 +926,8 @@
      "Finish with a volley"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "carlos-alcaraz",
@@ -985,7 +1000,8 @@
      "Close the net for the second volley"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "evonne-goolagong-cawley",
@@ -1003,7 +1019,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "john-mcenroe",
@@ -1062,7 +1079,8 @@
      "Follow it to the net every time"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "justine-henin",
@@ -1121,7 +1139,8 @@
      "Finish over the shoulder"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "mats-wilander",
@@ -1180,7 +1199,8 @@
      "Follow to net when it skids short"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "venus-williams",
@@ -1239,7 +1259,8 @@
      "Extend through"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "boris-becker",
@@ -1298,7 +1319,8 @@
      "Punch the volley short and angled"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "iga-swiatek",
@@ -1357,7 +1379,8 @@
      "Recover and attack"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "stefan-edberg",
@@ -1430,7 +1453,8 @@
      "High finish"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "jannik-sinner",
@@ -1503,7 +1527,8 @@
      "Take the next ball early"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "john-newcombe",
@@ -1521,7 +1546,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "maria-sharapova",
@@ -1580,7 +1606,8 @@
      "Move forward"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "martina-hingis",
@@ -1598,7 +1625,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "rod-laver",
@@ -1616,7 +1644,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "arantxa-sanchez-vicario",
@@ -1634,7 +1663,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "aryna-sabalenka",
@@ -1693,7 +1723,8 @@
      "Land balanced"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "guillermo-vilas",
@@ -1711,7 +1742,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "hana-mandlikova",
@@ -1729,7 +1761,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "jim-courier",
@@ -1747,7 +1780,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "ken-rosewall",
@@ -1765,7 +1799,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "kim-clijsters",
@@ -1783,7 +1818,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "naomi-osaka",
@@ -1842,7 +1878,8 @@
      "Finish across the body"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "andy-murray",
@@ -1915,7 +1952,8 @@
      "Follow it in a step or two"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "angelique-kerber",
@@ -1933,7 +1971,8 @@
   "era": "golden",
   "hand": "L",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "arthur-ashe",
@@ -1951,7 +1990,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "ashleigh-barty",
@@ -2010,7 +2050,8 @@
      "Land inside"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "elena-rybakina",
@@ -2069,7 +2110,8 @@
      "Finish across"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "gustavo-kuerten",
@@ -2087,7 +2129,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "jan-kodes",
@@ -2105,7 +2148,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "jennifer-capriati",
@@ -2123,7 +2167,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "lindsay-davenport",
@@ -2141,7 +2186,9 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "style": "Flat power",
+  "active": false
  },
  {
   "id": "stan-wawrinka",
@@ -2200,7 +2247,8 @@
      "Finish over the shoulder or around the hip"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "virginia-wade",
@@ -2218,7 +2266,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "alexander-zverev",
@@ -2277,7 +2326,8 @@
      "High finish over the right shoulder"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "amelie-mauresmo",
@@ -2295,7 +2345,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "barbora-krejcikova",
@@ -2313,7 +2364,8 @@
   "era": "modern",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "coco-gauff",
@@ -2372,7 +2424,8 @@
      "Land inside"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "garbine-muguruza",
@@ -2390,7 +2443,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "ilie-nastase",
@@ -2408,7 +2462,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "johan-kriek",
@@ -2426,7 +2481,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "li-na",
@@ -2444,7 +2500,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "lleyton-hewitt",
@@ -2462,7 +2519,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "marat-safin",
@@ -2480,7 +2538,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "mary-pierce",
@@ -2498,7 +2557,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "patrick-rafter",
@@ -2516,7 +2576,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "petra-kvitova",
@@ -2534,7 +2595,8 @@
   "era": "golden",
   "hand": "L",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "sergi-bruguera",
@@ -2552,7 +2614,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "simona-halep",
@@ -2570,7 +2633,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "stan-smith",
@@ -2588,7 +2652,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "svetlana-kuznetsova",
@@ -2606,7 +2671,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "tracy-austin",
@@ -2624,7 +2690,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "victoria-azarenka",
@@ -2642,7 +2709,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "yevgeny-kafelnikov",
@@ -2660,7 +2728,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "adriano-panatta",
@@ -2678,7 +2747,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "albert-costa",
@@ -2696,7 +2766,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "ana-ivanovic",
@@ -2714,7 +2785,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "anastasia-myskina",
@@ -2732,7 +2804,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "andres-gimeno",
@@ -2750,7 +2823,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "andres-gomez",
@@ -2768,7 +2842,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "andy-roddick",
@@ -2786,7 +2861,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "ann-haydon-jones",
@@ -2804,7 +2880,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "barbara-jordan",
@@ -2822,7 +2899,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "bianca-andreescu",
@@ -2840,7 +2918,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "brian-teacher",
@@ -2858,7 +2937,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "carlos-moya",
@@ -2876,7 +2956,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "caroline-wozniacki",
@@ -2894,7 +2975,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "chris-o-neil",
@@ -2912,7 +2994,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "conchita-martinez",
@@ -2930,7 +3013,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "daniil-medvedev",
@@ -2989,7 +3073,8 @@
      "Land and reset deep"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "dominic-thiem",
@@ -3048,7 +3133,8 @@
      "High finish"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "emma-raducanu",
@@ -3066,7 +3152,8 @@
   "era": "modern",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "flavia-pennetta",
@@ -3084,7 +3171,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "francesca-schiavone",
@@ -3102,7 +3190,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "gabriela-sabatini",
@@ -3120,7 +3209,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "gaston-gaudio",
@@ -3138,7 +3228,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "goran-ivanisevic",
@@ -3156,7 +3247,8 @@
   "era": "golden",
   "hand": "L",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "iva-majoli",
@@ -3174,7 +3266,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "jana-novotna",
@@ -3192,7 +3285,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "jelena-ostapenko",
@@ -3210,7 +3304,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "juan-carlos-ferrero",
@@ -3228,7 +3323,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "juan-martin-del-potro",
@@ -3287,7 +3383,8 @@
      "Recover for the forehand"
     ]
    }
-  ]
+  ],
+  "active": false
  },
  {
   "id": "kerry-melville-reid",
@@ -3305,7 +3402,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "linda-noskova",
@@ -3323,7 +3421,8 @@
   "era": "modern",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "madison-keys",
@@ -3341,7 +3440,9 @@
   "era": "modern",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "style": "Power baseliner",
+  "active": true
  },
  {
   "id": "manuel-orantes",
@@ -3359,7 +3460,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "marin-cilic",
@@ -3377,7 +3479,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "marion-bartoli",
@@ -3395,7 +3498,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "mark-edmondson",
@@ -3413,7 +3517,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "marketa-vondrousova",
@@ -3431,7 +3536,8 @@
   "era": "modern",
   "hand": "L",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "michael-chang",
@@ -3449,7 +3555,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "michael-stich",
@@ -3467,7 +3574,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "mima-jausovec",
@@ -3485,7 +3593,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "mirra-andreeva",
@@ -3544,7 +3653,8 @@
      "High finish"
     ]
    }
-  ]
+  ],
+  "active": true
  },
  {
   "id": "nancy-richey",
@@ -3562,7 +3672,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "pat-cash",
@@ -3580,7 +3691,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "petr-korda",
@@ -3598,7 +3710,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "richard-krajicek",
@@ -3616,7 +3729,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "roscoe-tanner",
@@ -3634,7 +3748,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "sloane-stephens",
@@ -3652,7 +3767,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "sofia-kenin",
@@ -3670,7 +3786,8 @@
   "era": "modern",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": true
  },
  {
   "id": "thomas-johansson",
@@ -3688,7 +3805,8 @@
   "era": "golden",
   "hand": "R",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "thomas-muster",
@@ -3706,7 +3824,8 @@
   "era": "classic",
   "hand": "L",
   "backhand": "2",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "virginia-ruzici",
@@ -3724,7 +3843,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "vitas-gerulaitis",
@@ -3742,7 +3862,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "yannick-noah",
@@ -3760,7 +3881,8 @@
   "era": "classic",
   "hand": "R",
   "backhand": "1",
-  "featured": false
+  "featured": false,
+  "active": false
  },
  {
   "id": "gael-monfils",
@@ -3833,6 +3955,1247 @@
      "Get up smiling"
     ]
    }
-  ]
+  ],
+  "active": true
+ },
+ {
+  "id": "ben-shelton",
+  "name": "Ben Shelton",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Explosive lefty server",
+  "active": true
+ },
+ {
+  "id": "taylor-fritz",
+  "name": "Taylor Fritz",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Big-serving baseliner",
+  "active": true
+ },
+ {
+  "id": "alex-de-minaur",
+  "name": "Alex de Minaur",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1999,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Speed and counter-punching",
+  "active": true
+ },
+ {
+  "id": "stefanos-tsitsipas",
+  "name": "Stefanos Tsitsipas",
+  "country": "GRE",
+  "flag": "🇬🇷",
+  "tour": "ATP",
+  "born": 1998,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false,
+  "style": "Aggressive all-court, one-handed backhand",
+  "active": true
+ },
+ {
+  "id": "holger-rune",
+  "name": "Holger Rune",
+  "country": "DEN",
+  "flag": "🇩🇰",
+  "tour": "ATP",
+  "born": 2003,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Aggressive baseliner",
+  "active": true
+ },
+ {
+  "id": "casper-ruud",
+  "name": "Casper Ruud",
+  "country": "NOR",
+  "flag": "🇳🇴",
+  "tour": "ATP",
+  "born": 1998,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Clay-court forehand specialist",
+  "active": true
+ },
+ {
+  "id": "jack-draper",
+  "name": "Jack Draper",
+  "country": "GBR",
+  "flag": "🇬🇧",
+  "tour": "ATP",
+  "born": 2001,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Heavy lefty forehand",
+  "active": true
+ },
+ {
+  "id": "flavio-cobolli",
+  "name": "Flavio Cobolli",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "ATP",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Fast-rising Italian baseliner",
+  "active": true
+ },
+ {
+  "id": "arthur-fils",
+  "name": "Arthur Fils",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "ATP",
+  "born": 2004,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Power baseliner",
+  "active": true
+ },
+ {
+  "id": "lorenzo-musetti",
+  "name": "Lorenzo Musetti",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "ATP",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false,
+  "style": "Artistic one-handed backhand",
+  "active": true
+ },
+ {
+  "id": "frances-tiafoe",
+  "name": "Frances Tiafoe",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1998,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Athletic showman",
+  "active": true
+ },
+ {
+  "id": "tommy-paul",
+  "name": "Tommy Paul",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "All-court mover",
+  "active": true
+ },
+ {
+  "id": "rafael-jodar",
+  "name": "Rafael Jódar",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 2006,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Spanish prodigy",
+  "active": true
+ },
+ {
+  "id": "jakub-mensik",
+  "name": "Jakub Menšík",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "ATP",
+  "born": 2005,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Big serve, flat backhand",
+  "active": true
+ },
+ {
+  "id": "jiri-lehecka",
+  "name": "Jiří Lehečka",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "ATP",
+  "born": 2001,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Clean power baseliner",
+  "active": true
+ },
+ {
+  "id": "learner-tien",
+  "name": "Learner Tien",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 2005,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Crafty lefty counter-puncher",
+  "active": true
+ },
+ {
+  "id": "felix-auger-aliassime",
+  "name": "Félix Auger-Aliassime",
+  "country": "CAN",
+  "flag": "🇨🇦",
+  "tour": "ATP",
+  "born": 2000,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Serve and forehand",
+  "active": true
+ },
+ {
+  "id": "grigor-dimitrov",
+  "name": "Grigor Dimitrov",
+  "country": "BUL",
+  "flag": "🇧🇬",
+  "tour": "ATP",
+  "born": 1991,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false,
+  "style": "One-handed elegance",
+  "active": true
+ },
+ {
+  "id": "matteo-berrettini",
+  "name": "Matteo Berrettini",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "ATP",
+  "born": 1996,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Serve-forehand power",
+  "active": true
+ },
+ {
+  "id": "nick-kyrgios",
+  "name": "Nick Kyrgios",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1995,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Serve and showmanship",
+  "active": true
+ },
+ {
+  "id": "kei-nishikori",
+  "name": "Kei Nishikori",
+  "country": "JPN",
+  "flag": "🇯🇵",
+  "tour": "ATP",
+  "born": 1989,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Early-ball counter-puncher",
+  "active": false
+ },
+ {
+  "id": "jo-wilfried-tsonga",
+  "name": "Jo-Wilfried Tsonga",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "ATP",
+  "born": 1985,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Athletic power",
+  "active": false
+ },
+ {
+  "id": "david-ferrer",
+  "name": "David Ferrer",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1982,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Relentless grinder",
+  "active": false
+ },
+ {
+  "id": "tomas-berdych",
+  "name": "Tomáš Berdych",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "ATP",
+  "born": 1985,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Flat power baseliner",
+  "active": false
+ },
+ {
+  "id": "milos-raonic",
+  "name": "Milos Raonic",
+  "country": "CAN",
+  "flag": "🇨🇦",
+  "tour": "ATP",
+  "born": 1990,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Huge serve",
+  "active": false
+ },
+ {
+  "id": "robin-soderling",
+  "name": "Robin Söderling",
+  "country": "SWE",
+  "flag": "🇸🇪",
+  "tour": "ATP",
+  "born": 1984,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Flat power; the man who beat Nadal at RG",
+  "active": false
+ },
+ {
+  "id": "david-nalbandian",
+  "name": "David Nalbandian",
+  "country": "ARG",
+  "flag": "🇦🇷",
+  "tour": "ATP",
+  "born": 1982,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Backhand artist",
+  "active": false
+ },
+ {
+  "id": "fernando-verdasco",
+  "name": "Fernando Verdasco",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1983,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Lefty forehand power",
+  "active": false
+ },
+ {
+  "id": "nikolay-davydenko",
+  "name": "Nikolay Davydenko",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "ATP",
+  "born": 1981,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Early-ball baseliner",
+  "active": false
+ },
+ {
+  "id": "tommy-haas",
+  "name": "Tommy Haas",
+  "country": "GER",
+  "flag": "🇩🇪",
+  "tour": "ATP",
+  "born": 1978,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false,
+  "style": "Classic all-court",
+  "active": false
+ },
+ {
+  "id": "marcos-baghdatis",
+  "name": "Marcos Baghdatis",
+  "country": "CYP",
+  "flag": "🇨🇾",
+  "tour": "ATP",
+  "born": 1985,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Crowd favourite",
+  "active": false
+ },
+ {
+  "id": "jessica-pegula",
+  "name": "Jessica Pegula",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1994,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Flat, early-ball counter-puncher",
+  "active": true
+ },
+ {
+  "id": "elina-svitolina",
+  "name": "Elina Svitolina",
+  "country": "UKR",
+  "flag": "🇺🇦",
+  "tour": "WTA",
+  "born": 1994,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Defensive baseliner",
+  "active": true
+ },
+ {
+  "id": "karolina-muchova",
+  "name": "Karolína Muchová",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1996,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "All-court variety",
+  "active": true
+ },
+ {
+  "id": "marta-kostyuk",
+  "name": "Marta Kostyuk",
+  "country": "UKR",
+  "flag": "🇺🇦",
+  "tour": "WTA",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Aggressive baseliner",
+  "active": true
+ },
+ {
+  "id": "diana-shnaider",
+  "name": "Diana Shnaider",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 2004,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Lefty power",
+  "active": true
+ },
+ {
+  "id": "maja-chwalinska",
+  "name": "Maja Chwalińska",
+  "country": "POL",
+  "flag": "🇵🇱",
+  "tour": "WTA",
+  "born": 2001,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Crafty baseliner",
+  "active": true
+ },
+ {
+  "id": "iva-jovic",
+  "name": "Iva Jovic",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 2007,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Teen prodigy",
+  "active": true
+ },
+ {
+  "id": "alexandra-eala",
+  "name": "Alexandra Eala",
+  "country": "PHI",
+  "flag": "🇵🇭",
+  "tour": "WTA",
+  "born": 2005,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Lefty counter-puncher",
+  "active": true
+ },
+ {
+  "id": "victoria-mboko",
+  "name": "Victoria Mboko",
+  "country": "CAN",
+  "flag": "🇨🇦",
+  "tour": "WTA",
+  "born": 2006,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Power prodigy",
+  "active": true
+ },
+ {
+  "id": "belinda-bencic",
+  "name": "Belinda Bencic",
+  "country": "SUI",
+  "flag": "🇨🇭",
+  "tour": "WTA",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Clean early-ball hitter; Olympic champion 2020",
+  "active": true
+ },
+ {
+  "id": "ons-jabeur",
+  "name": "Ons Jabeur",
+  "country": "TUN",
+  "flag": "🇹🇳",
+  "tour": "WTA",
+  "born": 1994,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Drop shots and variety",
+  "active": true
+ },
+ {
+  "id": "jasmine-paolini",
+  "name": "Jasmine Paolini",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "WTA",
+  "born": 1996,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Energetic baseliner",
+  "active": true
+ },
+ {
+  "id": "zheng-qinwen",
+  "name": "Zheng Qinwen",
+  "country": "CHN",
+  "flag": "🇨🇳",
+  "tour": "WTA",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Big serve and forehand; Olympic champion 2024",
+  "active": true
+ },
+ {
+  "id": "amanda-anisimova",
+  "name": "Amanda Anisimova",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 2001,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Flat power",
+  "active": true
+ },
+ {
+  "id": "maria-sakkari",
+  "name": "Maria Sakkari",
+  "country": "GRE",
+  "flag": "🇬🇷",
+  "tour": "WTA",
+  "born": 1995,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Athletic baseliner",
+  "active": true
+ },
+ {
+  "id": "paula-badosa",
+  "name": "Paula Badosa",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "WTA",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Power baseliner",
+  "active": true
+ },
+ {
+  "id": "daria-kasatkina",
+  "name": "Daria Kasatkina",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Variety and touch",
+  "active": true
+ },
+ {
+  "id": "emma-navarro",
+  "name": "Emma Navarro",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 2001,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Consistent counter-puncher",
+  "active": true
+ },
+ {
+  "id": "clara-tauson",
+  "name": "Clara Tauson",
+  "country": "DEN",
+  "flag": "🇩🇰",
+  "tour": "WTA",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Flat power",
+  "active": true
+ },
+ {
+  "id": "karolina-pliskova",
+  "name": "Karolína Plíšková",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1992,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Serve and flat power",
+  "active": false
+ },
+ {
+  "id": "agnieszka-radwanska",
+  "name": "Agnieszka Radwańska",
+  "country": "POL",
+  "flag": "🇵🇱",
+  "tour": "WTA",
+  "born": 1989,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Touch and angles",
+  "active": false
+ },
+ {
+  "id": "jelena-jankovic",
+  "name": "Jelena Janković",
+  "country": "SRB",
+  "flag": "🇷🇸",
+  "tour": "WTA",
+  "born": 1985,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Two-handed backhand defence",
+  "active": false
+ },
+ {
+  "id": "dinara-safina",
+  "name": "Dinara Safina",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1986,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Power baseliner",
+  "active": false
+ },
+ {
+  "id": "elena-dementieva",
+  "name": "Elena Dementieva",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1981,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Movement and groundstrokes",
+  "active": false
+ },
+ {
+  "id": "vera-zvonareva",
+  "name": "Vera Zvonareva",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1984,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Consistent baseliner",
+  "active": false
+ },
+ {
+  "id": "samantha-stosur",
+  "name": "Samantha Stosur",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1984,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Kick serve and heavy forehand",
+  "active": false
+ },
+ {
+  "id": "lucie-safarova",
+  "name": "Lucie Šafářová",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1987,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false,
+  "style": "Lefty power",
+  "active": false
+ },
+ {
+  "id": "sabine-lisicki",
+  "name": "Sabine Lisicki",
+  "country": "GER",
+  "flag": "🇩🇪",
+  "tour": "WTA",
+  "born": 1989,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false,
+  "style": "Big serve",
+  "active": false
+ },
+ {
+  "id": "roberta-vinci",
+  "name": "Roberta Vinci",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "WTA",
+  "born": 1983,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false,
+  "style": "Slice and net play",
+  "active": false
+ },
+ {
+  "id": "alejandro-davidovich-fokina",
+  "name": "Alejandro Davidovich Fokina",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1999,
+  "hand": "R",
+  "backhand": "2",
+  "era": "modern",
+  "style": "Acrobatic all-court; 2026 Shanghai champion",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "featured": false,
+  "active": true
+ },
+ {
+  "id": "brandon-nakashima",
+  "name": "Brandon Nakashima",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 2001,
+  "hand": "R",
+  "backhand": "2",
+  "era": "modern",
+  "style": "Clean, flat baseliner",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "featured": false,
+  "active": true
  }
 ]

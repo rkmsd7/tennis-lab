@@ -123,3 +123,22 @@ ul.cues{padding-left:18px;margin:6px 0}ul.cues li{margin:4px 0}
 footer{margin-top:60px;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem}
 .notice{background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.88rem;color:#c7d0ea}
 @media(max-width:640px){.site-header .wrap{height:auto;flex-wrap:wrap;padding:8px 16px}nav.main{margin-left:0;width:100%}}
+/* 3D animation */
+.anim3d .stage{position:relative;background:#0b1220}.anim3d canvas{display:block}
+.anim3d .bar .views{margin-left:auto}.anim3d .bar .views button{padding:5px 9px;font-size:.78rem}
+.anim3d .stage::after{content:"drag to orbit";position:absolute;right:10px;top:8px;font-size:.7rem;color:#6b7a9c;pointer-events:none}
+/* video embeds */
+.yt{position:relative;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+.yt img,.yt iframe{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.yt .ytplay{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:44px;border-radius:12px;background:#ff0033;color:#fff;border:none;font-size:1.2rem;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.5)}
+.yt .ytplay:hover{background:#ff2a55}
+.yt .yttitle{position:absolute;left:0;right:0;bottom:0;padding:8px 10px;font-size:.78rem;background:linear-gradient(transparent,rgba(0,0,0,.85));color:#fff}
+.yt.loop::after{content:"GIF loop · muted";position:absolute;top:8px;left:8px;font-size:.68rem;background:rgba(0,0,0,.6);color:#fff;padding:2px 7px;border-radius:999px}
+.vidgrid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));margin:10px 0}
+.shotmedia{display:grid;gap:12px;grid-template-columns:1fr 1fr;margin-top:12px}
+@media(max-width:700px){.shotmedia{grid-template-columns:1fr}}
+.loopctl{display:flex;gap:8px;align-items:center;font-size:.8rem;color:var(--muted);margin-top:6px}
+.loopctl input{width:64px;background:var(--bg2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:4px 6px;font:inherit}
+.buy{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.buy a{font-size:.78rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--text);background:var(--bg2)}
+.buy a.amz{border-color:rgba(245,197,66,.6);color:#ffe9a3}

@@ -24,3 +24,14 @@ const TL = (() => {
   const pct = (n, d) => d ? Math.round(100 * n / d) : 0;
   return { load, esc, yt, slams, flag, eraLabel, q, pct };
 })();
+// YouTube embeds: lazy facade (thumbnail + play) and GIF-style muted loop.
+TL.video = (v, opts = {}) => {
+  const id = typeof v === 'string' ? v : v.id, title = typeof v === 'string' ? '' : v.title;
+  const base = `https://www.youtube-nocookie.com/embed/${id}`;
+  if (opts.loop) { const s = opts.start ?? 0, e = opts.end ?? s + 8; return `<div class="yt loop"><iframe src="${base}?autoplay=1&mute=1&loop=1&playlist=${id}&start=${s}&end=${e}&controls=0&modestbranding=1&rel=0&playsinline=1" title="${TL.esc(title)} (loop)" allow="autoplay; encrypted-media" allowfullscreen loading="lazy"></iframe></div>`; }
+  return `<div class="yt" data-id="${id}" data-title="${TL.esc(title)}"><img src="https://i.ytimg.com/vi/${id}/hqdefault.jpg" alt="${TL.esc(title)}" loading="lazy"><button type="button" class="ytplay" aria-label="Play ${TL.esc(title)}">▶</button>${title ? `<div class="yttitle">${TL.esc(title)}</div>` : ''}</div>`;
+};
+document.addEventListener('click', e => {
+  const b = e.target.closest('.ytplay'); if (!b) return; const box = b.closest('.yt'); const id = box.dataset.id;
+  box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&modestbranding=1&playsinline=1" title="${box.dataset.title}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+});

@@ -3675,5 +3675,3837 @@
     "score": "6–2 6–4"
    }
   ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Ben Shelton",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–3 6–2 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Indian Wells",
+    "round": "R16",
+    "winner": "Alcaraz",
+    "score": "6–3 7–6"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–3 6–4 6–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Ben Shelton",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 3–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Shanghai",
+    "round": "R16",
+    "winner": "Shelton",
+    "score": "6–2 3–6 7–6"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Sinner",
+    "score": "6–2 6–4 7–6"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "7–6 6–2 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Sinner",
+    "score": "7–6 6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Alexander Zverev",
+  "b": "Ben Shelton",
+  "h2h": "Zverev leads",
+  "slam": "Zverev 1–0",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Zverev",
+    "score": "6–3 7–6 5–7 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Taylor Fritz",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 1–0",
+  "meetings": [
+   {
+    "year": 2025,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–4 5–7 6–3 7–6"
+   },
+   {
+    "year": 2025,
+    "event": "Tokyo",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Laver Cup",
+    "round": "Singles",
+    "winner": "Alcaraz",
+    "score": "6–3 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Taylor Fritz",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "6–3 6–4 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Sinner",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "ATP Finals",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Daniil Medvedev",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 3–1",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Rotterdam",
+    "round": "F",
+    "winner": "Medvedev",
+    "score": "5–7 6–2 6–2"
+   },
+   {
+    "year": 2023,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Medvedev",
+    "score": "7–5 6–3"
+   },
+   {
+    "year": 2023,
+    "event": "Beijing",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "7–6 7–6"
+   },
+   {
+    "year": 2023,
+    "event": "Vienna",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "7–6 4–6 6–3"
+   },
+   {
+    "year": 2023,
+    "event": "ATP Finals",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "6–3 6–7 6–1"
+   },
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "3–6 3–6 6–4 6–4 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Medvedev",
+    "score": "6–7 6–4 7–6 2–6 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Sinner",
+    "score": "6–2 1–6 6–1 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Sinner",
+    "score": "6–3 6–3 7–6"
+   },
+   {
+    "year": 2026,
+    "event": "Indian Wells",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "7–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Daniil Medvedev",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 2–1",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–3 6–3 6–3"
+   },
+   {
+    "year": 2023,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Medvedev",
+    "score": "7–6 6–1 3–6 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–7 6–3 6–4 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Indian Wells",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "7–6 6–1"
+   },
+   {
+    "year": 2023,
+    "event": "Indian Wells",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "6–3 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Holger Rune",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "7–6 6–4 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Barcelona",
+    "round": "F",
+    "winner": "Rune",
+    "score": "7–6 6–2"
+   },
+   {
+    "year": 2023,
+    "event": "Indian Wells",
+    "round": "R16",
+    "winner": "Alcaraz",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Cincinnati",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–2 5–2 ret."
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Holger Rune",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Sofia",
+    "round": "R16",
+    "winner": "Rune",
+    "score": "6–7 6–3 6–4"
+   },
+   {
+    "year": 2023,
+    "event": "Monte Carlo",
+    "round": "SF",
+    "winner": "Rune",
+    "score": "1–6 7–5 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "R32",
+    "winner": "Sinner",
+    "score": "6–2 6–1 7–6"
+   },
+   {
+    "year": 2024,
+    "event": "Halle",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "7–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Stefanos Tsitsipas",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 2–0",
+  "meetings": [
+   {
+    "year": 2021,
+    "event": "US Open",
+    "round": "R32",
+    "winner": "Alcaraz",
+    "score": "6–3 4–6 7–6 0–6 7–6"
+   },
+   {
+    "year": 2022,
+    "event": "Barcelona",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–3 7–6"
+   },
+   {
+    "year": 2023,
+    "event": "Barcelona",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2023,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–2 6–1 7–6"
+   },
+   {
+    "year": 2024,
+    "event": "Monte Carlo",
+    "round": "QF",
+    "winner": "Tsitsipas",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Stefanos Tsitsipas",
+  "h2h": "Djokovic 13–2",
+  "slam": "Djokovic 3–0",
+  "meetings": [
+   {
+    "year": 2019,
+    "event": "Shanghai",
+    "round": "QF",
+    "winner": "Tsitsipas",
+    "score": "3–6 7–5 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "6–7 2–6 6–3 6–2 6–4"
+   },
+   {
+    "year": 2023,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "6–3 7–6 7–6"
+   },
+   {
+    "year": 2020,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–3 6–2 5–7 4–6 6–1"
+   },
+   {
+    "year": 2024,
+    "event": "Monte Carlo",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "7–5 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Stefanos Tsitsipas",
+  "h2h": "Nadal 6–2",
+  "slam": "Nadal 1–1",
+  "meetings": [
+   {
+    "year": 2018,
+    "event": "Barcelona",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–2 6–1"
+   },
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–2 6–4 6–0"
+   },
+   {
+    "year": 2019,
+    "event": "Madrid",
+    "round": "SF",
+    "winner": "Tsitsipas",
+    "score": "6–4 2–6 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Tsitsipas",
+    "score": "3–6 2–6 7–6 6–4 7–5"
+   },
+   {
+    "year": 2021,
+    "event": "Barcelona",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–4 6–7 7–5"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Taylor Fritz",
+  "h2h": "Djokovic 10–0",
+  "slam": "Djokovic 3–0",
+  "meetings": [
+   {
+    "year": 2021,
+    "event": "Australian Open",
+    "round": "R32",
+    "winner": "Djokovic",
+    "score": "7–6 6–4 3–6 4–6 6–2"
+   },
+   {
+    "year": 2023,
+    "event": "Australian Open",
+    "round": "R32",
+    "winner": "Djokovic",
+    "score": "6–4 6–4 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–3 6–1 7–5"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Ben Shelton",
+  "h2h": "Djokovic leads",
+  "slam": "Djokovic 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–3 6–2 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Jack Draper",
+  "h2h": "Alcaraz leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Queen's Club",
+    "round": "R32",
+    "winner": "Draper",
+    "score": "7–6 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Indian Wells",
+    "round": "SF",
+    "winner": "Draper",
+    "score": "6–1 0–6 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Queen's Club",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–3 6–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Jack Draper",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "7–5 7–6 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Alexander Zverev",
+  "b": "Daniil Medvedev",
+  "h2h": "Medvedev leads",
+  "slam": "1–1",
+  "meetings": [
+   {
+    "year": 2021,
+    "event": "ATP Finals",
+    "round": "F",
+    "winner": "Zverev",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2022,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Medvedev",
+    "score": "6–4 6–3 6–4"
+   },
+   {
+    "year": 2023,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Medvedev",
+    "score": "6–4 6–2 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Medvedev",
+    "score": "5–7 3–6 7–6 7–6 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Rome",
+    "round": "SF",
+    "winner": "Zverev",
+    "score": "6–4 6–3"
+   },
+   {
+    "year": 2020,
+    "event": "Paris",
+    "round": "F",
+    "winner": "Medvedev",
+    "score": "5–7 6–4 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Alexander Zverev",
+  "b": "Stefanos Tsitsipas",
+  "h2h": "Zverev leads",
+  "slam": "Tsitsipas 1–0",
+  "meetings": [
+   {
+    "year": 2018,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Zverev",
+    "score": "6–4 7–6"
+   },
+   {
+    "year": 2019,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Tsitsipas",
+    "score": "6–7 6–4 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Tsitsipas",
+    "score": "6–3 6–3 4–6 6–4 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "Acapulco",
+    "round": "F",
+    "winner": "Zverev",
+    "score": "6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Holger Rune",
+  "h2h": "Djokovic leads",
+  "slam": "Djokovic 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Paris",
+    "round": "F",
+    "winner": "Rune",
+    "score": "3–6 6–3 7–5"
+   },
+   {
+    "year": 2023,
+    "event": "Rome",
+    "round": "QF",
+    "winner": "Rune",
+    "score": "6–2 4–6 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Djokovic",
+    "score": "7–5 6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Casper Ruud",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "7–5 6–4"
+   },
+   {
+    "year": 2022,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "6–4 2–6 7–6 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Madrid",
+    "round": "SF",
+    "winner": "Ruud",
+    "score": "7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Casper Ruud",
+  "h2h": "Djokovic 5–1",
+  "slam": "Djokovic 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "7–6 6–3 7–5"
+   },
+   {
+    "year": 2022,
+    "event": "ATP Finals",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "7–5 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Monte Carlo",
+    "round": "SF",
+    "winner": "Ruud",
+    "score": "6–4 1–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Casper Ruud",
+  "h2h": "Nadal 2–0",
+  "slam": "Nadal 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–3 6–3 6–0"
+   },
+   {
+    "year": 2024,
+    "event": "Barcelona",
+    "round": "R32",
+    "winner": "Nadal",
+    "score": "7–6 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Alexander Zverev",
+  "b": "Flavio Cobolli",
+  "h2h": "Zverev leads",
+  "slam": "Zverev 1–0",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Zverev",
+    "score": "6–1 4–6 6–4 6–7 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Flavio Cobolli",
+  "h2h": "Alcaraz leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Indian Wells",
+    "round": "R32",
+    "winner": "Alcaraz",
+    "score": "6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Alex de Minaur",
+  "h2h": "Sinner 11–0",
+  "slam": "Sinner 2–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Rotterdam",
+    "round": "F",
+    "winner": "Sinner",
+    "score": "7–5 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Sinner",
+    "score": "6–3 6–2 6–1"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Sinner",
+    "score": "6–3 6–2 6–1"
+   },
+   {
+    "year": 2024,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Sinner",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "ATP Finals",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "7–5 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Alex de Minaur",
+  "h2h": "Alcaraz leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Queen's Club",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Rotterdam",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "7–5 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Barcelona",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "7–6 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Alcaraz",
+    "score": "7–6 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Nick Kyrgios",
+  "h2h": "Kyrgios 2–1",
+  "slam": "Djokovic 1–0",
+  "meetings": [
+   {
+    "year": 2017,
+    "event": "Acapulco",
+    "round": "QF",
+    "winner": "Kyrgios",
+    "score": "7–6 7–5"
+   },
+   {
+    "year": 2017,
+    "event": "Indian Wells",
+    "round": "R16",
+    "winner": "Kyrgios",
+    "score": "6–4 7–6"
+   },
+   {
+    "year": 2022,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "4–6 6–3 6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Nick Kyrgios",
+  "h2h": "Nadal 6–3",
+  "slam": "Nadal 2–1",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Kyrgios",
+    "score": "7–6 5–7 7–6 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "Wimbledon",
+    "round": "R64",
+    "winner": "Nadal",
+    "score": "6–3 3–6 7–6 7–6"
+   },
+   {
+    "year": 2019,
+    "event": "Acapulco",
+    "round": "R32",
+    "winner": "Kyrgios",
+    "score": "3–6 7–6 7–6"
+   },
+   {
+    "year": 2020,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Nadal",
+    "score": "6–3 3–6 7–6 7–6"
+   },
+   {
+    "year": 2022,
+    "event": "Indian Wells",
+    "round": "QF",
+    "winner": "Nadal",
+    "score": "7–6 5–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Taylor Fritz",
+  "h2h": "Nadal 2–1",
+  "slam": "Nadal 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Indian Wells",
+    "round": "F",
+    "winner": "Fritz",
+    "score": "6–3 7–6"
+   },
+   {
+    "year": 2022,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Nadal",
+    "score": "3–6 7–5 3–6 7–5 7–6"
+   },
+   {
+    "year": 2022,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Fritz",
+    "score": "7–6 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Matteo Berrettini",
+  "h2h": "Djokovic 6–1",
+  "slam": "Djokovic 4–0",
+  "meetings": [
+   {
+    "year": 2021,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–3 6–2 6–7 7–5"
+   },
+   {
+    "year": 2021,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "6–7 6–4 6–4 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "5–7 6–2 6–2 6–3"
+   },
+   {
+    "year": 2022,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–3 6–4 3–6 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Djokovic",
+    "score": "6–2 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Kei Nishikori",
+  "h2h": "Djokovic 18–2",
+  "slam": "Djokovic 6–0",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Nishikori",
+    "score": "6–4 1–6 7–6 6–3"
+   },
+   {
+    "year": 2016,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–1 6–2"
+   },
+   {
+    "year": 2018,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–3 3–6 6–2 6–2"
+   },
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–1 4–1 ret."
+   },
+   {
+    "year": 2016,
+    "event": "Olympics",
+    "round": "Bronze",
+    "winner": "Nishikori",
+    "score": "6–2 6–7 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Jo-Wilfried Tsonga",
+  "h2h": "Federer 11–6",
+  "slam": "Federer 4–1",
+  "meetings": [
+   {
+    "year": 2011,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Tsonga",
+    "score": "3–6 6–7 6–4 6–4 6–4"
+   },
+   {
+    "year": 2011,
+    "event": "ATP Finals",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–3 6–7 6–3"
+   },
+   {
+    "year": 2013,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Tsonga",
+    "score": "7–5 6–3 6–3"
+   },
+   {
+    "year": 2014,
+    "event": "Toronto",
+    "round": "F",
+    "winner": "Tsonga",
+    "score": "7–5 7–6"
+   },
+   {
+    "year": 2008,
+    "event": "Australian Open",
+    "round": "R64",
+    "winner": "Federer",
+    "score": "6–2 6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Tomáš Berdych",
+  "h2h": "Federer 20–6",
+  "slam": "Federer 4–2",
+  "meetings": [
+   {
+    "year": 2004,
+    "event": "Olympics",
+    "round": "R32",
+    "winner": "Berdych",
+    "score": "4–6 7–5 7–5"
+   },
+   {
+    "year": 2010,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Berdych",
+    "score": "6–4 3–6 6–1 6–4"
+   },
+   {
+    "year": 2012,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Berdych",
+    "score": "7–6 6–4 3–6 6–3"
+   },
+   {
+    "year": 2017,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "7–6 7–6 6–4"
+   },
+   {
+    "year": 2018,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Federer",
+    "score": "7–6 6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Andy Roddick",
+  "h2h": "Federer 21–3",
+  "slam": "Federer 8–0",
+  "meetings": [
+   {
+    "year": 2003,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "7–6 6–3 6–3"
+   },
+   {
+    "year": 2004,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Federer",
+    "score": "4–6 7–5 7–6 6–4"
+   },
+   {
+    "year": 2005,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–2 7–6 6–4"
+   },
+   {
+    "year": 2006,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–2 4–6 7–5 6–1"
+   },
+   {
+    "year": 2007,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "6–4 6–0 6–2"
+   },
+   {
+    "year": 2009,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Federer",
+    "score": "5–7 7–6 7–6 3–6 16–14"
+   },
+   {
+    "year": 2012,
+    "event": "Miami",
+    "round": "R32",
+    "winner": "Roddick",
+    "score": "7–6 1–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "David Ferrer",
+  "h2h": "Nadal 26–6",
+  "slam": "Nadal 5–1",
+  "meetings": [
+   {
+    "year": 2007,
+    "event": "US Open",
+    "round": "R16",
+    "winner": "Ferrer",
+    "score": "6–7 6–4 7–6 6–2"
+   },
+   {
+    "year": 2013,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–3 6–2 6–3"
+   },
+   {
+    "year": 2014,
+    "event": "Monte Carlo",
+    "round": "QF",
+    "winner": "Ferrer",
+    "score": "7–6 6–4"
+   },
+   {
+    "year": 2011,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Ferrer",
+    "score": "6–4 6–2 6–3"
+   },
+   {
+    "year": 2012,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–2 6–2 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Jo-Wilfried Tsonga",
+  "h2h": "Djokovic 17–6",
+  "slam": "Djokovic 4–1",
+  "meetings": [
+   {
+    "year": 2008,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "4–6 6–4 6–3 7–6"
+   },
+   {
+    "year": 2010,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "7–6 6–7 1–6 6–3 6–1"
+   },
+   {
+    "year": 2011,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "7–6 6–2 6–7 6–3"
+   },
+   {
+    "year": 2012,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–1 5–7 5–7 7–6 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Lleyton Hewitt",
+  "h2h": "Federer 18–9",
+  "slam": "Federer 7–1",
+  "meetings": [
+   {
+    "year": 2003,
+    "event": "Davis Cup",
+    "round": "SF",
+    "winner": "Hewitt",
+    "score": "5–7 2–6 7–6 7–5 6–1"
+   },
+   {
+    "year": 2004,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–0 7–6 6–0"
+   },
+   {
+    "year": 2005,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Federer",
+    "score": "6–4 7–6 7–6"
+   },
+   {
+    "year": 2004,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Federer",
+    "score": "6–1 6–7 6–0 6–4"
+   },
+   {
+    "year": 2010,
+    "event": "Halle",
+    "round": "F",
+    "winner": "Hewitt",
+    "score": "3–6 7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Marat Safin",
+  "h2h": "Federer 10–2",
+  "slam": "Federer 3–1",
+  "meetings": [
+   {
+    "year": 2004,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Federer",
+    "score": "7–6 6–4 6–2"
+   },
+   {
+    "year": 2005,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Safin",
+    "score": "5–7 6–4 5–7 7–6 9–7"
+   },
+   {
+    "year": 2008,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "6–3 7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Robin Söderling",
+  "h2h": "Federer 16–1",
+  "slam": "Federer 4–1",
+  "meetings": [
+   {
+    "year": 2009,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–1 7–6 6–4"
+   },
+   {
+    "year": 2010,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Söderling",
+    "score": "3–6 6–3 7–5 6–4"
+   },
+   {
+    "year": 2009,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Federer",
+    "score": "6–4 7–6 7–6"
+   },
+   {
+    "year": 2010,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Federer",
+    "score": "7–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Robin Söderling",
+  "h2h": "Nadal 6–2",
+  "slam": "Nadal 1–1",
+  "meetings": [
+   {
+    "year": 2009,
+    "event": "Roland Garros",
+    "round": "R16",
+    "winner": "Söderling",
+    "score": "6–2 6–7 6–4 7–6"
+   },
+   {
+    "year": 2010,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–4 6–2 6–4"
+   },
+   {
+    "year": 2009,
+    "event": "Rome",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–1 6–0"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Fernando Verdasco",
+  "h2h": "Nadal 17–3",
+  "slam": "Nadal 3–1",
+  "meetings": [
+   {
+    "year": 2009,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–7 6–4 7–6 6–7 6–4"
+   },
+   {
+    "year": 2016,
+    "event": "Australian Open",
+    "round": "R64",
+    "winner": "Verdasco",
+    "score": "7–6 4–6 3–6 7–6 6–2"
+   },
+   {
+    "year": 2010,
+    "event": "Monte Carlo",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–0 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Juan Martín del Potro",
+  "h2h": "Djokovic 16–4",
+  "slam": "Djokovic 4–0",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "Olympics",
+    "round": "Bronze",
+    "winner": "del Potro",
+    "score": "7–5 6–4"
+   },
+   {
+    "year": 2013,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "7–5 4–6 7–6 6–7 6–3"
+   },
+   {
+    "year": 2018,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Djokovic",
+    "score": "6–3 7–6 6–3"
+   },
+   {
+    "year": 2011,
+    "event": "Davis Cup",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "7–6 3–0 ret."
+   },
+   {
+    "year": 2016,
+    "event": "Olympics",
+    "round": "R64",
+    "winner": "del Potro",
+    "score": "7–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Nick Kyrgios",
+  "h2h": "Federer 6–1",
+  "slam": "Federer 1–0",
+  "meetings": [
+   {
+    "year": 2015,
+    "event": "Madrid",
+    "round": "R32",
+    "winner": "Kyrgios",
+    "score": "6–7 7–6 7–6"
+   },
+   {
+    "year": 2017,
+    "event": "Miami",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "7–6 6–7 7–6"
+   },
+   {
+    "year": 2019,
+    "event": "Miami",
+    "round": "R32",
+    "winner": "Federer",
+    "score": "7–6 6–7 7–6"
+   },
+   {
+    "year": 2019,
+    "event": "Laver Cup",
+    "round": "Singles",
+    "winner": "Federer",
+    "score": "6–7 7–5 10–7"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Kei Nishikori",
+  "h2h": "Federer 8–3",
+  "slam": "Federer 2–0",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Federer",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2017,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Federer",
+    "score": "6–7 6–4 6–1 4–6 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Federer",
+    "score": "4–6 6–1 6–4 6–4"
+   },
+   {
+    "year": 2018,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Nishikori",
+    "score": "7–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Marin Čilić",
+  "h2h": "Federer 10–1",
+  "slam": "Federer 3–1",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Čilić",
+    "score": "6–3 6–4 6–4"
+   },
+   {
+    "year": 2017,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–3 6–1 6–4"
+   },
+   {
+    "year": 2018,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Federer",
+    "score": "6–2 6–7 6–3 3–6 6–1"
+   },
+   {
+    "year": 2016,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Federer",
+    "score": "6–7 4–6 6–3 7–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Milos Raonic",
+  "h2h": "Federer 11–3",
+  "slam": "Federer 2–1",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Federer",
+    "score": "6–4 6–4 6–4"
+   },
+   {
+    "year": 2016,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Raonic",
+    "score": "6–3 6–7 4–6 7–5 6–3"
+   },
+   {
+    "year": 2017,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Federer",
+    "score": "6–4 6–2 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Andy Murray",
+  "b": "Milos Raonic",
+  "h2h": "Murray 9–3",
+  "slam": "Murray 2–0",
+  "meetings": [
+   {
+    "year": 2016,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Murray",
+    "score": "4–6 7–5 6–7 6–4 6–2"
+   },
+   {
+    "year": 2016,
+    "event": "Queen's Club",
+    "round": "F",
+    "winner": "Murray",
+    "score": "6–7 6–4 6–3"
+   },
+   {
+    "year": 2016,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Murray",
+    "score": "6–4 7–6 7–6"
+   },
+   {
+    "year": 2016,
+    "event": "ATP Finals",
+    "round": "SF",
+    "winner": "Murray",
+    "score": "5–7 7–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Marin Čilić",
+  "h2h": "Djokovic 19–2",
+  "slam": "Djokovic 5–0",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–1 3–6 6–7 6–2 6–2"
+   },
+   {
+    "year": 2015,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–0 6–1 6–2"
+   },
+   {
+    "year": 2018,
+    "event": "Queen's Club",
+    "round": "F",
+    "winner": "Čilić",
+    "score": "5–7 7–6 6–3"
+   },
+   {
+    "year": 2021,
+    "event": "Davis Cup",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Andy Murray",
+  "b": "Jo-Wilfried Tsonga",
+  "h2h": "Murray 14–2",
+  "slam": "Murray 4–0",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Murray",
+    "score": "6–3 6–4 3–6 7–5"
+   },
+   {
+    "year": 2016,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Murray",
+    "score": "7–6 6–1 3–6 4–6 6–1"
+   },
+   {
+    "year": 2008,
+    "event": "Australian Open",
+    "round": "R128",
+    "winner": "Tsonga",
+    "score": "7–5 6–4 0–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Andy Murray",
+  "b": "Kei Nishikori",
+  "h2h": "Murray 9–3",
+  "slam": "Murray 1–1",
+  "meetings": [
+   {
+    "year": 2016,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Nishikori",
+    "score": "1–6 6–4 4–6 6–1 7–5"
+   },
+   {
+    "year": 2017,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Murray",
+    "score": "2–6 6–1 7–6 6–1"
+   },
+   {
+    "year": 2016,
+    "event": "Davis Cup",
+    "round": "R1",
+    "winner": "Murray",
+    "score": "7–5 7–6 3–6 4–6 6–3"
+   },
+   {
+    "year": 2016,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Murray",
+    "score": "6–7 6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Andy Murray",
+  "b": "David Ferrer",
+  "h2h": "Murray 14–6",
+  "slam": "Murray 3–2",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Ferrer",
+    "score": "6–4 6–7 6–3 6–2"
+   },
+   {
+    "year": 2013,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Murray",
+    "score": "6–2 6–7 6–3 6–2"
+   },
+   {
+    "year": 2013,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Murray",
+    "score": "2–6 6–4 7–6"
+   },
+   {
+    "year": 2014,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Murray",
+    "score": "7–6 6–3 3–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Tomáš Berdych",
+  "h2h": "Nadal 20–4",
+  "slam": "Nadal 4–1",
+  "meetings": [
+   {
+    "year": 2010,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Nadal",
+    "score": "6–3 7–5 6–4"
+   },
+   {
+    "year": 2015,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Berdych",
+    "score": "6–2 6–0 7–6"
+   },
+   {
+    "year": 2013,
+    "event": "ATP Finals",
+    "round": "RR",
+    "winner": "Nadal",
+    "score": "6–4 1–6 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Nadal",
+    "score": "6–0 6–1 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Rafael Nadal",
+  "b": "Grigor Dimitrov",
+  "h2h": "Nadal 14–1",
+  "slam": "Nadal 3–0",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Nadal",
+    "score": "3–6 7–6 7–6 6–2"
+   },
+   {
+    "year": 2017,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–3 5–7 7–6 6–7 6–4"
+   },
+   {
+    "year": 2018,
+    "event": "Monte Carlo",
+    "round": "SF",
+    "winner": "Nadal",
+    "score": "6–4 6–1"
+   },
+   {
+    "year": 2022,
+    "event": "Indian Wells",
+    "round": "R16",
+    "winner": "Nadal",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Roger Federer",
+  "b": "Grigor Dimitrov",
+  "h2h": "Federer 7–1",
+  "slam": "Federer 1–1",
+  "meetings": [
+   {
+    "year": 2015,
+    "event": "Wimbledon",
+    "round": "R32",
+    "winner": "Federer",
+    "score": "6–4 6–4 6–4"
+   },
+   {
+    "year": 2019,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Dimitrov",
+    "score": "3–6 6–4 3–6 6–4 6–2"
+   },
+   {
+    "year": 2017,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Federer",
+    "score": "6–4 6–2 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Novak Djokovic",
+  "b": "Grigor Dimitrov",
+  "h2h": "Djokovic 13–1",
+  "slam": "Djokovic 4–0",
+  "meetings": [
+   {
+    "year": 2013,
+    "event": "Madrid",
+    "round": "R32",
+    "winner": "Dimitrov",
+    "score": "7–6 6–7 6–3"
+   },
+   {
+    "year": 2014,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Djokovic",
+    "score": "6–4 3–6 7–6 7–6"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Djokovic",
+    "score": "6–3 6–3 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "Shanghai",
+    "round": "R32",
+    "winner": "Dimitrov",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Grigor Dimitrov",
+  "h2h": "Dimitrov leads",
+  "slam": "1–1",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Shanghai",
+    "round": "QF",
+    "winner": "Dimitrov",
+    "score": "5–7 6–2 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Miami",
+    "round": "QF",
+    "winner": "Dimitrov",
+    "score": "6–2 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–4 6–3 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Dimitrov",
+    "score": "6–7 6–4 2–1 ret."
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Lorenzo Musetti",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 2–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Hamburg",
+    "round": "F",
+    "winner": "Musetti",
+    "score": "6–4 6–7 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–2 3–6 6–3 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Monte Carlo",
+    "round": "F",
+    "winner": "Alcaraz",
+    "score": "3–6 6–1 6–0"
+   },
+   {
+    "year": 2025,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "4–6 7–6 6–0 2–0 ret."
+   },
+   {
+    "year": 2025,
+    "event": "Rome",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–3 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Lorenzo Musetti",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 1–0",
+  "meetings": [
+   {
+    "year": 2025,
+    "event": "Rome",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Frances Tiafoe",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–7 6–3 6–1 6–7 6–3"
+   },
+   {
+    "year": 2023,
+    "event": "Indian Wells",
+    "round": "SF",
+    "winner": "Alcaraz",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Carlos Alcaraz",
+  "b": "Tommy Paul",
+  "h2h": "Alcaraz leads",
+  "slam": "Alcaraz 2–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "5–7 6–4 6–2 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "Olympics",
+    "round": "QF",
+    "winner": "Alcaraz",
+    "score": "6–1 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "Indian Wells",
+    "round": "R32",
+    "winner": "Alcaraz",
+    "score": "6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Jannik Sinner",
+  "b": "Tommy Paul",
+  "h2h": "Sinner leads",
+  "slam": "Sinner 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Cincinnati",
+    "round": "SF",
+    "winner": "Sinner",
+    "score": "7–5 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Sinner",
+    "score": "6–1 7–6 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Ben Shelton",
+  "b": "Frances Tiafoe",
+  "h2h": "Close",
+  "slam": "Shelton 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Shelton",
+    "score": "6–2 3–6 7–6 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "Houston",
+    "round": "F",
+    "winner": "Shelton",
+    "score": "4–6 7–5 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Taylor Fritz",
+  "b": "Frances Tiafoe",
+  "h2h": "Close",
+  "slam": "Fritz 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Fritz",
+    "score": "4–6 7–5 4–6 6–4 6–1"
+   },
+   {
+    "year": 2022,
+    "event": "Indian Wells",
+    "round": "SF",
+    "winner": "Fritz",
+    "score": "7–6 5–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Arthur Fils",
+  "b": "Frances Tiafoe",
+  "h2h": "Fils leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Cincinnati",
+    "round": "F",
+    "winner": "Fils",
+    "score": "6–3 1–6 6–0"
+   }
+  ]
+ },
+ {
+  "a": "Alejandro Davidovich Fokina",
+  "b": "Rafael Jódar",
+  "h2h": "Davidovich Fokina leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Shanghai",
+    "round": "F",
+    "winner": "Davidovich Fokina",
+    "score": "1–6 7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Ben Shelton",
+  "b": "Brandon Nakashima",
+  "h2h": "Shelton leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Canadian Open",
+    "round": "F",
+    "winner": "Shelton",
+    "score": "6–3 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Jessica Pegula",
+  "h2h": "Sabalenka leads",
+  "slam": "Sabalenka 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "7–5 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "Cincinnati",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "6–3 7–5"
+   },
+   {
+    "year": 2023,
+    "event": "WTA Finals",
+    "round": "RR",
+    "winner": "Pegula",
+    "score": "6–4 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "7–5 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Wuhan",
+    "round": "SF",
+    "winner": "Pegula",
+    "score": "2–6 6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Jessica Pegula",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Świątek",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2022,
+    "event": "WTA Finals",
+    "round": "RR",
+    "winner": "Pegula",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2023,
+    "event": "Montreal",
+    "round": "F",
+    "winner": "Pegula",
+    "score": "6–2 6–7 6–4"
+   },
+   {
+    "year": 2022,
+    "event": "Miami",
+    "round": "SF",
+    "winner": "Świątek",
+    "score": "6–2 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "Madrid",
+    "round": "R16",
+    "winner": "Świątek",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Coco Gauff",
+  "b": "Jessica Pegula",
+  "h2h": "Gauff leads",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Adelaide",
+    "round": "SF",
+    "winner": "Gauff",
+    "score": "6–7 7–5 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Rome",
+    "round": "R16",
+    "winner": "Gauff",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2026,
+    "event": "Cincinnati",
+    "round": "F",
+    "winner": "Gauff",
+    "score": "6–2 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Elena Rybakina",
+  "b": "Coco Gauff",
+  "h2h": "Rybakina leads",
+  "slam": "Rybakina 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Indian Wells",
+    "round": "SF",
+    "winner": "Rybakina",
+    "score": "7–6 6–4"
+   },
+   {
+    "year": 2023,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Rybakina",
+    "score": "7–6 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "Montreal",
+    "round": "R16",
+    "winner": "Gauff",
+    "score": "6–1 6–7 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Elina Svitolina",
+  "h2h": "Sabalenka leads",
+  "slam": "Sabalenka 2–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Svitolina",
+    "score": "7–6 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Sabalenka",
+    "score": "6–1 7–5"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Sabalenka",
+    "score": "6–2 2–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Mirra Andreeva",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Roland Garros",
+    "round": "R16",
+    "winner": "Świątek",
+    "score": "6–2 6–1"
+   },
+   {
+    "year": 2025,
+    "event": "Dubai",
+    "round": "F",
+    "winner": "Andreeva",
+    "score": "6–3 6–1"
+   },
+   {
+    "year": 2025,
+    "event": "Indian Wells",
+    "round": "SF",
+    "winner": "Andreeva",
+    "score": "7–6 1–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Ons Jabeur",
+  "h2h": "Sabalenka leads",
+  "slam": "Jabeur 2–1",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Jabeur",
+    "score": "6–7 6–4 6–3"
+   },
+   {
+    "year": 2022,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Jabeur",
+    "score": "6–2 6–3"
+   },
+   {
+    "year": 2023,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Sabalenka",
+    "score": "6–3 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Elena Rybakina",
+  "b": "Ons Jabeur",
+  "h2h": "Rybakina leads",
+  "slam": "Rybakina 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Rybakina",
+    "score": "3–6 6–2 6–2"
+   },
+   {
+    "year": 2023,
+    "event": "Miami",
+    "round": "QF",
+    "winner": "Rybakina",
+    "score": "7–6 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Ons Jabeur",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Rome",
+    "round": "F",
+    "winner": "Świątek",
+    "score": "6–2 6–2"
+   },
+   {
+    "year": 2022,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Świątek",
+    "score": "6–2 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Coco Gauff",
+  "b": "Naomi Osaka",
+  "h2h": "Close",
+  "slam": "1–1",
+  "meetings": [
+   {
+    "year": 2019,
+    "event": "US Open",
+    "round": "R32",
+    "winner": "Osaka",
+    "score": "6–3 6–0"
+   },
+   {
+    "year": 2020,
+    "event": "Australian Open",
+    "round": "R32",
+    "winner": "Gauff",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Beijing",
+    "round": "R16",
+    "winner": "Gauff",
+    "score": "3–6 6–4 6–3"
+   },
+   {
+    "year": 2026,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Osaka",
+    "score": "6–4 7–5"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Naomi Osaka",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Świątek",
+    "score": "6–4 6–0"
+   },
+   {
+    "year": 2024,
+    "event": "Roland Garros",
+    "round": "R64",
+    "winner": "Świątek",
+    "score": "7–6 1–6 7–5"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Naomi Osaka",
+  "h2h": "Sabalenka leads",
+  "slam": "Sabalenka 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "R64",
+    "winner": "Sabalenka",
+    "score": "6–4 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Sabalenka",
+    "score": "6–3 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Zheng Qinwen",
+  "h2h": "Sabalenka leads",
+  "slam": "Sabalenka 2–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Sabalenka",
+    "score": "6–1 6–2"
+   },
+   {
+    "year": 2024,
+    "event": "WTA Finals",
+    "round": "SF",
+    "winner": "Zheng",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Wuhan",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "6–3 5–7 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Sabalenka",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Zheng Qinwen",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Olympics",
+    "round": "SF",
+    "winner": "Zheng",
+    "score": "6–2 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "Roland Garros",
+    "round": "R32",
+    "winner": "Świątek",
+    "score": "6–2 6–4"
+   },
+   {
+    "year": 2025,
+    "event": "Rome",
+    "round": "QF",
+    "winner": "Zheng",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Coco Gauff",
+  "b": "Zheng Qinwen",
+  "h2h": "Gauff leads",
+  "slam": "Gauff 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Gauff",
+    "score": "6–2 6–3"
+   },
+   {
+    "year": 2024,
+    "event": "WTA Finals",
+    "round": "F",
+    "winner": "Gauff",
+    "score": "3–6 6–4 7–6"
+   },
+   {
+    "year": 2025,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Gauff",
+    "score": "7–5 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Aryna Sabalenka",
+  "b": "Jasmine Paolini",
+  "h2h": "Sabalenka leads",
+  "slam": "Sabalenka 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Australian Open",
+    "round": "R64",
+    "winner": "Sabalenka",
+    "score": "6–4 6–3"
+   },
+   {
+    "year": 2025,
+    "event": "Wuhan",
+    "round": "F",
+    "winner": "Sabalenka",
+    "score": "6–4 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Iga Świątek",
+  "b": "Jasmine Paolini",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Świątek",
+    "score": "6–2 6–1"
+   },
+   {
+    "year": 2025,
+    "event": "Rome",
+    "round": "SF",
+    "winner": "Paolini",
+    "score": "7–5 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Victoria Azarenka",
+  "h2h": "Serena 18–5",
+  "slam": "Serena 4–1",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Serena",
+    "score": "6–2 2–6 7–5"
+   },
+   {
+    "year": 2013,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Serena",
+    "score": "7–5 6–7 6–1"
+   },
+   {
+    "year": 2013,
+    "event": "Doha",
+    "round": "F",
+    "winner": "Azarenka",
+    "score": "7–6 2–6 6–3"
+   },
+   {
+    "year": 2016,
+    "event": "Indian Wells",
+    "round": "F",
+    "winner": "Azarenka",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2016,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Serena",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2020,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Azarenka",
+    "score": "1–6 6–3 6–3"
+   },
+   {
+    "year": 2012,
+    "event": "Olympics",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–1 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Angelique Kerber",
+  "h2h": "Serena 6–4",
+  "slam": "Kerber 2–1",
+  "meetings": [
+   {
+    "year": 2016,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Kerber",
+    "score": "6–4 3–6 6–4"
+   },
+   {
+    "year": 2016,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Serena",
+    "score": "7–5 6–3"
+   },
+   {
+    "year": 2018,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Kerber",
+    "score": "6–3 6–3"
+   },
+   {
+    "year": 2016,
+    "event": "WTA Finals",
+    "round": "RR",
+    "winner": "Serena",
+    "score": "7–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Simona Halep",
+  "h2h": "Serena 10–2",
+  "slam": "Serena 3–1",
+  "meetings": [
+   {
+    "year": 2019,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Halep",
+    "score": "6–2 6–2"
+   },
+   {
+    "year": 2015,
+    "event": "Miami",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–2 4–6 7–5"
+   },
+   {
+    "year": 2016,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Serena",
+    "score": "6–2 4–6 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Serena",
+    "score": "6–1 4–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Kim Clijsters",
+  "h2h": "Serena 7–2",
+  "slam": "Serena 2–1",
+  "meetings": [
+   {
+    "year": 2002,
+    "event": "WTA Finals",
+    "round": "F",
+    "winner": "Clijsters",
+    "score": "7–5 6–3"
+   },
+   {
+    "year": 2003,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "4–6 6–3 7–5"
+   },
+   {
+    "year": 2009,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Clijsters",
+    "score": "6–4 7–5"
+   },
+   {
+    "year": 2010,
+    "event": "Miami",
+    "round": "SF",
+    "winner": "Clijsters",
+    "score": "6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Jennifer Capriati",
+  "h2h": "Serena 10–7",
+  "slam": "Serena 4–3",
+  "meetings": [
+   {
+    "year": 2001,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Capriati",
+    "score": "6–7 7–5 6–3"
+   },
+   {
+    "year": 2003,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Serena",
+    "score": "2–6 6–2 6–3"
+   },
+   {
+    "year": 2004,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Serena",
+    "score": "6–1 6–1"
+   },
+   {
+    "year": 2004,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Capriati",
+    "score": "2–6 6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Lindsay Davenport",
+  "h2h": "Serena 10–4",
+  "slam": "Serena 4–0",
+  "meetings": [
+   {
+    "year": 2005,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Serena",
+    "score": "2–6 6–3 6–0"
+   },
+   {
+    "year": 1999,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–4 1–6 6–4"
+   },
+   {
+    "year": 2004,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "2–6 7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Venus Williams",
+  "b": "Lindsay Davenport",
+  "h2h": "Venus 14–13",
+  "slam": "Venus 5–2",
+  "meetings": [
+   {
+    "year": 2000,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Venus",
+    "score": "6–3 7–6"
+   },
+   {
+    "year": 2000,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Venus",
+    "score": "6–4 7–5"
+   },
+   {
+    "year": 2005,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Venus",
+    "score": "4–6 7–6 9–7"
+   },
+   {
+    "year": 2000,
+    "event": "Olympics",
+    "round": "SF",
+    "winner": "Venus",
+    "score": "6–3 6–0"
+   }
+  ]
+ },
+ {
+  "a": "Venus Williams",
+  "b": "Martina Hingis",
+  "h2h": "Venus 11–10",
+  "slam": "Hingis 3–2",
+  "meetings": [
+   {
+    "year": 1997,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Hingis",
+    "score": "6–0 6–4"
+   },
+   {
+    "year": 2000,
+    "event": "Wimbledon",
+    "round": "QF",
+    "winner": "Venus",
+    "score": "6–3 4–6 6–4"
+   },
+   {
+    "year": 2000,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Venus",
+    "score": "4–6 6–3 7–5"
+   },
+   {
+    "year": 2001,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Hingis",
+    "score": "6–1 6–1"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Martina Hingis",
+  "h2h": "Serena 7–6",
+  "slam": "Hingis 3–2",
+  "meetings": [
+   {
+    "year": 1999,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Serena",
+    "score": "6–3 7–6"
+   },
+   {
+    "year": 2001,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Hingis",
+    "score": "6–2 3–6 8–6"
+   },
+   {
+    "year": 2001,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2002,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Hingis",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Justine Henin",
+  "b": "Maria Sharapova",
+  "h2h": "Henin 7–3",
+  "slam": "Henin 3–0",
+  "meetings": [
+   {
+    "year": 2006,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Henin",
+    "score": "6–4 6–4"
+   },
+   {
+    "year": 2007,
+    "event": "WTA Finals",
+    "round": "F",
+    "winner": "Henin",
+    "score": "5–7 7–5 6–3"
+   },
+   {
+    "year": 2007,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Henin",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2010,
+    "event": "Australian Open",
+    "round": "R64",
+    "winner": "Henin",
+    "score": "7–5 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Maria Sharapova",
+  "b": "Victoria Azarenka",
+  "h2h": "Sharapova 8–7",
+  "slam": "Azarenka 2–1",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Azarenka",
+    "score": "6–3 6–0"
+   },
+   {
+    "year": 2013,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Sharapova",
+    "score": "6–1 2–6 6–4"
+   },
+   {
+    "year": 2012,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Azarenka",
+    "score": "3–6 6–2 6–4"
+   },
+   {
+    "year": 2015,
+    "event": "WTA Finals",
+    "round": "RR",
+    "winner": "Sharapova",
+    "score": "6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Maria Sharapova",
+  "b": "Petra Kvitová",
+  "h2h": "Sharapova 4–3",
+  "slam": "Kvitová 1–0",
+  "meetings": [
+   {
+    "year": 2011,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Kvitová",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 2012,
+    "event": "Stuttgart",
+    "round": "F",
+    "winner": "Sharapova",
+    "score": "6–4 7–6"
+   },
+   {
+    "year": 2015,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Sharapova",
+    "score": "6–4 6–0"
+   }
+  ]
+ },
+ {
+  "a": "Maria Sharapova",
+  "b": "Simona Halep",
+  "h2h": "Sharapova 7–1",
+  "slam": "Sharapova 2–0",
+  "meetings": [
+   {
+    "year": 2014,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Sharapova",
+    "score": "6–4 6–7 6–4"
+   },
+   {
+    "year": 2017,
+    "event": "US Open",
+    "round": "R128",
+    "winner": "Sharapova",
+    "score": "6–4 4–6 6–3"
+   },
+   {
+    "year": 2015,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Sharapova",
+    "score": "6–3 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Maria Sharapova",
+  "b": "Ana Ivanovic",
+  "h2h": "Sharapova 8–3",
+  "slam": "Sharapova 2–0",
+  "meetings": [
+   {
+    "year": 2008,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Sharapova",
+    "score": "7–5 6–3"
+   },
+   {
+    "year": 2007,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Ivanovic",
+    "score": "6–2 6–1"
+   },
+   {
+    "year": 2014,
+    "event": "Cincinnati",
+    "round": "F",
+    "winner": "Sharapova",
+    "score": "6–4 2–6 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Petra Kvitová",
+  "b": "Victoria Azarenka",
+  "h2h": "Azarenka 4–3",
+  "slam": "Kvitová 1–0",
+  "meetings": [
+   {
+    "year": 2011,
+    "event": "WTA Finals",
+    "round": "F",
+    "winner": "Kvitová",
+    "score": "7–5 4–6 6–3"
+   },
+   {
+    "year": 2012,
+    "event": "Wimbledon",
+    "round": "R16",
+    "winner": "Kvitová",
+    "score": "6–1 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Ashleigh Barty",
+  "b": "Naomi Osaka",
+  "h2h": "Barty 2–1",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2019,
+    "event": "Beijing",
+    "round": "F",
+    "winner": "Osaka",
+    "score": "3–6 6–3 6–2"
+   },
+   {
+    "year": 2019,
+    "event": "Miami",
+    "round": "R16",
+    "winner": "Barty",
+    "score": "6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Ashleigh Barty",
+  "b": "Iga Świątek",
+  "h2h": "Barty 1–0",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2022,
+    "event": "Adelaide",
+    "round": "SF",
+    "winner": "Barty",
+    "score": "6–2 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Linda Nosková",
+  "b": "Karolína Muchová",
+  "h2h": "Nosková leads",
+  "slam": "Nosková 1–0",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Nosková",
+    "score": "6–2 5–7 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Mirra Andreeva",
+  "b": "Maja Chwalińska",
+  "h2h": "Andreeva leads",
+  "slam": "Andreeva 1–0",
+  "meetings": [
+   {
+    "year": 2026,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Andreeva",
+    "score": "6–3 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Elena Rybakina",
+  "b": "Mirra Andreeva",
+  "h2h": "Close",
+  "slam": "—",
+  "meetings": [
+   {
+    "year": 2024,
+    "event": "Brisbane",
+    "round": "QF",
+    "winner": "Rybakina",
+    "score": "6–3 6–2"
+   },
+   {
+    "year": 2025,
+    "event": "Dubai",
+    "round": "SF",
+    "winner": "Andreeva",
+    "score": "6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Karolína Muchová",
+  "b": "Aryna Sabalenka",
+  "h2h": "Sabalenka leads",
+  "slam": "Muchová 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Muchová",
+    "score": "7–6 6–7 7–5"
+   },
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Sabalenka",
+    "score": "6–1 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "Cincinnati",
+    "round": "R16",
+    "winner": "Sabalenka",
+    "score": "6–2 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Karolína Muchová",
+  "b": "Iga Świątek",
+  "h2h": "Świątek leads",
+  "slam": "Świątek 1–0",
+  "meetings": [
+   {
+    "year": 2023,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Świątek",
+    "score": "6–2 5–7 6–4"
+   },
+   {
+    "year": 2024,
+    "event": "US Open",
+    "round": "R16",
+    "winner": "Muchová",
+    "score": "6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Steffi Graf",
+  "b": "Arantxa Sánchez Vicario",
+  "h2h": "Graf 28–8",
+  "slam": "Graf 7–2",
+  "meetings": [
+   {
+    "year": 1989,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Sánchez Vicario",
+    "score": "7–6 3–6 7–5"
+   },
+   {
+    "year": 1995,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Graf",
+    "score": "4–6 6–1 7–5"
+   },
+   {
+    "year": 1995,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Graf",
+    "score": "7–5 4–6 6–0"
+   },
+   {
+    "year": 1996,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Graf",
+    "score": "6–3 6–7 10–8"
+   },
+   {
+    "year": 1996,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Graf",
+    "score": "6–3 7–5"
+   },
+   {
+    "year": 1994,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Graf",
+    "score": "6–0 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Steffi Graf",
+  "b": "Martina Hingis",
+  "h2h": "Graf 5–2",
+  "slam": "Graf 2–1",
+  "meetings": [
+   {
+    "year": 1999,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Graf",
+    "score": "4–6 7–5 6–2"
+   },
+   {
+    "year": 1998,
+    "event": "Philadelphia",
+    "round": "F",
+    "winner": "Graf",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 1999,
+    "event": "WTA Finals",
+    "round": "RR",
+    "winner": "Hingis",
+    "score": "6–4 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Chris Evert",
+  "b": "Evonne Goolagong Cawley",
+  "h2h": "Evert 21–12",
+  "slam": "Evert 5–3",
+  "meetings": [
+   {
+    "year": 1974,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Goolagong",
+    "score": "7–6 4–6 6–0"
+   },
+   {
+    "year": 1976,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Evert",
+    "score": "6–3 4–6 8–6"
+   },
+   {
+    "year": 1980,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Goolagong",
+    "score": "6–1 7–6"
+   },
+   {
+    "year": 1975,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Goolagong",
+    "score": "6–3 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Martina Navratilova",
+  "b": "Hana Mandlíková",
+  "h2h": "Navratilova 21–7",
+  "slam": "Mandlíková 2–2",
+  "meetings": [
+   {
+    "year": 1981,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Navratilova",
+    "score": "6–2 6–4"
+   },
+   {
+    "year": 1985,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Mandlíková",
+    "score": "7–6 1–6 7–6"
+   },
+   {
+    "year": 1986,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Navratilova",
+    "score": "7–6 6–3"
+   },
+   {
+    "year": 1987,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Mandlíková",
+    "score": "7–5 7–6"
+   }
+  ]
+ },
+ {
+  "a": "Monica Seles",
+  "b": "Arantxa Sánchez Vicario",
+  "h2h": "Seles 9–6",
+  "slam": "Seles 3–1",
+  "meetings": [
+   {
+    "year": 1991,
+    "event": "Roland Garros",
+    "round": "F",
+    "winner": "Seles",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 1992,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Seles",
+    "score": "6–3 6–3"
+   },
+   {
+    "year": 1994,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Seles",
+    "score": "6–0 6–2"
+   },
+   {
+    "year": 1996,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Sánchez Vicario",
+    "score": "7–6 6–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Martina Hingis",
+  "b": "Lindsay Davenport",
+  "h2h": "Davenport 14–11",
+  "slam": "Davenport 3–1",
+  "meetings": [
+   {
+    "year": 1998,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Davenport",
+    "score": "6–3 7–5"
+   },
+   {
+    "year": 1999,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Davenport",
+    "score": "6–4 7–5"
+   },
+   {
+    "year": 2000,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Davenport",
+    "score": "6–1 7–5"
+   },
+   {
+    "year": 2002,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Hingis",
+    "score": "6–3 6–4"
+   },
+   {
+    "year": 1997,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Hingis",
+    "score": "6–2 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Martina Hingis",
+  "b": "Jennifer Capriati",
+  "h2h": "Hingis 5–4",
+  "slam": "Capriati 3–1",
+  "meetings": [
+   {
+    "year": 2001,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Capriati",
+    "score": "6–4 6–3"
+   },
+   {
+    "year": 2002,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Capriati",
+    "score": "4–6 7–6 6–2"
+   },
+   {
+    "year": 2001,
+    "event": "Roland Garros",
+    "round": "SF",
+    "winner": "Capriati",
+    "score": "4–6 6–3 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Kim Clijsters",
+  "b": "Venus Williams",
+  "h2h": "Clijsters 7–6",
+  "slam": "Clijsters 3–1",
+  "meetings": [
+   {
+    "year": 2003,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Venus",
+    "score": "6–4 6–1"
+   },
+   {
+    "year": 2005,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Clijsters",
+    "score": "4–6 7–5 6–1"
+   },
+   {
+    "year": 2010,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Clijsters",
+    "score": "4–6 7–6 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Justine Henin",
+  "b": "Venus Williams",
+  "h2h": "Henin 7–6",
+  "slam": "Henin 3–1",
+  "meetings": [
+   {
+    "year": 2001,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Venus",
+    "score": "6–1 3–6 6–0"
+   },
+   {
+    "year": 2003,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Venus",
+    "score": "6–3 6–3"
+   },
+   {
+    "year": 2007,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Henin",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Naomi Osaka",
+  "b": "Petra Kvitová",
+  "h2h": "Osaka 2–1",
+  "slam": "Osaka 1–0",
+  "meetings": [
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "F",
+    "winner": "Osaka",
+    "score": "7–6 5–7 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Ashleigh Barty",
+  "b": "Karolína Plíšková",
+  "h2h": "Barty 5–3",
+  "slam": "Barty 1–0",
+  "meetings": [
+   {
+    "year": 2021,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Barty",
+    "score": "6–3 6–7 6–3"
+   },
+   {
+    "year": 2019,
+    "event": "Miami",
+    "round": "F",
+    "winner": "Barty",
+    "score": "7–6 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Karolína Plíšková",
+  "h2h": "Serena 3–2",
+  "slam": "1–1",
+  "meetings": [
+   {
+    "year": 2016,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Plíšková",
+    "score": "6–2 7–6"
+   },
+   {
+    "year": 2019,
+    "event": "Australian Open",
+    "round": "QF",
+    "winner": "Plíšková",
+    "score": "6–4 4–6 7–5"
+   },
+   {
+    "year": 2018,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Serena",
+    "score": "6–4 6–3"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Agnieszka Radwańska",
+  "h2h": "Serena 10–0",
+  "slam": "Serena 3–0",
+  "meetings": [
+   {
+    "year": 2012,
+    "event": "Wimbledon",
+    "round": "F",
+    "winner": "Serena",
+    "score": "6–1 5–7 6–2"
+   },
+   {
+    "year": 2016,
+    "event": "Australian Open",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–0 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Samantha Stosur",
+  "h2h": "Serena 8–2",
+  "slam": "Stosur 1–0",
+  "meetings": [
+   {
+    "year": 2011,
+    "event": "US Open",
+    "round": "F",
+    "winner": "Stosur",
+    "score": "6–2 6–3"
+   },
+   {
+    "year": 2010,
+    "event": "Roland Garros",
+    "round": "QF",
+    "winner": "Stosur",
+    "score": "6–2 6–7 8–6"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Roberta Vinci",
+  "h2h": "Serena 4–1",
+  "slam": "Vinci 1–0",
+  "meetings": [
+   {
+    "year": 2015,
+    "event": "US Open",
+    "round": "SF",
+    "winner": "Vinci",
+    "score": "2–6 6–4 6–4"
+   }
+  ]
+ },
+ {
+  "a": "Serena Williams",
+  "b": "Elena Dementieva",
+  "h2h": "Serena 7–4",
+  "slam": "Serena 1–1",
+  "meetings": [
+   {
+    "year": 2009,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Serena",
+    "score": "6–7 7–5 8–6"
+   },
+   {
+    "year": 2008,
+    "event": "Olympics",
+    "round": "SF",
+    "winner": "Dementieva",
+    "score": "3–6 7–6 6–3"
+   },
+   {
+    "year": 2005,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Dementieva",
+    "score": "6–3 6–7 6–2"
+   }
+  ]
+ },
+ {
+  "a": "Venus Williams",
+  "b": "Maria Sharapova",
+  "h2h": "Venus 5–4",
+  "slam": "Venus 2–1",
+  "meetings": [
+   {
+    "year": 2005,
+    "event": "Wimbledon",
+    "round": "SF",
+    "winner": "Venus",
+    "score": "7–6 6–1"
+   },
+   {
+    "year": 2006,
+    "event": "US Open",
+    "round": "QF",
+    "winner": "Sharapova",
+    "score": "6–3 6–1"
+   },
+   {
+    "year": 2007,
+    "event": "Australian Open",
+    "round": "R16",
+    "winner": "Venus",
+    "score": "7–5 6–4"
+   }
+  ]
  }
 ]
