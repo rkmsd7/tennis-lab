@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Players — rivalry cross-table and every champion — Tennis Lab</title></head><body>
 <div id="site-header"></div>
-<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Players</div><h1>Rivalries and champions</h1><p class="lead">Pick any two players in the cross-table to watch their matches: curated meetings with real videos, grouped by Grand Slam, Olympics, team events, Masters and Finals. The all-time greats come first, then the current generation; the full list of <a href="#champions">champions and stars</a> follows.</p></section>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Players</div><h1>Rivalries and champions</h1><p class="lead">Pick any two players in the cross-table to watch their matches: curated meetings with real videos, grouped by Grand Slam, Olympics, team events, Masters and Finals. Players are ordered by Grand Slam titles, highest first; the full list of <a href="#champions">champions and stars</a> follows.</p></section>
 
 <div class="section-head" id="crosstable"><h2>Rivalry cross-table</h2><span class="legend"><span><i style="background:rgba(67,179,106,.5)"></i>curated matches + videos</span><span><i style="background:var(--bg2)"></i>search only</span></span></div>
 <div class="controls">
@@ -31,7 +31,7 @@
  const byId=Object.fromEntries(P.map(p=>[p.id,p])), byName=Object.fromEntries(P.map(p=>[p.name,p]));
  const rkey=(a,b)=>[a,b].sort().join('|'); const riv={}; RV.forEach(r=>riv[rkey(r.a,r.b)]=r);
  const rvids=(r,kind)=>V.rivalries[`${r.a}|${r.b}|${kind}`]||V.rivalries[`${r.b}|${r.a}|${kind}`]||[];
- const state={q:'',tour:'all',era:'all',feat:false,xtour:'ATP',xscope:'current'};
+ const state={q:'',tour:'all',era:'all',feat:false,xtour:'ATP',xscope:'mix'};
  const last=n=>n.split(' ').slice(-1)[0];
  const slamsOf=p=>TL.slams(p);
  function cards(){
@@ -44,9 +44,8 @@
  function syncSeg(id,v){document.querySelectorAll(`#${id} button`).forEach(b=>b.classList.toggle('on',b.dataset.v===v));}
  function scopeList(){
   const inScope=p=>state.xscope==="all"||(state.xscope==="current"?p.active:state.xscope==="featured"?p.featured:(p.active||p.featured));
-  // all-time greats first (by majors, then era), then the current generation youngest-first, then everyone else
-  const tier=p=>p.featured?0:p.active?1:2;
-  return P.filter(p=>p.tour===state.xtour&&inScope(p)).sort((a,b)=>tier(a)-tier(b)||(tier(a)===1?(b.born-a.born):(slamsOf(b)-slamsOf(a)||b.born-a.born))||a.name.localeCompare(b.name));
+  // highest Grand Slam count first; ties go to the younger player
+  return P.filter(p=>p.tour===state.xtour&&inScope(p)).sort((a,b)=>slamsOf(b)-slamsOf(a)||b.born-a.born||a.name.localeCompare(b.name));
  }
  function table(){
   const list=scopeList(); const t=document.getElementById('xt');
