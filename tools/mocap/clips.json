@@ -1,0 +1,288 @@
+{
+ "forehand": {
+  "player": "Roger Federer",
+  "id": "yo_zuz7bcLQ",
+  "start": 0.3,
+  "end": 16.5,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 15,
+  "playDur": 4.4,
+  "phaseNames": [
+   "Ready & split step",
+   "Unit turn",
+   "Load & racket drop",
+   "Contact",
+   "Finish & recover"
+  ],
+  "face": [
+   "contact",
+   30
+  ],
+  "phases": {
+   "p0": 0.4,
+   "p1": 3.2,
+   "p2": 7.6,
+   "contact": 9.85,
+   "p4": 14
+  }
+ },
+ "backhand_2h": {
+  "player": "Novak Djokovic",
+  "id": "zTllwBs0my8",
+  "start": 8.5,
+  "end": 19,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 15,
+  "playDur": 3.6,
+  "phaseNames": [
+   "Ready & split step",
+   "Unit turn",
+   "Load & drop",
+   "Contact",
+   "Finish"
+  ],
+  "face": [
+   "contact",
+   -35
+  ],
+  "phases": {
+   "p0": 8.6,
+   "p1": 11.3,
+   "p2": 14,
+   "contact": 15.3,
+   "p4": 17.6
+  }
+ },
+ "backhand_1h": {
+  "player": "Stan Wawrinka",
+  "id": "SlgMvQQrYhg",
+  "start": 120,
+  "end": 127.6,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 11,
+  "playDur": 3.6,
+  "phaseNames": [
+   "Ready & split step",
+   "Unit turn & high set",
+   "Step across & drop",
+   "Contact",
+   "Finish"
+  ],
+  "face": [
+   "contact",
+   -60
+  ],
+  "phases": {
+   "p1": 122.3,
+   "p2": 123.6,
+   "contact": 124.35,
+   "p4": 126.4
+  }
+ },
+ "slice": {
+  "player": "Roger Federer",
+  "id": "-CXrTTip_Bw",
+  "start": 109,
+  "end": 121,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 15,
+  "playDur": 4,
+  "phaseNames": [
+   "Ready & split step",
+   "Turn & set high",
+   "Step across",
+   "Contact",
+   "Finish"
+  ],
+  "face": [
+   "contact",
+   -75
+  ],
+  "phases": {
+   "contact": 115.25,
+   "p2": 113.8
+  }
+ },
+ "serve": {
+  "player": "Roger Federer",
+  "id": "F4UZtKFLHyQ",
+  "start": 0.5,
+  "end": 13.1,
+  "hand": "R",
+  "kind": "overhead",
+  "yaw": 0,
+  "smooth": 15,
+  "playDur": 4.4,
+  "phaseNames": [
+   "Stance & rhythm",
+   "Toss & trophy",
+   "Racket drop",
+   "Contact",
+   "Landing"
+  ],
+  "face": [
+   "contact",
+   20
+  ],
+  "phases": {
+   "p0": 0.6,
+   "p1": 7.4,
+   "p2": 8.9,
+   "contact": 10.07,
+   "p4": 12.6
+  }
+ },
+ "return": {
+  "player": "Novak Djokovic",
+  "id": "S9dkUoWA0wQ",
+  "start": 89,
+  "end": 98.6,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 15,
+  "playDur": 3.8,
+  "phaseNames": [
+   "Wide ready stance",
+   "Split step",
+   "Compact turn",
+   "Block contact",
+   "Short finish & recover"
+  ],
+  "face": [
+   "contact",
+   10
+  ],
+  "phases": {
+   "p0": 89.3,
+   "p1": 92,
+   "p2": 94.2,
+   "contact": 96.4,
+   "p4": 97.9
+  }
+ },
+ "volley": {
+  "player": "Roger Federer",
+  "id": "K-MRV14rG3Y",
+  "start": 39,
+  "end": 45.6,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 13,
+  "playDur": 3.4,
+  "phaseNames": [
+   "Ready at the net",
+   "Split step",
+   "Turn & set",
+   "Step across & punch",
+   "Short finish"
+  ],
+  "face": [
+   "contact",
+   25
+  ],
+  "phases": {
+   "p0": 39.2,
+   "p1": 40.9,
+   "p2": 42.9,
+   "contact": 43.95,
+   "p4": 45
+  }
+ },
+ "dropshot": {
+  "player": "Carlos Alcaraz",
+  "id": "XU6f_ljbJWw",
+  "start": 11,
+  "end": 19.2,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 13,
+  "playDur": 3.6,
+  "phaseNames": [
+   "Ready & split step",
+   "Disguised unit turn",
+   "Late change",
+   "Soft contact",
+   "Short finish & move in"
+  ],
+  "face": [
+   "contact",
+   45
+  ],
+  "phases": {
+   "p0": 11.2,
+   "p1": 13.4,
+   "p2": 14.9,
+   "contact": 15.6,
+   "p4": 17.6
+  }
+ },
+ "overhead": {
+  "player": "Pete Sampras",
+  "id": "xFCwXFHKmhI",
+  "start": 14,
+  "end": 31,
+  "hand": "R",
+  "kind": "overhead",
+  "yaw": 0,
+  "smooth": 17,
+  "playDur": 4.4,
+  "phaseNames": [
+   "Turn & point",
+   "Shuffle back",
+   "Racket drop",
+   "Contact",
+   "Finish"
+  ],
+  "face": [
+   "contact",
+   15
+  ],
+  "phases": {
+   "p0": 14.2,
+   "p1": 18.5,
+   "p2": 24.6,
+   "contact": 27,
+   "p4": 29.8
+  }
+ },
+ "tweener": {
+  "player": "Gaël Monfils",
+  "id": "lK0mp0PJT74",
+  "start": 73.4,
+  "end": 79.2,
+  "hand": "R",
+  "kind": "ground",
+  "yaw": 0,
+  "smooth": 9,
+  "playDur": 3.2,
+  "phaseNames": [
+   "Sprint back",
+   "Track the bounce",
+   "Straddle",
+   "Flick",
+   "Turn & see"
+  ],
+  "face": [
+   "contact",
+   180
+  ],
+  "phases": {
+   "p0": 73.5,
+   "p1": 74.8,
+   "p2": 75.9,
+   "contact": 76.4,
+   "p4": 78
+  }
+ }
+}

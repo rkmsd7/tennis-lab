@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/css/style.css">
+<script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.160.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.160.0/examples/jsm/"}}</script>
+<title>Mocap viewer</title><style>body{background:#0b1220}.g{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px}.g .phases,.g .attrib,.g .bar,.g .caption{display:none}</style></head><body>
+<!-- Dev tool: /tools/mocap/viewer.html?shot=forehand&phase=3 or &phases=1,3&views=side,back  (four synced views of one motion file, paused at a phase or frame) -->
+<div class="g" id="g"></div>
+<script type="module">
+import { mount } from '/js/mocap3d.js';
+const q = Object.fromEntries(new URLSearchParams(location.search));
+const [S, M] = await Promise.all([fetch('/data/shots.json').then(r => r.json()), fetch('/data/motion/' + q.shot + '.json?' + Date.now()).then(r => r.json())]);
+const views = (q.views || 'side,front,back,top').split(',');
+const frs = q.phases ? q.phases.split(',').map(i => M.phases[+i].frame) : [q.frame != null ? +q.frame : q.phase != null ? M.phases[+q.phase].frame : 0];
+window.inst = [];
+for (const fr of frs) for (const v of views) { const d = document.createElement('div'); document.getElementById('g').appendChild(d); const m = mount(d, S[q.shot], M, { autoplay: false, view: v }); m.seek(fr); window.inst.push(m); }
+document.title = 'ready';
+</script></body></html>

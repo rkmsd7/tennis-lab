@@ -142,3 +142,4 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:24px 0;color:var
 .buy{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .buy a{font-size:.78rem;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--text);background:var(--bg2)}
 .buy a.amz{border-color:rgba(245,197,66,.6);color:#ffe9a3}
+.anim3d .attrib{margin:0;padding:6px 10px 9px;font-size:.72rem;color:#7d8bab;border-top:1px solid var(--line)}.anim3d .attrib a{color:inherit}
