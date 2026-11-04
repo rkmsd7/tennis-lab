@@ -12,7 +12,7 @@ forehand:[
  [{spine:{turn:-50,pitch:10},pelvis:{yaw:-30},head:{yaw:30},armR:{sx:110,sy:-70,sz:10,elbow:120,wrist:20},armL:{sx:-25,sz:15,elbow:70},legR:{hx:-10,hz:15,knee:20},legL:{hx:10,hz:15,knee:25}},[-1.5,1.6,-7]]],
 backhand_2h:[
  [{},[-1.5,1.1,-7]],
- [{spine:{turn:-70,pitch:8},pelvis:{yaw:-35,y:-.05},head:{yaw:70},armR:{sx:-20,sy:40,sz:-5,elbow:60,wrist:-10},hands:'two',legR:{hx:8,hz:20,knee:35},legL:{hx:-5,hz:25,knee:40}},[-1.5,1,-4]],
+ [{spine:{turn:-70,pitch:8},pelvis:{yaw:-35,y:-.05},head:{yaw:70},armR:{sx:-10,sy:40,sz:10,elbow:70,wrist:25},hands:'two',legR:{hx:8,hz:20,knee:35},legL:{hx:-5,hz:25,knee:40}},[-1.5,1,-4]],
  [{spine:{turn:-80,pitch:6},pelvis:{yaw:-40,y:-.12},head:{yaw:80},armR:{sx:-30,sy:35,sz:-10,elbow:45,wrist:-50},hands:'two',legR:{hx:8,hz:22,knee:55},legL:{hx:-6,hz:26,knee:50}},[-1.3,.9,-1.8]],
  [{spine:{turn:10,pitch:5},pelvis:{yaw:10},head:{yaw:-10},armR:{sx:70,sy:35,sz:-20,elbow:15},hands:'two',legR:{hx:12,hz:18,knee:20},legL:{hx:-12,hz:20,knee:18}},[-.75,1,-.85]],
  [{spine:{turn:45,pitch:8},pelvis:{yaw:25},head:{yaw:-25},armR:{sx:110,sy:50,sz:-15,elbow:100,wrist:10},hands:'two',legR:{hx:10,hz:16,knee:22},legL:{hx:-8,hz:18,knee:20}},[1.5,1.6,-7]]],

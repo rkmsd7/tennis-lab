@@ -84,7 +84,8 @@ export function mount(container, shot, opts = {}) {
   const scene = new THREE.Scene(); scene.background = new THREE.Color(0x0b1220); scene.fog = new THREE.Fog(0x0b1220, 10, 30);
   const camera = new THREE.PerspectiveCamera(38, 16 / 10, .1, 100);
   const controls = new OrbitControls(camera, renderer.domElement); controls.target.set(0, 1, -.3); controls.enableDamping = true; controls.enablePan = false; controls.enableZoom = false; controls.minDistance = 2; controls.maxDistance = 9; controls.maxPolarAngle = Math.PI / 2 - .02;
-  const VIEWS = { side: [3.6, 1.5, -1.6], front: [.8, 1.4, -4.2], back: [1.2, 1.9, 3.8], top: [1.2, 5.5, -.6] };
+  const tall = /serve|overhead/i.test(shot.label); const K = tall ? 1.3 : 1; controls.target.set(0, tall ? 1.45 : 1, -.3);
+  const VIEWS = { side: [3.6 * K, 1.5 * K, -1.6 * K], front: [.8, 1.4 * K, -4.2 * K], back: [1.2, 1.9 * K, 3.8 * K], top: [1.2, 5.5, -.6] };
   const setView = v => { camera.position.set(...VIEWS[v]); controls.update(); };
   setView(shot.flip ? 'back' : 'side');
   scene.add(new THREE.HemisphereLight(0xdde7ff, 0x1a2238, .9));

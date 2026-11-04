@@ -485,11 +485,11 @@
       "yaw": 70
      },
      "armR": {
-      "sx": -20,
+      "sx": -10,
       "sy": 40,
-      "sz": -5,
-      "elbow": 60,
-      "wrist": -10
+      "sz": 10,
+      "elbow": 70,
+      "wrist": 25
      },
      "hands": "two",
      "legR": {
