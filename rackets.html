@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Tennis rackets explained — types, specs, strings and what the pros use — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Rackets</div><h1>Choosing a tennis racket</h1><p class="lead">Four racket families, nine specs that matter, the five string types, and the frames the champions actually swing.</p></section>
+<h2>Racket types</h2><div class="grid wide" id="types"></div>
+<h2>The specs, decoded</h2><div class="table-wrap"><table><thead><tr><th>Spec</th><th>What it does</th><th>Typical range</th></tr></thead><tbody id="specs"></tbody></table></div>
+<h2>Strings</h2><div class="table-wrap"><table><thead><tr><th>Type</th><th>Feel</th><th>Best for</th><th>Downside</th><th>Examples</th></tr></thead><tbody id="strings"></tbody></table></div>
+<p class="notice" id="tension"></p>
+<h2>Which racket for your level</h2><div class="grid" id="choose"></div>
+<h2>What the champions use</h2><p class="muted small">Pro frames are often 'pro stock' moulds painted to look like the retail model, and specs change season to season. Treat these as reported setups.</p>
+<div class="table-wrap"><table><thead><tr><th>Player</th><th>Racket</th><th>Strings · tension</th><th>Grips</th></tr></thead><tbody id="pros"></tbody></table></div>
+</main><div id="site-footer"></div>
+<script>(async()=>{const [R,P]=await TL.load('rackets','players');
+document.getElementById('types').innerHTML=R.types.map(t=>`<div class="card"><h3>${t.name}</h3><div class="badges"><span class="pill">${t.head}</span><span class="pill">${t.weight}</span><span class="pill">${t.balance}</span></div><p class="muted small">Beam: ${t.beam}</p><p>${t.for}</p><p class="small"><b>Examples:</b> ${t.examples.join(', ')}</p></div>`).join('');
+document.getElementById('specs').innerHTML=R.specs.map(s=>`<tr><td><b>${s.spec}</b></td><td>${s.what}</td><td class="muted">${s.range}</td></tr>`).join('');
+document.getElementById('strings').innerHTML=R.strings.map(s=>`<tr><td><b>${s.type}</b></td><td>${s.feel}</td><td>${s.for}</td><td class="muted">${s.cons}</td><td class="muted small">${s.examples}</td></tr>`).join('');
+document.getElementById('tension').innerHTML='<b>Tension.</b> '+R.tension;
+document.getElementById('choose').innerHTML=R.choose.map(c=>`<div class="card"><div class="ribbon">${c.level}</div><p>${c.advice}</p></div>`).join('');
+document.getElementById('pros').innerHTML=P.filter(p=>p.featured).map(p=>`<tr><td><a href="/player?id=${p.id}">${TL.flag(p)} ${TL.esc(p.name)}</a></td><td>${TL.esc(p.racket)}</td><td class="muted">${TL.esc(p.strings)}</td><td class="muted small">FH ${TL.esc(p.grip.fh)} · BH ${TL.esc(p.grip.bh)}</td></tr>`).join('');})();</script></body></html>

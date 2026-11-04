@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>ATP and WTA rankings — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Rankings</div><h1>ATP & WTA world rankings</h1><p class="lead">Singles top 20 on both tours. This is a dated snapshot; the official lists update every Monday.</p></section>
+<div class="controls"><div class="seg" id="tour"><button class="on" data-t="atp">ATP · Men</button><button data-t="wta">WTA · Women</button></div><span class="muted small" id="asof"></span><a class="btn ghost sm" id="official" target="_blank" rel="noopener">Official live rankings ↗</a></div>
+<div class="table-wrap"><table id="rank"><thead><tr><th class="num">#</th><th>Player</th><th>Country</th><th class="num">Points</th><th>Profile</th></tr></thead><tbody></tbody></table></div>
+<h2>How the rankings work</h2>
+<div class="grid">
+<div class="card"><h3>52-week rolling</h3><p class="muted">Points earned at a tournament count for 52 weeks, then drop off. Defend them or lose them.</p></div>
+<div class="card"><h3>Best 19 (ATP) / 18 (WTA)</h3><p class="muted">The four Slams, the Masters/1000s and a limited number of best other results count. The Tour Finals are a bonus on top.</p></div>
+<div class="card"><h3>Points per title</h3><p class="muted">Grand Slam 2000 · Finals up to 1500 · Masters 1000 · 500 · 250. A Slam runner-up earns 1300.</p></div>
+<div class="card"><h3>Race vs. ranking</h3><p class="muted">The 'Race' counts only this calendar year and decides who qualifies for the season-ending Finals.</p></div>
+</div></main><div id="site-footer"></div>
+<script>(async()=>{const [R,P]=await TL.load('rankings','players');const byName=Object.fromEntries(P.map(p=>[p.name,p]));const tb=document.querySelector('#rank tbody');document.getElementById('asof').textContent='Snapshot as of '+new Date(R.asOf+'T00:00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'});
+function show(t){document.getElementById('official').href=R.source[t];tb.innerHTML=R[t].map(r=>{const p=byName[r.player];return `<tr><td class="num"><b>${r.rank}</b></td><td>${TL.esc(r.player)}</td><td class="muted">${r.country}</td><td class="num">${r.points.toLocaleString()}</td><td>${p?`<a href="/player?id=${p.id}">Profile →</a>`:'<span class="muted small">—</span>'}</td></tr>`}).join('');}
+document.querySelectorAll('#tour button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tour button').forEach(x=>x.classList.toggle('on',x===b));show(b.dataset.t)});show('atp');})();</script></body></html>

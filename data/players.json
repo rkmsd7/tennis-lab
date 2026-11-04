@@ -1,0 +1,3838 @@
+[
+ {
+  "id": "novak-djokovic",
+  "flag": "🇷🇸",
+  "featured": true,
+  "name": "Novak Djokovic",
+  "country": "SRB",
+  "tour": "ATP",
+  "born": 1987,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 10,
+   "rg": 3,
+   "w": 7,
+   "uso": 4
+  },
+  "olympics": "Gold 2024 singles · Bronze 2008",
+  "weeksNo1": 428,
+  "era": "golden",
+  "style": "Elastic counter-puncher / all-court baseliner",
+  "bio": "The statistical greatest: 24 majors, 428 weeks at No. 1 and the 2024 Olympic gold. Djokovic turned defence into offence with the best return of serve and two-handed backhand the game has seen, plus unmatched flexibility.",
+  "grip": {
+   "fh": "Eastern leaning Semi-Western",
+   "bh": "Two-handed: Continental bottom, Semi-Western top",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Speed Pro (pro stock PT113B)",
+  "strings": "Natural gut mains / ALU Power Rough crosses · 59/56 lb",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The best two-hander ever",
+    "grip": "Two-handed",
+    "stance": "Open or neutral",
+    "replicable": 5,
+    "why": "Technically the cleanest model to copy: compact, balanced, repeatable.",
+    "cues": [
+     "Early shoulder turn; racket set up at shoulder height",
+     "Hips drive the swing; both arms extend through contact",
+     "Contact well in front and chest height; the top (left) hand does most of the work",
+     "Finish high over the right shoulder, chest facing the net"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The return of serve",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Djokovic blocks and redirects; a short backswing is something every club player can adopt.",
+    "cues": [
+     "Split step timed with the toss",
+     "Tiny takeback; let the server supply the pace",
+     "Contact in front, firm wrist, deep to the middle or crosscourt",
+     "Recover to the middle before the next ball"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The redirecting forehand",
+    "grip": "Eastern / Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Less extreme than Nadal, more compact than Federer: a reliable middle ground.",
+    "cues": [
+     "Compact loop takeback",
+     "Weight on the right leg, then explosive rotation",
+     "Contact in front; change direction down the line off a crosscourt ball",
+     "Finish across the body or over the shoulder"
+    ]
+   },
+   {
+    "type": "dropshot",
+    "name": "The disguised drop shot",
+    "grip": "Continental",
+    "stance": "Neutral",
+    "replicable": 3,
+    "why": "Learn the disguise: it must look like a drive until the last moment.",
+    "cues": [
+     "Prepare exactly like a normal groundstroke",
+     "Soften the grip and open the face at the last instant",
+     "Short, downward-forward cut under the ball",
+     "Move forward after it to cover the reply"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "serena-williams",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Serena Williams",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 1981,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 7,
+   "rg": 3,
+   "w": 7,
+   "uso": 6
+  },
+  "olympics": "Gold 2012 singles · Gold 2000, 2008, 2012 doubles",
+  "weeksNo1": 319,
+  "era": "golden",
+  "style": "Power baseliner with the best serve in women's tennis",
+  "bio": "Twenty-three majors across three decades. Serena's serve, the most effective in WTA history, and her inside-out forehand set the power template that the modern women's game still follows.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Blade SW104 Autograph",
+  "strings": "Wilson Natural Gut / Luxilon 4G hybrid",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 4,
+    "why": "The most copyable elite serve: simple toss, compact motion, full leg drive.",
+    "cues": [
+     "Platform stance, feet still",
+     "Consistent toss just in front of the head",
+     "Trophy position; hips lead the swing",
+     "Pronate through contact; land inside the court"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The inside-out forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Run around the backhand and attack crosscourt.",
+    "cues": [
+     "Small steps around the ball",
+     "Full shoulder turn",
+     "Contact in front; drive crosscourt",
+     "Recover diagonally"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The down-the-line backhand",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Flat, early, fearless.",
+    "cues": [
+     "Compact takeback",
+     "Load the left leg",
+     "Contact in front; extend down the line",
+     "Finish high"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rafael-nadal",
+  "flag": "🇪🇸",
+  "featured": true,
+  "name": "Rafael Nadal",
+  "country": "ESP",
+  "tour": "ATP",
+  "born": 1986,
+  "hand": "L",
+  "backhand": "2",
+  "slams": {
+   "ao": 2,
+   "rg": 14,
+   "w": 2,
+   "uso": 4
+  },
+  "olympics": "Gold 2008 singles · Gold 2016 doubles",
+  "weeksNo1": 209,
+  "era": "golden",
+  "style": "Heavy-topspin left-handed baseliner",
+  "bio": "The King of Clay. Fourteen Roland Garros titles built on a left-handed forehand with the most revolutions per minute ever measured on tour, relentless defence and a competitive engine that never switched off.",
+  "grip": {
+   "fh": "Semi-Western leaning Western",
+   "bh": "Two-handed: Continental bottom, Eastern top",
+   "serve": "Continental"
+  },
+  "racket": "Babolat Pure Aero (100 in², customised to ~340 g)",
+  "strings": "Babolat RPM Blast 1.35 · ~25 kg",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The buggy-whip forehand",
+    "grip": "Semi-Western / Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "The low-to-high path is copyable; the lasso finish over the same shoulder is for high, awkward balls only.",
+    "cues": [
+     "Big unit turn with the (right) non-dominant hand across the body",
+     "Racket head drops well below the ball with the butt cap pointing at the ball",
+     "Legs explode up and the hips rotate violently; contact out in front",
+     "Extreme racket-head speed brushing up the ball; finish over the head (lasso) or across the shoulder"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The deep, looping return",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Standing deep and hitting heavy, high returns is a smart club strategy.",
+    "cues": [
+     "Stand several metres behind the baseline",
+     "Short takeback; let the ball drop into the strike zone",
+     "Aim high over the net with heavy topspin, deep to the middle",
+     "Recover immediately: the return is only the start of the rally"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The flat, redirecting backhand",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 4,
+    "why": "A compact, stable two-hander that works for anyone.",
+    "cues": [
+     "Both hands turn the racket back together with the shoulders",
+     "Step in on the front foot; knees bent",
+     "Contact in front, slightly flatter than the forehand; drive down the line when the ball is short",
+     "Finish with both hands over the right shoulder"
+    ]
+   },
+   {
+    "type": "volley",
+    "name": "The attacking volley",
+    "grip": "Continental",
+    "stance": "Split then step across",
+    "replicable": 4,
+    "why": "Nadal came to net far more than fans think; his punch volley is textbook.",
+    "cues": [
+     "Split step as the opponent hits",
+     "Racket head stays above the wrist; short backswing",
+     "Step across with the opposite foot into the ball",
+     "Punch through, do not swing"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "steffi-graf",
+  "flag": "🇩🇪",
+  "featured": true,
+  "name": "Steffi Graf",
+  "country": "GER",
+  "tour": "WTA",
+  "born": 1969,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 4,
+   "rg": 6,
+   "w": 7,
+   "uso": 5
+  },
+  "olympics": "Gold 1988 singles · Silver 1992",
+  "weeksNo1": 377,
+  "era": "classic",
+  "style": "Forehand-dominant attacker",
+  "bio": "The only player to win the Golden Slam (all four majors plus Olympic gold in 1988). 377 weeks at No. 1, the most ever. Graf ran around everything to hit the \"Fräulein Forehand\" and sliced the backhand.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Continental slice (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Dunlop Max 200G",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The Fräulein Forehand",
+    "grip": "Eastern",
+    "stance": "Open, on the run",
+    "replicable": 3,
+    "why": "Run around the backhand and hit a flat, early forehand with a high finish.",
+    "cues": [
+     "Early preparation with a straight-back takeback",
+     "Run around the backhand constantly",
+     "Contact well in front; flat and fast",
+     "High finish; recover with crossover steps"
+    ]
+   },
+   {
+    "type": "slice",
+    "name": "The backhand slice",
+    "grip": "Continental",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "Graf won 22 majors hitting almost only slice on the backhand. It works.",
+    "cues": [
+     "Sideways turn",
+     "High racket set",
+     "Knife through, keep it low",
+     "Use it to set up the forehand"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "roger-federer",
+  "flag": "🇨🇭",
+  "featured": true,
+  "name": "Roger Federer",
+  "country": "SUI",
+  "tour": "ATP",
+  "born": 1981,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 6,
+   "rg": 1,
+   "w": 8,
+   "uso": 5
+  },
+  "olympics": "Gold 2008 doubles · Silver 2012 singles",
+  "weeksNo1": 310,
+  "era": "golden",
+  "style": "All-court attacker",
+  "bio": "The most complete attacking player of the Open Era. Federer took the ball early, moved like a dancer and could finish points from anywhere with a forehand John McEnroe called \"the greatest shot in our sport\". Eight Wimbledon titles and 310 weeks at No. 1.",
+  "grip": {
+   "fh": "Eastern forehand",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Pro Staff RF97 Autograph (97 in², 340 g unstrung)",
+  "strings": "Natural gut mains / Luxilon ALU Power Rough crosses · ~26.5/25 kg",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The liquid-whip forehand",
+    "grip": "Eastern",
+    "stance": "Neutral or semi-open",
+    "replicable": 4,
+    "why": "Eastern grip + early contact = the most \"natural\" pro forehand for club players to copy.",
+    "cues": [
+     "Short, straight takeback with the racket face closed toward the ground",
+     "Left hand holds the throat through the unit turn, then points at the ball",
+     "Step into the ball on the left foot; contact way out in front, chest height or lower",
+     "Relaxed wrist lets the racket head lag and then whip through; finish over the left shoulder"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The disguised serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Same toss for every serve. You can copy the rhythm and toss even if you cannot copy the disguise.",
+    "cues": [
+     "Platform stance: feet stay apart, no step-up",
+     "Toss slightly into the court, identical for flat, slice and kick",
+     "Trophy position with the racket tip pointing up and the hitting shoulder dropped",
+     "Pronate through contact; land inside the baseline on the left foot"
+    ]
+   },
+   {
+    "type": "slice",
+    "name": "The knifing backhand slice",
+    "grip": "Continental",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "The single most useful Federer shot for amateurs: it buys time, changes rhythm and skids low.",
+    "cues": [
+     "Turn fully sideways; racket set up high, above the ball",
+     "Step across with the right foot (closed stance)",
+     "High-to-low swing with the face slightly open; drive THROUGH the ball, not under it",
+     "Left arm swings back for balance; finish with arms spread like wings"
+    ]
+   },
+   {
+    "type": "backhand_1h",
+    "name": "The topspin one-hander",
+    "grip": "Eastern backhand",
+    "stance": "Closed",
+    "replicable": 3,
+    "why": "Beautiful but demanding; it needs a strong shoulder turn and precise timing.",
+    "cues": [
+     "Racket back early with the left hand cradling the throat",
+     "Weight loads on the back (left) leg, then transfers forward as you step across",
+     "Contact well in front with a straight arm; hips stay sideways",
+     "Non-hitting arm goes back for counter-balance; finish high"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "chris-evert",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Chris Evert",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 1954,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 2,
+   "rg": 7,
+   "w": 3,
+   "uso": 6
+  },
+  "olympics": "—",
+  "weeksNo1": 260,
+  "era": "classic",
+  "style": "Baseline metronome",
+  "bio": "Eighteen majors, seven French Opens and a 125-match clay winning streak. Evert popularised the two-handed backhand and never seemed to miss.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Chris Evert Autograph (wood) / Wilson Pro Staff",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The two-handed backhand",
+    "grip": "Two-handed",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "The original two-hander; compact and flawless.",
+    "cues": [
+     "Early turn",
+     "Step across",
+     "Flat, level swing",
+     "Finish toward the target"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The flat forehand",
+    "grip": "Eastern",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "Classic, repeatable, deep.",
+    "cues": [
+     "Straight takeback",
+     "Step in",
+     "Contact in front",
+     "Long follow-through"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "martina-navratilova",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Martina Navratilova",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 1956,
+  "hand": "L",
+  "backhand": "1",
+  "slams": {
+   "ao": 3,
+   "rg": 2,
+   "w": 9,
+   "uso": 4
+  },
+  "olympics": "—",
+  "weeksNo1": 332,
+  "era": "classic",
+  "style": "Serve-and-volley",
+  "bio": "Nine Wimbledon singles titles, 167 singles titles and 59 majors across singles, doubles and mixed. Navratilova brought athletic training and relentless net play to the women's game.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Yonex R-7 / Yonex RQ-180",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "volley",
+    "name": "The volley",
+    "grip": "Continental",
+    "stance": "Step across",
+    "replicable": 5,
+    "why": "The best volleyer in women's history.",
+    "cues": [
+     "Close the net behind the serve",
+     "Split step",
+     "Step across and punch",
+     "Angle away"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The lefty serve-and-volley",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Serve and move in one motion.",
+    "cues": [
+     "Toss into the court",
+     "Explode forward",
+     "First volley from the service line",
+     "Close for the second"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pete-sampras",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Pete Sampras",
+  "country": "USA",
+  "tour": "ATP",
+  "born": 1971,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 7,
+   "uso": 5
+  },
+  "olympics": "—",
+  "weeksNo1": 286,
+  "era": "classic",
+  "style": "Serve-and-volley / first-strike",
+  "bio": "Fourteen majors and six straight year-end No. 1s (1993–98). Sampras owned the 1990s with the best serve in history, a running forehand that ended points and a slam-dunk overhead.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Pro Staff 6.0 85 (85 in², ~400 g with lead)",
+  "strings": "Natural gut · very high tension (~75 lb)",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The greatest serve",
+    "grip": "Continental",
+    "stance": "Pinpoint",
+    "replicable": 3,
+    "why": "Copy the rhythm and the full shoulder turn; the second serve kick is the ultimate goal.",
+    "cues": [
+     "Rocking rhythm; toss slightly to the right",
+     "Deep knee bend with the back foot sliding up (pinpoint)",
+     "Full shoulder rotation; racket drops deep behind the back",
+     "Explosive leg drive and pronation; the second serve kicks as hard as the first"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The running forehand",
+    "grip": "Eastern",
+    "stance": "Open, on the run",
+    "replicable": 3,
+    "why": "The lesson is balance: hit while moving, then recover.",
+    "cues": [
+     "Explode sideways with crossover steps",
+     "Short takeback while running",
+     "Plant the outside foot and hit on the move, open stance",
+     "Finish and recover with a crossover step"
+    ]
+   },
+   {
+    "type": "overhead",
+    "name": "The slam dunk",
+    "grip": "Continental",
+    "stance": "Sideways",
+    "replicable": 3,
+    "why": "Learn the footwork (turn and shuffle back) rather than the leap.",
+    "cues": [
+     "Turn sideways immediately; left hand points at the ball",
+     "Shuffle back with small steps",
+     "Racket up early behind the head",
+     "Leap, reach high and snap the wrist through contact"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bjorn-borg",
+  "flag": "🇸🇪",
+  "featured": true,
+  "name": "Björn Borg",
+  "country": "SWE",
+  "tour": "ATP",
+  "born": 1956,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 6,
+   "w": 5,
+   "uso": 0
+  },
+  "olympics": "—",
+  "weeksNo1": 109,
+  "era": "classic",
+  "style": "Heavy-topspin baseliner / counter-puncher",
+  "bio": "Eleven majors by age 25, including five straight Wimbledons and six French Opens. Borg invented the modern topspin baseline game with a Western forehand and a two-handed backhand decades before they became standard.",
+  "grip": {
+   "fh": "Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Donnay Borg Pro (wood, ~65 in²)",
+  "strings": "Natural gut · ~80 lb",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The topspin forehand",
+    "grip": "Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Heavy spin with huge margin: the safest way to hit hard.",
+    "cues": [
+     "Western grip: palm under the handle",
+     "Low racket preparation, knees bent deep",
+     "Steep low-to-high swing path",
+     "High finish, ball clearing the net by two metres"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The two-handed passing shot",
+    "grip": "Two-handed",
+    "stance": "Closed",
+    "replicable": 4,
+    "why": "Pass with topspin and dip the ball at the volleyer's feet.",
+    "cues": [
+     "Prepare early and low",
+     "Step across; stay low through contact",
+     "Brush up for topspin so the ball dips",
+     "Aim crosscourt at a sharp angle or down the line at the feet"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "margaret-court",
+  "name": "Margaret Court",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1942,
+  "slams": {
+   "ao": 4,
+   "rg": 3,
+   "w": 1,
+   "uso": 3
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "billie-jean-king",
+  "name": "Billie Jean King",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1943,
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 4,
+   "uso": 3
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "monica-seles",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Monica Seles",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 1973,
+  "hand": "L",
+  "backhand": "2",
+  "slams": {
+   "ao": 4,
+   "rg": 3,
+   "w": 0,
+   "uso": 2
+  },
+  "olympics": "Bronze 2000 singles",
+  "weeksNo1": 178,
+  "era": "classic",
+  "style": "Two-handed power baseliner",
+  "bio": "Eight majors before her 20th birthday with two hands on both sides and a grunt that announced a new era of power. The 1993 stabbing cut short what might have been the greatest career ever.",
+  "grip": {
+   "fh": "Two-handed (Semi-Western dominant)",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Yonex RD-7 / Yonex SRQ",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The two-handed backhand",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Early, flat and angled.",
+    "cues": [
+     "Prepare early",
+     "Open stance",
+     "Take the ball on the rise",
+     "Angle sharply crosscourt"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The attacking return",
+    "grip": "Two-handed both sides",
+    "stance": "Inside the baseline",
+    "replicable": 3,
+    "why": "Take the serve on the rise and hit through it.",
+    "cues": [
+     "Stand in",
+     "Short swing",
+     "Hit flat and deep",
+     "Dominate the next ball"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "andre-agassi",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Andre Agassi",
+  "country": "USA",
+  "tour": "ATP",
+  "born": 1970,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 4,
+   "rg": 1,
+   "w": 1,
+   "uso": 2
+  },
+  "olympics": "Gold 1996 singles",
+  "weeksNo1": 101,
+  "era": "classic",
+  "style": "Early-ball baseliner",
+  "bio": "The first man to win all four majors on three surfaces in the Open Era plus Olympic gold. Agassi stood on the baseline, took every ball on the rise and returned serve better than anyone before him.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed: Continental bottom, Eastern top",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Radical (Oversize, later Liquidmetal Radical MP)",
+  "strings": "Natural gut / Kevlar hybrid",
+  "shots": [
+   {
+    "type": "return",
+    "name": "The on-the-rise return",
+    "grip": "Semi-Western / Two-handed",
+    "stance": "Neutral",
+    "replicable": 4,
+    "why": "Short swing, early contact, aggressive intent: a mindset more than a technique.",
+    "cues": [
+     "Stand on or inside the baseline",
+     "Minimal backswing",
+     "Take the ball on the rise; use the server's pace",
+     "Hit through the middle to take time away"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The compact two-hander",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 5,
+    "why": "A perfect model: short, level, repeatable.",
+    "cues": [
+     "Early turn, hands at hip height",
+     "Step in; keep the swing level",
+     "Contact in front; extend through the target",
+     "Short finish, ready for the next ball"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ivan-lendl",
+  "flag": "🇨🇿",
+  "featured": true,
+  "name": "Ivan Lendl",
+  "country": "TCH",
+  "tour": "ATP",
+  "born": 1960,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 2,
+   "rg": 3,
+   "w": 0,
+   "uso": 3
+  },
+  "olympics": "—",
+  "weeksNo1": 270,
+  "era": "classic",
+  "style": "Power baseliner",
+  "bio": "Eight majors and a record eight straight US Open finals. Lendl professionalised fitness and built the inside-out forehand pattern that modern tennis still runs on.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Adidas GTX Pro-T",
+  "strings": "Natural gut / Kevlar",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The inside-out forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Run around the backhand and hit the forehand to the opponent's backhand: the pattern that wins club matches.",
+    "cues": [
+     "Move around the ball with small adjusting steps",
+     "Big shoulder turn, contact in front",
+     "Aim crosscourt to the opponent's weaker wing",
+     "Recover diagonally, not straight"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The heavy first serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "A simple, powerful platform serve.",
+    "cues": [
+     "Platform stance",
+     "Toss in front",
+     "Full extension",
+     "Land and recover to the baseline"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "jimmy-connors",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Jimmy Connors",
+  "country": "USA",
+  "tour": "ATP",
+  "born": 1952,
+  "hand": "L",
+  "backhand": "2",
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 2,
+   "uso": 5
+  },
+  "olympics": "—",
+  "weeksNo1": 268,
+  "era": "classic",
+  "style": "Flat, aggressive counter-puncher",
+  "bio": "109 titles, the most in ATP history, and five US Open crowns on three surfaces. Connors hit flat with a steel racket and took the ball earlier than anyone of his generation.",
+  "grip": {
+   "fh": "Continental / Eastern",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson T2000 (steel)",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The flat two-handed backhand",
+    "grip": "Two-handed",
+    "stance": "Closed",
+    "replicable": 4,
+    "why": "A flat, early-contact two-hander that redirects pace.",
+    "cues": [
+     "Compact preparation",
+     "Step across with the right foot",
+     "Flat swing, contact early",
+     "Drive through; finish toward the target"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The aggressive return",
+    "grip": "Continental / Two-handed",
+    "stance": "Inside the baseline",
+    "replicable": 4,
+    "why": "Attack second serves and take the net.",
+    "cues": [
+     "Move in on second serves",
+     "Short swing, flat contact",
+     "Follow the return forward",
+     "Finish with a volley"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "carlos-alcaraz",
+  "flag": "🇪🇸",
+  "featured": true,
+  "name": "Carlos Alcaraz",
+  "country": "ESP",
+  "tour": "ATP",
+  "born": 2003,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 1,
+   "rg": 2,
+   "w": 2,
+   "uso": 2
+  },
+  "olympics": "Silver 2024 singles",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Explosive all-court attacker",
+  "bio": "The youngest men's No. 1 in history and a seven-time major champion by 23, completing the career Grand Slam at the 2026 Australian Open. Alcaraz combines a 100 mph forehand with the best drop shot in the game and fearless net play.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Babolat Pure Aero 98",
+  "strings": "Babolat RPM Blast / natural gut hybrid",
+  "shots": [
+   {
+    "type": "dropshot",
+    "name": "The disguised drop shot",
+    "grip": "Continental",
+    "stance": "Neutral",
+    "replicable": 3,
+    "why": "The best drop shot since the 1980s. Study the identical preparation.",
+    "cues": [
+     "Prepare exactly as for a forehand drive",
+     "Change the grip and open the face at the last moment",
+     "Short cut under the ball with soft hands",
+     "Sprint forward to cover the reply"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The sprinting forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Enormous racket-head speed from a compact loop.",
+    "cues": [
+     "Early, compact loop",
+     "Load the outside leg",
+     "Explosive hip and shoulder rotation",
+     "Finish over the shoulder or lasso on high balls"
+    ]
+   },
+   {
+    "type": "volley",
+    "name": "The net attack",
+    "grip": "Continental",
+    "stance": "Step across",
+    "replicable": 4,
+    "why": "Alcaraz comes in behind heavy balls; learn when to approach.",
+    "cues": [
+     "Approach behind a deep ball to the weaker wing",
+     "Split step at the service line",
+     "Volley to the open court or angle it",
+     "Close the net for the second volley"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "evonne-goolagong-cawley",
+  "name": "Evonne Goolagong Cawley",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1951,
+  "slams": {
+   "ao": 4,
+   "rg": 1,
+   "w": 2,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "john-mcenroe",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "John McEnroe",
+  "country": "USA",
+  "tour": "ATP",
+  "born": 1959,
+  "hand": "L",
+  "backhand": "1",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 3,
+   "uso": 4
+  },
+  "olympics": "—",
+  "weeksNo1": 170,
+  "era": "classic",
+  "style": "Serve-and-volley touch artist",
+  "bio": "The most gifted touch player of his era. McEnroe's side-on left-handed serve, feathered volleys and 1984 season (82–3) are still reference points.",
+  "grip": {
+   "fh": "Continental",
+   "bh": "Continental (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Dunlop Max 200G",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "volley",
+    "name": "The touch volley",
+    "grip": "Continental",
+    "stance": "Split then step",
+    "replicable": 4,
+    "why": "Soft hands and a short punch: the best volley lesson you can watch.",
+    "cues": [
+     "Racket out in front, head above the wrist",
+     "Almost no backswing; meet the ball early",
+     "Absorb pace for drop volleys, punch for depth",
+     "Move through the volley toward the net"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The side-on lefty slice serve",
+    "grip": "Continental",
+    "stance": "Extreme sideways",
+    "replicable": 2,
+    "why": "Learn the slice serve concept; the extreme stance is unique to him.",
+    "cues": [
+     "Back faces the net at the start",
+     "Toss out to the left",
+     "Carve around the outside of the ball",
+     "Follow it to the net every time"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "justine-henin",
+  "flag": "🇧🇪",
+  "featured": true,
+  "name": "Justine Henin",
+  "country": "BEL",
+  "tour": "WTA",
+  "born": 1982,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 1,
+   "rg": 4,
+   "w": 0,
+   "uso": 2
+  },
+  "olympics": "Gold 2004 singles",
+  "weeksNo1": 117,
+  "era": "golden",
+  "style": "All-court shot-maker",
+  "bio": "Seven majors and Olympic gold at 1.67 m, with a one-handed backhand McEnroe called the most beautiful shot in tennis and an all-court game that beat the power players.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Wilson nCode nTour",
+  "strings": "Luxilon Big Banger",
+  "shots": [
+   {
+    "type": "backhand_1h",
+    "name": "The one-handed backhand",
+    "grip": "Eastern backhand",
+    "stance": "Closed",
+    "replicable": 3,
+    "why": "Proof that a one-hander works at any size: it is about timing, not strength.",
+    "cues": [
+     "Early, high preparation",
+     "Step across; stay sideways",
+     "Contact in front with a straight arm",
+     "Exaggerated high finish"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The whippy forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Heavy spin from a light frame: racket-head speed over muscle.",
+    "cues": [
+     "Loop takeback",
+     "Load the right leg",
+     "Brush up fast",
+     "Finish over the shoulder"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mats-wilander",
+  "flag": "🇸🇪",
+  "featured": true,
+  "name": "Mats Wilander",
+  "country": "SWE",
+  "tour": "ATP",
+  "born": 1964,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 3,
+   "rg": 3,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": 20,
+  "era": "classic",
+  "style": "Counter-puncher / all-court",
+  "bio": "Won Roland Garros at 17 and three majors in 1988. Wilander out-thought opponents with patience, court construction and a two-hander he could also slice with one hand.",
+  "grip": {
+   "fh": "Eastern / Semi-Western",
+   "bh": "Two-handed (one-handed slice)",
+   "serve": "Continental"
+  },
+  "racket": "Rossignol F200 Carbon",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The patient two-hander",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 5,
+    "why": "Consistency over power.",
+    "cues": [
+     "Early preparation",
+     "Step in",
+     "Contact in front; topspin for margin",
+     "Reset to the middle"
+    ]
+   },
+   {
+    "type": "slice",
+    "name": "The one-handed slice",
+    "grip": "Continental",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "A two-hander who slices with one hand: perfect for variety.",
+    "cues": [
+     "Let go with the top hand",
+     "High-to-low path",
+     "Drive through the ball",
+     "Follow to net when it skids short"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "venus-williams",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Venus Williams",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 1980,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 5,
+   "uso": 2
+  },
+  "olympics": "Gold 2000 singles · Gold 2000, 2008, 2012 doubles",
+  "weeksNo1": 11,
+  "era": "golden",
+  "style": "Athletic power baseliner",
+  "bio": "Five Wimbledon titles, Olympic singles gold and a 129 mph serve record. Venus's reach and flat power opened the door for her sister.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Blade 104",
+  "strings": "Wilson NXT",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The 129 mph serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Tall players: full extension and a high contact point.",
+    "cues": [
+     "High toss",
+     "Full reach",
+     "Explosive legs",
+     "Land inside"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The flat two-hander",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Flat and early.",
+    "cues": [
+     "Early turn",
+     "Open stance",
+     "Contact in front",
+     "Extend through"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "boris-becker",
+  "flag": "🇩🇪",
+  "featured": true,
+  "name": "Boris Becker",
+  "country": "GER",
+  "tour": "ATP",
+  "born": 1967,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 3,
+   "uso": 1
+  },
+  "olympics": "Gold 1992 doubles",
+  "weeksNo1": 12,
+  "era": "classic",
+  "style": "Power serve-and-volley",
+  "bio": "Wimbledon champion at 17 with the \"Boom Boom\" serve and diving volleys. Becker's serve-plus-one aggression defined power tennis in the late 1980s.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Puma Boris Becker Super / Estusa",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The Boom Boom serve",
+    "grip": "Continental",
+    "stance": "Platform, rocking",
+    "replicable": 3,
+    "why": "Study the deep knee bend and explosive leg drive.",
+    "cues": [
+     "Rocking weight transfer back then forward",
+     "Deep knee bend",
+     "Toss slightly in front; full extension",
+     "Explode forward and follow to net"
+    ]
+   },
+   {
+    "type": "volley",
+    "name": "The diving volley",
+    "grip": "Continental",
+    "stance": "Full stretch",
+    "replicable": 1,
+    "why": "Do not dive. But do learn to commit fully to the first volley.",
+    "cues": [
+     "Close the net quickly after the serve",
+     "Split step as the return is struck",
+     "Read the pass early",
+     "Punch the volley short and angled"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "iga-swiatek",
+  "flag": "🇵🇱",
+  "featured": true,
+  "name": "Iga Świątek",
+  "country": "POL",
+  "tour": "WTA",
+  "born": 2001,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 4,
+   "w": 1,
+   "uso": 1
+  },
+  "olympics": "Bronze 2024 singles",
+  "weeksNo1": 125,
+  "era": "modern",
+  "style": "Heavy-topspin aggressive baseliner",
+  "bio": "Four Roland Garros titles and the 2025 Wimbledon crown, won 6–0 6–0. Świątek's forehand carries more topspin than almost any woman in history, and her movement on clay is Nadal-like.",
+  "grip": {
+   "fh": "Semi-Western / Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Tecnifibre Tempo 298",
+  "strings": "Tecnifibre Razor Soft",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The heavy topspin forehand",
+    "grip": "Semi-Western / Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "The closest thing to Nadal's forehand in the women's game.",
+    "cues": [
+     "Big unit turn",
+     "Racket drops below the ball",
+     "Explosive low-to-high brush",
+     "High finish, sometimes lasso"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The early return",
+    "grip": "Semi-Western",
+    "stance": "Neutral",
+    "replicable": 4,
+    "why": "Aggressive but with spin for margin.",
+    "cues": [
+     "Split step on the toss",
+     "Short backswing",
+     "Heavy topspin deep",
+     "Recover and attack"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "stefan-edberg",
+  "flag": "🇸🇪",
+  "featured": true,
+  "name": "Stefan Edberg",
+  "country": "SWE",
+  "tour": "ATP",
+  "born": 1966,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 2,
+   "uso": 2
+  },
+  "olympics": "Bronze 1988 singles & doubles",
+  "weeksNo1": 72,
+  "era": "classic",
+  "style": "Classic serve-and-volley",
+  "bio": "The most elegant serve-volleyer ever, with a kick serve that kicked above the shoulder and the best volleys of his generation. Six majors, including the 1992 US Open run of marathon five-setters.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Pro Staff 6.0 85",
+  "strings": "Natural gut",
+  "shots": [
+   {
+    "type": "volley",
+    "name": "The textbook volley",
+    "grip": "Continental",
+    "stance": "Step across",
+    "replicable": 5,
+    "why": "If you learn one volley from video, learn this one.",
+    "cues": [
+     "Split step at the service line",
+     "Turn the shoulders, not the arm",
+     "Step across with the opposite foot",
+     "Short punch with a firm wrist; racket head up"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The kick serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "The kick serve is the foundation of a serve-volley game and a safe second serve.",
+    "cues": [
+     "Toss slightly behind the head",
+     "Arch the back; knees bent",
+     "Brush up the back of the ball from 7 to 1 o'clock",
+     "Land inside the court already moving to the net"
+    ]
+   },
+   {
+    "type": "backhand_1h",
+    "name": "The topspin one-hander",
+    "grip": "Eastern backhand",
+    "stance": "Closed",
+    "replicable": 3,
+    "why": "Smooth and classical.",
+    "cues": [
+     "Early turn",
+     "Step across",
+     "Contact in front with a straight arm",
+     "High finish"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "jannik-sinner",
+  "flag": "🇮🇹",
+  "featured": true,
+  "name": "Jannik Sinner",
+  "country": "ITA",
+  "tour": "ATP",
+  "born": 2001,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 2,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Flat, penetrating aggressive baseliner",
+  "bio": "Italy's first men's major champion of the Open Era, with five majors including back-to-back Wimbledon titles in 2025 and 2026. Sinner strikes unusually early off both wings and redirects pace better than anyone on tour.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Speed Pro (pro stock)",
+  "strings": "HEAD Hawk Touch / Lynx hybrid",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The down-the-line backhand",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 4,
+    "why": "Compact, early and flat: the modern two-hander template.",
+    "cues": [
+     "Unit turn with the hands at chest height",
+     "Open stance; load the left leg",
+     "Strike early, in front; extend down the line",
+     "Finish forward then wrap"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The early-strike forehand",
+    "grip": "Semi-Western",
+    "stance": "Open / semi-open",
+    "replicable": 3,
+    "why": "Note the timing: contact as the ball rises.",
+    "cues": [
+     "Compact takeback",
+     "Weight into the court",
+     "Contact on the rise, flat and deep",
+     "Recover with a crossover step"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The attacking return",
+    "grip": "Semi-Western / Two-handed",
+    "stance": "Inside the baseline",
+    "replicable": 4,
+    "why": "Steps in on second serves and hits deep.",
+    "cues": [
+     "Move in on second serves",
+     "Short backswing",
+     "Drive deep through the middle",
+     "Take the next ball early"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "john-newcombe",
+  "name": "John Newcombe",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1944,
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 2,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "maria-sharapova",
+  "flag": "🏳️",
+  "featured": true,
+  "name": "Maria Sharapova",
+  "country": "RUS",
+  "tour": "WTA",
+  "born": 1987,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 1,
+   "rg": 2,
+   "w": 1,
+   "uso": 1
+  },
+  "olympics": "Silver 2012 singles",
+  "weeksNo1": 21,
+  "era": "golden",
+  "style": "Flat power baseliner",
+  "bio": "Wimbledon champion at 17 and a career Grand Slam by 25. Sharapova hit flat, deep and down the line off both wings and competed harder than anyone.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Graphene Instinct MP",
+  "strings": "Babolat RPM Blast / natural gut",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The down-the-line backhand",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 4,
+    "why": "Flat, early, aimed at the lines.",
+    "cues": [
+     "Early shoulder turn",
+     "Step in",
+     "Drive flat down the line",
+     "Finish long toward the target"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The aggressive return",
+    "grip": "Two-handed",
+    "stance": "Inside the baseline",
+    "replicable": 4,
+    "why": "Attack every second serve.",
+    "cues": [
+     "Step in",
+     "Short backswing",
+     "Hit flat and deep",
+     "Move forward"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "martina-hingis",
+  "name": "Martina Hingis",
+  "country": "SUI",
+  "flag": "🇨🇭",
+  "tour": "WTA",
+  "born": 1980,
+  "slams": {
+   "ao": 3,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "rod-laver",
+  "name": "Rod Laver",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1938,
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 2,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "arantxa-sanchez-vicario",
+  "name": "Arantxa Sánchez Vicario",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "WTA",
+  "born": 1971,
+  "slams": {
+   "ao": 0,
+   "rg": 3,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "aryna-sabalenka",
+  "flag": "🏳️",
+  "featured": true,
+  "name": "Aryna Sabalenka",
+  "country": "BLR",
+  "tour": "WTA",
+  "born": 1998,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 0,
+   "uso": 2
+  },
+  "olympics": "—",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Power baseliner",
+  "bio": "Four majors and the heaviest ball on the WTA. Sabalenka rebuilt her serve in 2022 and became the most consistent force on hard courts, reaching two more Slam finals in 2026.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Blade 98 16x19",
+  "strings": "Luxilon Element / natural gut",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The power forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Big loop, big legs, big finish.",
+    "cues": [
+     "Large loop takeback",
+     "Deep knee bend",
+     "Explosive rotation",
+     "High finish"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The rebuilt serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "An example of fixing a serve with a simpler, rhythmic motion.",
+    "cues": [
+     "Smooth, continuous rhythm",
+     "Toss in front",
+     "Full extension",
+     "Land balanced"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "guillermo-vilas",
+  "name": "Guillermo Vilas",
+  "country": "ARG",
+  "flag": "🇦🇷",
+  "tour": "ATP",
+  "born": 1952,
+  "slams": {
+   "ao": 2,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "hana-mandlikova",
+  "name": "Hana Mandlíková",
+  "country": "TCH",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1962,
+  "slams": {
+   "ao": 2,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "jim-courier",
+  "name": "Jim Courier",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1970,
+  "slams": {
+   "ao": 2,
+   "rg": 2,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "ken-rosewall",
+  "name": "Ken Rosewall",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1934,
+  "slams": {
+   "ao": 2,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "kim-clijsters",
+  "name": "Kim Clijsters",
+  "country": "BEL",
+  "flag": "🇧🇪",
+  "tour": "WTA",
+  "born": 1983,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 3
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "naomi-osaka",
+  "flag": "🇯🇵",
+  "featured": true,
+  "name": "Naomi Osaka",
+  "country": "JPN",
+  "tour": "WTA",
+  "born": 1997,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 0,
+   "uso": 2
+  },
+  "olympics": "—",
+  "weeksNo1": 25,
+  "era": "modern",
+  "style": "First-strike power baseliner",
+  "bio": "Four hard-court majors by 23 and the first Asian player to reach No. 1. Osaka's serve and flat forehand end points in three shots.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Yonex EZONE 98",
+  "strings": "Yonex Poly Tour Pro / Rexis hybrid",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The first-strike serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 4,
+    "why": "Simple motion, big result.",
+    "cues": [
+     "Compact takeback",
+     "Toss in front",
+     "Full extension",
+     "Attack the next ball"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The flat forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Hits through the court with little margin; add net clearance when you copy it.",
+    "cues": [
+     "Compact loop",
+     "Load and rotate",
+     "Contact in front, flat path",
+     "Finish across the body"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "andy-murray",
+  "flag": "🇬🇧",
+  "featured": true,
+  "name": "Andy Murray",
+  "country": "GBR",
+  "tour": "ATP",
+  "born": 1987,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 2,
+   "uso": 1
+  },
+  "olympics": "Gold 2012 & 2016 singles · Silver 2012 mixed",
+  "weeksNo1": 41,
+  "era": "golden",
+  "style": "Counter-puncher / tactical all-court",
+  "bio": "Britain's first Wimbledon champion in 77 years, twice Olympic singles champion and the fourth member of the Big Four. Murray's game was built on reading opponents, a world-class return and an unbreakable lob and passing shot.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed: Continental bottom, Eastern top",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Radical Pro (pro stock PT57A)",
+  "strings": "Luxilon ALU Power / natural gut hybrid · ~58/55 lb",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The flat two-handed backhand",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 5,
+    "why": "Short, flat and controlled. Pure fundamentals.",
+    "cues": [
+     "Compact takeback at hip height",
+     "Step in with the right foot",
+     "Drive through the ball with little topspin; redirect pace",
+     "Finish long toward the target before wrapping"
+    ]
+   },
+   {
+    "type": "return",
+    "name": "The chip-and-block return",
+    "grip": "Continental / Two-handed",
+    "stance": "Split",
+    "replicable": 5,
+    "why": "The most practical return for club tennis: get it deep and start the point.",
+    "cues": [
+     "Compact ready position inside the baseline on second serves",
+     "Block with a firm wrist; little swing",
+     "Chip low with slice against big servers",
+     "Immediately reset to the middle"
+    ]
+   },
+   {
+    "type": "dropshot",
+    "name": "The feathered drop shot",
+    "grip": "Continental",
+    "stance": "Neutral",
+    "replicable": 3,
+    "why": "Murray used it off both wings; learn it off the backhand first.",
+    "cues": [
+     "Same preparation as the drive",
+     "Open the face late; soft hands",
+     "Cut down and under so it lands short with backspin",
+     "Follow it in a step or two"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "angelique-kerber",
+  "name": "Angelique Kerber",
+  "country": "GER",
+  "flag": "🇩🇪",
+  "tour": "WTA",
+  "born": 1988,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "arthur-ashe",
+  "name": "Arthur Ashe",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1943,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "ashleigh-barty",
+  "flag": "🇦🇺",
+  "featured": true,
+  "name": "Ashleigh Barty",
+  "country": "AUS",
+  "tour": "WTA",
+  "born": 1996,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 1,
+   "uso": 0
+  },
+  "olympics": "Bronze 2020 mixed",
+  "weeksNo1": 121,
+  "era": "modern",
+  "style": "All-court with slice and kick serve",
+  "bio": "Retired as world No. 1 at 25 after winning the 2022 Australian Open. Barty's kick serve and backhand slice were the most effective variety weapons of the modern era.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed (one-handed slice)",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Gravity Pro",
+  "strings": "HEAD Lynx Tour",
+  "shots": [
+   {
+    "type": "slice",
+    "name": "The backhand slice",
+    "grip": "Continental",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "The best modern slice. Learn it to change rhythm.",
+    "cues": [
+     "Early turn, high set",
+     "Step across",
+     "Knife through with a slightly open face",
+     "Follow it forward when it skids"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The kick serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Kick serve from a 1.66 m player: technique beats height.",
+    "cues": [
+     "Toss behind the head",
+     "Arch and bend",
+     "Brush up and over",
+     "Land inside"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "elena-rybakina",
+  "flag": "🇰🇿",
+  "featured": true,
+  "name": "Elena Rybakina",
+  "country": "KAZ",
+  "tour": "WTA",
+  "born": 1999,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Flat first-strike baseliner",
+  "bio": "Wimbledon 2022 champion who became world No. 1 in 2026 after winning both the Australian Open and US Open. Rybakina's serve and flat groundstrokes are the most efficient in the game.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Yonex VCORE 100",
+  "strings": "Yonex Poly Tour Pro",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The effortless serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 4,
+    "why": "Looks slow, measures fast: pure technique and timing.",
+    "cues": [
+     "Relaxed, continuous motion",
+     "Toss in front",
+     "Full extension with a loose arm",
+     "Land balanced"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The flat forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Flat and deep with minimal effort.",
+    "cues": [
+     "Compact takeback",
+     "Weight forward",
+     "Contact in front",
+     "Finish across"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gustavo-kuerten",
+  "name": "Gustavo Kuerten",
+  "country": "BRA",
+  "flag": "🇧🇷",
+  "tour": "ATP",
+  "born": 1976,
+  "slams": {
+   "ao": 0,
+   "rg": 3,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "jan-kodes",
+  "name": "Jan Kodeš",
+  "country": "TCH",
+  "flag": "🇨🇿",
+  "tour": "ATP",
+  "born": 1946,
+  "slams": {
+   "ao": 0,
+   "rg": 2,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "jennifer-capriati",
+  "name": "Jennifer Capriati",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1976,
+  "slams": {
+   "ao": 2,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "lindsay-davenport",
+  "name": "Lindsay Davenport",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1976,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "stan-wawrinka",
+  "flag": "🇨🇭",
+  "featured": true,
+  "name": "Stan Wawrinka",
+  "country": "SUI",
+  "tour": "ATP",
+  "born": 1985,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "Gold 2008 doubles",
+  "weeksNo1": 0,
+  "era": "golden",
+  "style": "Power baseliner",
+  "bio": "\"Stanimal\" won three majors, beating the world No. 1 in each final, with the most powerful one-handed backhand in history and a flat, heavy forehand.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Yonex VCORE Pro 97 (330 g)",
+  "strings": "Babolat VS gut / Luxilon ALU Power · ~30 kg",
+  "shots": [
+   {
+    "type": "backhand_1h",
+    "name": "The down-the-line hammer",
+    "grip": "Strong Eastern backhand",
+    "stance": "Closed",
+    "replicable": 2,
+    "why": "Watch for the full shoulder coil; copy the preparation, not the power.",
+    "cues": [
+     "Massive shoulder turn; the back faces the net at the top of the takeback",
+     "Weight sits deep on the back leg",
+     "Explosive uncoiling; racket accelerates from below the ball",
+     "Contact far in front; left arm flies back; finish very high"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The flat, heavy forehand",
+    "grip": "Semi-Western",
+    "stance": "Open / semi-open",
+    "replicable": 3,
+    "why": "Penetrating rather than loopy. Good model for players who want to hit through the court.",
+    "cues": [
+     "Compact takeback, racket face slightly closed",
+     "Strong leg drive",
+     "Contact in front with a flatter swing path",
+     "Finish over the shoulder or around the hip"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "virginia-wade",
+  "name": "Virginia Wade",
+  "country": "GBR",
+  "flag": "🇬🇧",
+  "tour": "WTA",
+  "born": 1945,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "alexander-zverev",
+  "flag": "🇩🇪",
+  "featured": true,
+  "name": "Alexander Zverev",
+  "country": "GER",
+  "tour": "ATP",
+  "born": 1997,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "Gold 2020 (Tokyo) singles",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Tall, serve-and-backhand baseliner",
+  "bio": "Olympic champion in Tokyo and, after three lost finals, a two-time major champion in 2026 (Roland Garros and US Open). Zverev's 2.0 m frame produces a huge first serve and one of the purest two-handed backhands on tour.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Gravity Pro",
+  "strings": "Natural gut / Luxilon hybrid",
+  "shots": [
+   {
+    "type": "serve",
+    "name": "The 2.0 m first serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Tall players: copy the high toss and full reach.",
+    "cues": [
+     "Platform stance",
+     "High toss in front",
+     "Full reach at contact",
+     "Land inside the baseline"
+    ]
+   },
+   {
+    "type": "backhand_2h",
+    "name": "The pure two-hander",
+    "grip": "Two-handed",
+    "stance": "Neutral",
+    "replicable": 5,
+    "why": "As clean as Djokovic's, and easier to see because of the long levers.",
+    "cues": [
+     "Early shoulder turn",
+     "Step in",
+     "Contact in front, chest height",
+     "High finish over the right shoulder"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "amelie-mauresmo",
+  "name": "Amélie Mauresmo",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "WTA",
+  "born": 1979,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "barbora-krejcikova",
+  "name": "Barbora Krejčíková",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1995,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "coco-gauff",
+  "flag": "🇺🇸",
+  "featured": true,
+  "name": "Coco Gauff",
+  "country": "USA",
+  "tour": "WTA",
+  "born": 2004,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": 0,
+  "era": "modern",
+  "style": "Athletic counter-puncher with a weapon backhand",
+  "bio": "US Open champion at 19 and Roland Garros champion in 2025. Gauff is the best mover on tour and owns the most reliable two-handed backhand in the women's game.",
+  "grip": {
+   "fh": "Semi-Western / Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "HEAD Boom Pro",
+  "strings": "HEAD Lynx Tour",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The two-handed backhand",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 5,
+    "why": "Compact, balanced, repeatable.",
+    "cues": [
+     "Early turn",
+     "Open stance load",
+     "Contact in front",
+     "Finish high"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The first serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Big first serve; a work-in-progress second serve is a useful lesson in itself.",
+    "cues": [
+     "Platform",
+     "Toss in front",
+     "Leg drive",
+     "Land inside"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "garbine-muguruza",
+  "name": "Garbiñe Muguruza",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "WTA",
+  "born": 1993,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "ilie-nastase",
+  "name": "Ilie Năstase",
+  "country": "ROU",
+  "flag": "🇷🇴",
+  "tour": "ATP",
+  "born": 1946,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "johan-kriek",
+  "name": "Johan Kriek",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1958,
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "li-na",
+  "name": "Li Na",
+  "country": "CHN",
+  "flag": "🇨🇳",
+  "tour": "WTA",
+  "born": 1982,
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "lleyton-hewitt",
+  "name": "Lleyton Hewitt",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1981,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "marat-safin",
+  "name": "Marat Safin",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "ATP",
+  "born": 1980,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "mary-pierce",
+  "name": "Mary Pierce",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "WTA",
+  "born": 1975,
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "patrick-rafter",
+  "name": "Patrick Rafter",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1972,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 2
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "petra-kvitova",
+  "name": "Petra Kvitová",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1990,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 2,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "sergi-bruguera",
+  "name": "Sergi Bruguera",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1971,
+  "slams": {
+   "ao": 0,
+   "rg": 2,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "simona-halep",
+  "name": "Simona Halep",
+  "country": "ROU",
+  "flag": "🇷🇴",
+  "tour": "WTA",
+  "born": 1991,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "stan-smith",
+  "name": "Stan Smith",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1946,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "svetlana-kuznetsova",
+  "name": "Svetlana Kuznetsova",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1985,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "tracy-austin",
+  "name": "Tracy Austin",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1962,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 2
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "victoria-azarenka",
+  "name": "Victoria Azarenka",
+  "country": "BLR",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1989,
+  "slams": {
+   "ao": 2,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "yevgeny-kafelnikov",
+  "name": "Yevgeny Kafelnikov",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "ATP",
+  "born": 1974,
+  "slams": {
+   "ao": 1,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "adriano-panatta",
+  "name": "Adriano Panatta",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "ATP",
+  "born": 1950,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "albert-costa",
+  "name": "Albert Costa",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1975,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "ana-ivanovic",
+  "name": "Ana Ivanovic",
+  "country": "SRB",
+  "flag": "🇷🇸",
+  "tour": "WTA",
+  "born": 1987,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "anastasia-myskina",
+  "name": "Anastasia Myskina",
+  "country": "RUS",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1981,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "andres-gimeno",
+  "name": "Andrés Gimeno",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1937,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "andres-gomez",
+  "name": "Andrés Gómez",
+  "country": "ECU",
+  "flag": "🇪🇨",
+  "tour": "ATP",
+  "born": 1960,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "andy-roddick",
+  "name": "Andy Roddick",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1982,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "ann-haydon-jones",
+  "name": "Ann Haydon-Jones",
+  "country": "GBR",
+  "flag": "🇬🇧",
+  "tour": "WTA",
+  "born": 1938,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "barbara-jordan",
+  "name": "Barbara Jordan",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1957,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "bianca-andreescu",
+  "name": "Bianca Andreescu",
+  "country": "CAN",
+  "flag": "🇨🇦",
+  "tour": "WTA",
+  "born": 2000,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "brian-teacher",
+  "name": "Brian Teacher",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1954,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "carlos-moya",
+  "name": "Carlos Moyá",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1976,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "caroline-wozniacki",
+  "name": "Caroline Wozniacki",
+  "country": "DEN",
+  "flag": "🇩🇰",
+  "tour": "WTA",
+  "born": 1990,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "chris-o-neil",
+  "name": "Chris O'Neil",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1956,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "conchita-martinez",
+  "name": "Conchita Martínez",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "WTA",
+  "born": 1972,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "daniil-medvedev",
+  "flag": "🏳️",
+  "featured": true,
+  "name": "Daniil Medvedev",
+  "country": "RUS",
+  "tour": "ATP",
+  "born": 1996,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": 16,
+  "era": "modern",
+  "style": "Flat, deep-positioned counter-puncher",
+  "bio": "Denied Djokovic the calendar Slam in the 2021 US Open final. Medvedev plays from the back fence, hits unusually flat and serves with a big, disguised action.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Tecnifibre TF40 305",
+  "strings": "Tecnifibre Razor Code",
+  "shots": [
+   {
+    "type": "backhand_2h",
+    "name": "The flat, laser backhand",
+    "grip": "Two-handed",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Ultra flat; learn the compact, level swing but add more margin.",
+    "cues": [
+     "Very short takeback",
+     "Level swing path",
+     "Contact in front, almost no spin",
+     "Short finish, immediate recovery"
+    ]
+   },
+   {
+    "type": "serve",
+    "name": "The big flat serve",
+    "grip": "Continental",
+    "stance": "Platform",
+    "replicable": 3,
+    "why": "Simple, tall, effective.",
+    "cues": [
+     "Abbreviated takeback",
+     "Toss in front",
+     "Full extension",
+     "Land and reset deep"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dominic-thiem",
+  "flag": "🇦🇹",
+  "featured": true,
+  "name": "Dominic Thiem",
+  "country": "AUT",
+  "tour": "ATP",
+  "born": 1993,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "—",
+  "weeksNo1": 0,
+  "era": "modern",
+  "style": "Heavy-hitting baseliner",
+  "bio": "The first man born in the 1990s to win a major (US Open 2020) after two Roland Garros finals. Thiem's one-handed backhand and huge forehand generated extreme racket-head speed.",
+  "grip": {
+   "fh": "Semi-Western / Western",
+   "bh": "Eastern backhand (one-handed)",
+   "serve": "Continental"
+  },
+  "racket": "Babolat Pure Strike 18x20",
+  "strings": "Babolat RPM Blast / natural gut",
+  "shots": [
+   {
+    "type": "backhand_1h",
+    "name": "The whipping one-hander",
+    "grip": "Eastern backhand",
+    "stance": "Closed",
+    "replicable": 2,
+    "why": "Copy the full coil and the explosive hip drive.",
+    "cues": [
+     "Full shoulder turn with a very high takeback",
+     "Deep knee bend",
+     "Violent uncoil; contact far in front",
+     "Finish above the head"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The heavy forehand",
+    "grip": "Semi-Western / Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Big loop, big spin.",
+    "cues": [
+     "Large circular takeback",
+     "Load the right leg",
+     "Brush up aggressively",
+     "High finish"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "emma-raducanu",
+  "name": "Emma Raducanu",
+  "country": "GBR",
+  "flag": "🇬🇧",
+  "tour": "WTA",
+  "born": 2002,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "flavia-pennetta",
+  "name": "Flavia Pennetta",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "WTA",
+  "born": 1982,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "francesca-schiavone",
+  "name": "Francesca Schiavone",
+  "country": "ITA",
+  "flag": "🇮🇹",
+  "tour": "WTA",
+  "born": 1980,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "gabriela-sabatini",
+  "name": "Gabriela Sabatini",
+  "country": "ARG",
+  "flag": "🇦🇷",
+  "tour": "WTA",
+  "born": 1970,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "gaston-gaudio",
+  "name": "Gastón Gaudio",
+  "country": "ARG",
+  "flag": "🇦🇷",
+  "tour": "ATP",
+  "born": 1978,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "goran-ivanisevic",
+  "name": "Goran Ivanišević",
+  "country": "CRO",
+  "flag": "🇭🇷",
+  "tour": "ATP",
+  "born": 1971,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "iva-majoli",
+  "name": "Iva Majoli",
+  "country": "CRO",
+  "flag": "🇭🇷",
+  "tour": "WTA",
+  "born": 1977,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "jana-novotna",
+  "name": "Jana Novotná",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1968,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "jelena-ostapenko",
+  "name": "Jeļena Ostapenko",
+  "country": "LAT",
+  "flag": "🇱🇻",
+  "tour": "WTA",
+  "born": 1997,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "juan-carlos-ferrero",
+  "name": "Juan Carlos Ferrero",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1980,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "juan-martin-del-potro",
+  "flag": "🇦🇷",
+  "featured": true,
+  "name": "Juan Martín del Potro",
+  "country": "ARG",
+  "tour": "ATP",
+  "born": 1988,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "olympics": "Bronze 2012 · Silver 2016",
+  "weeksNo1": 0,
+  "era": "golden",
+  "style": "Power baseliner",
+  "bio": "Beat Nadal and Federer back-to-back to win the 2009 US Open at 20, with the hardest forehand of his era. Wrist surgeries limited him but never his forehand.",
+  "grip": {
+   "fh": "Eastern",
+   "bh": "Two-handed (later heavily sliced)",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Pro Staff 97 / Burn",
+  "strings": "Luxilon ALU Power",
+  "shots": [
+   {
+    "type": "forehand",
+    "name": "The flat cannon forehand",
+    "grip": "Eastern",
+    "stance": "Neutral",
+    "replicable": 3,
+    "why": "Flat, early, through the court. Learn the extension through contact.",
+    "cues": [
+     "Straight takeback, face closed",
+     "Step in with the left foot",
+     "Contact in front, hit through the ball with a flat path",
+     "Long extension toward the target before the finish"
+    ]
+   },
+   {
+    "type": "slice",
+    "name": "The survival slice backhand",
+    "grip": "Continental",
+    "stance": "Closed",
+    "replicable": 5,
+    "why": "After wrist injuries Delpo rebuilt his backhand around slice. Proof that slice can carry you.",
+    "cues": [
+     "Early shoulder turn",
+     "High racket set",
+     "Knife through with an open face",
+     "Recover for the forehand"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kerry-melville-reid",
+  "name": "Kerry Melville Reid",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "WTA",
+  "born": 1947,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "linda-noskova",
+  "name": "Linda Nosková",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 2004,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "madison-keys",
+  "name": "Madison Keys",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1995,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "manuel-orantes",
+  "name": "Manuel Orantes",
+  "country": "ESP",
+  "flag": "🇪🇸",
+  "tour": "ATP",
+  "born": 1949,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "marin-cilic",
+  "name": "Marin Čilić",
+  "country": "CRO",
+  "flag": "🇭🇷",
+  "tour": "ATP",
+  "born": 1988,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "marion-bartoli",
+  "name": "Marion Bartoli",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "WTA",
+  "born": 1984,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "mark-edmondson",
+  "name": "Mark Edmondson",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1954,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "marketa-vondrousova",
+  "name": "Markéta Vondroušová",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "WTA",
+  "born": 1999,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "michael-chang",
+  "name": "Michael Chang",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1972,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "michael-stich",
+  "name": "Michael Stich",
+  "country": "GER",
+  "flag": "🇩🇪",
+  "tour": "ATP",
+  "born": 1968,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "mima-jausovec",
+  "name": "Mima Jaušovec",
+  "country": "YUG",
+  "flag": "🏳️",
+  "tour": "WTA",
+  "born": 1956,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "mirra-andreeva",
+  "flag": "🏳️",
+  "featured": true,
+  "name": "Mirra Andreeva",
+  "country": "RUS",
+  "tour": "WTA",
+  "born": 2007,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "olympics": "Silver 2024 doubles",
+  "weeksNo1": null,
+  "era": "modern",
+  "style": "Crafty all-court baseliner",
+  "bio": "Roland Garros champion in 2026 at 19 and already a top-three player. Andreeva mixes heavy forehands with drop shots and lobs in a way that recalls Hingis.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Wilson Blade 98",
+  "strings": "Luxilon ALU Power",
+  "shots": [
+   {
+    "type": "dropshot",
+    "name": "The drop shot",
+    "grip": "Continental",
+    "stance": "Neutral",
+    "replicable": 3,
+    "why": "Uses it early in rallies to drag opponents forward.",
+    "cues": [
+     "Disguise the preparation",
+     "Soft hands",
+     "Cut under",
+     "Follow it in"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The heavy forehand",
+    "grip": "Semi-Western",
+    "stance": "Open",
+    "replicable": 3,
+    "why": "Loopy and heavy with good margin.",
+    "cues": [
+     "Loop takeback",
+     "Load",
+     "Brush up",
+     "High finish"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nancy-richey",
+  "name": "Nancy Richey",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1942,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "pat-cash",
+  "name": "Pat Cash",
+  "country": "AUS",
+  "flag": "🇦🇺",
+  "tour": "ATP",
+  "born": 1965,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "petr-korda",
+  "name": "Petr Korda",
+  "country": "CZE",
+  "flag": "🇨🇿",
+  "tour": "ATP",
+  "born": 1968,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "richard-krajicek",
+  "name": "Richard Krajicek",
+  "country": "NED",
+  "flag": "🇳🇱",
+  "tour": "ATP",
+  "born": 1971,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 1,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "roscoe-tanner",
+  "name": "Roscoe Tanner",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1951,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "sloane-stephens",
+  "name": "Sloane Stephens",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1993,
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 1
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "sofia-kenin",
+  "name": "Sofia Kenin",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "WTA",
+  "born": 1998,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "modern",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "thomas-johansson",
+  "name": "Thomas Johansson",
+  "country": "SWE",
+  "flag": "🇸🇪",
+  "tour": "ATP",
+  "born": 1975,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "golden",
+  "hand": "R",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "thomas-muster",
+  "name": "Thomas Muster",
+  "country": "AUT",
+  "flag": "🇦🇹",
+  "tour": "ATP",
+  "born": 1967,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "L",
+  "backhand": "2",
+  "featured": false
+ },
+ {
+  "id": "virginia-ruzici",
+  "name": "Virginia Ruzici",
+  "country": "ROU",
+  "flag": "🇷🇴",
+  "tour": "WTA",
+  "born": 1955,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "vitas-gerulaitis",
+  "name": "Vitas Gerulaitis",
+  "country": "USA",
+  "flag": "🇺🇸",
+  "tour": "ATP",
+  "born": 1954,
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "yannick-noah",
+  "name": "Yannick Noah",
+  "country": "FRA",
+  "flag": "🇫🇷",
+  "tour": "ATP",
+  "born": 1960,
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "era": "classic",
+  "hand": "R",
+  "backhand": "1",
+  "featured": false
+ },
+ {
+  "id": "gael-monfils",
+  "flag": "🇫🇷",
+  "featured": true,
+  "name": "Gaël Monfils",
+  "country": "FRA",
+  "tour": "ATP",
+  "born": 1986,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "olympics": "—",
+  "weeksNo1": 0,
+  "era": "golden",
+  "style": "Athletic showman / counter-puncher",
+  "bio": "No major, but the most spectacular athlete of his era: two major semi-finals, the oldest ATP title winner of the 2020s and a highlight reel of dives, tweeners and 2-metre leaps. Included because fans asked.",
+  "grip": {
+   "fh": "Semi-Western",
+   "bh": "Two-handed",
+   "serve": "Continental"
+  },
+  "racket": "Artengo TR960 Control Tour",
+  "strings": "Artengo TA 990",
+  "shots": [
+   {
+    "type": "tweener",
+    "name": "The tweener",
+    "grip": "Continental",
+    "stance": "Running away from the net",
+    "replicable": 2,
+    "why": "Learn it for fun on a lob you cannot otherwise reach.",
+    "cues": [
+     "Sprint after the lob, racket low",
+     "Let the ball bounce and drop below knee height",
+     "Flick the wrist between the legs, racket pointing down",
+     "Turn immediately to see where it went"
+    ]
+   },
+   {
+    "type": "forehand",
+    "name": "The leaping forehand",
+    "grip": "Semi-Western",
+    "stance": "Airborne",
+    "replicable": 1,
+    "why": "Do not copy the jump. Copy the full shoulder turn.",
+    "cues": [
+     "Full unit turn",
+     "Explosive leg drive",
+     "Contact at the top of the jump",
+     "Land and recover"
+    ]
+   },
+   {
+    "type": "volley",
+    "name": "The diving volley",
+    "grip": "Continental",
+    "stance": "Full stretch",
+    "replicable": 1,
+    "why": "Pure entertainment.",
+    "cues": [
+     "Read the pass early",
+     "Commit fully",
+     "Punch the volley",
+     "Get up smiling"
+    ]
+   }
+  ]
+ }
+]

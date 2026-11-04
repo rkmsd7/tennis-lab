@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Tournaments — 2026 results and calendar — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Tournaments</div><h1>The 2026 season</h1><p class="lead">Grand Slam results, Masters and WTA 1000 winners, what is on now and what comes next.</p></section>
+<h2>Now and next</h2><div class="now" id="now"></div>
+<h2>2026 Grand Slams</h2><div class="table-wrap"><table><thead><tr><th>Major</th><th>Surface · dates</th><th>Men's final</th><th>Women's final</th></tr></thead><tbody id="slams"></tbody></table></div>
+<h2>Masters 1000 & WTA 1000 winners</h2><div class="table-wrap"><table><thead><tr><th>Event</th><th>Tour</th><th>Champion</th><th>Runner-up</th></tr></thead><tbody id="masters"></tbody></table></div>
+<h2>The four majors</h2><div class="grid" id="guide"></div>
+<h2>Tournament tiers</h2><div class="table-wrap"><table><thead><tr><th>Tier</th><th>Points to the winner</th><th>Events</th><th>Notes</th></tr></thead><tbody id="tiers"></tbody></table></div>
+</main><div id="site-footer"></div>
+<script>(async()=>{const [T,P]=await TL.load('tournaments','players');const byName=Object.fromEntries(P.map(p=>[p.name,p]));const link=n=>byName[n]?`<a href="/player?id=${byName[n].id}">${TL.esc(n)}</a>`:TL.esc(n);
+const today=new Date(),d=s=>new Date(s+'T00:00:00');const fmt=(a,b)=>{const o={day:'numeric',month:'short'};return d(a).toLocaleDateString('en-GB',o)+' – '+d(b).toLocaleDateString('en-GB',{...o,year:'numeric'})};
+const ev=[...T.slams.map(s=>({name:s.name,city:s.city,surface:s.surface,start:s.start,end:s.end,note:'Champions: '+s.men.champion+' · '+s.women.champion})),...T.upcoming];
+const live=ev.filter(e=>d(e.start)<=today&&today<=d(e.end)),next=ev.filter(e=>d(e.start)>today).sort((a,b)=>d(a.start)-d(b.start));
+document.getElementById('now').innerHTML=[...live.map(e=>({...e,k:'',tag:'Happening now'})),...next.map(e=>({...e,k:'next',tag:'Upcoming'}))].map(e=>`<div class="card ${e.k}"><div class="ribbon">${e.tag}</div><h3>${TL.esc(e.name)}</h3><p class="muted small">${TL.esc(e.city)} · ${TL.esc(e.surface)} · ${fmt(e.start,e.end)}</p><p class="small">${TL.esc(e.note||'')}</p></div>`).join('');
+document.getElementById('slams').innerHTML=T.slams.map(s=>`<tr><td><b>${s.name}</b></td><td>${s.surface}<br><span class="muted small">${s.dates}</span></td><td>${link(s.men.champion)} d. ${link(s.men.runnerUp)}<br><span class="muted small">${s.men.score}</span></td><td>${link(s.women.champion)} d. ${link(s.women.runnerUp)}<br><span class="muted small">${s.women.score}</span></td></tr>`).join('');
+document.getElementById('masters').innerHTML=T.masters.map(m=>`<tr><td>${m.event}</td><td><span class="pill">${m.tour}</span></td><td>${link(m.champion)}</td><td class="muted">${link(m.runnerUp)}</td></tr>`).join('');
+document.getElementById('guide').innerHTML=T.slamGuide.map(g=>`<div class="card"><div class="ribbon">${g.when} · since ${g.since}</div><h3>${g.name}</h3><p class="muted small">${g.surface}</p><p>${g.fact}</p></div>`).join('');
+document.getElementById('tiers').innerHTML=T.tiers.map(t=>`<tr><td><b>${t.tier}</b></td><td>${t.points}</td><td>${t.events}</td><td class="muted">${t.note}</td></tr>`).join('');})();</script></body></html>

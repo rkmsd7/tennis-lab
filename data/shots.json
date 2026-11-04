@@ -1,0 +1,2182 @@
+{
+ "forehand": {
+  "label": "Topspin forehand",
+  "summary": "The modern forehand: unit turn, load the outside leg, drop the racket below the ball and brush up through contact out in front.",
+  "defaultGrip": "Semi-Western",
+  "phases": [
+   {
+    "name": "Ready & split step",
+    "caption": "Knees bent, weight on the balls of the feet. Split step as the opponent strikes so you can push off in either direction.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 25,
+      "f": 75
+     },
+     "armL": {
+      "u": 25,
+      "f": 75
+     },
+     "rk": 100,
+     "front": {
+      "t": 12,
+      "s": -8
+     },
+     "back": {
+      "t": -12,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      0
+     ],
+     "r": [
+      60,
+      62,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     190,
+     118
+    ]
+   },
+   {
+    "name": "Unit turn",
+    "caption": "Hips and shoulders turn together as one unit. The left hand stays on the racket then points at the ball. Weight loads onto the right (back) leg.",
+    "pose": {
+     "torso": -8,
+     "armR": {
+      "u": -55,
+      "f": -20
+     },
+     "armL": {
+      "u": 55,
+      "f": 80
+     },
+     "rk": 200,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -28,
+      "s": 20
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      30
+     ],
+     "r": [
+      66,
+      66,
+      60
+     ],
+     "sh": 90
+    },
+    "ball": [
+     168,
+     112
+    ]
+   },
+   {
+    "name": "Load & racket drop",
+    "caption": "The racket head drops below the ball, butt cap pointing at it. The back leg is firm and bent: this is the spring. Hips begin to rotate before the arm moves.",
+    "pose": {
+     "torso": -4,
+     "armR": {
+      "u": -50,
+      "f": -75
+     },
+     "armL": {
+      "u": 35,
+      "f": 60
+     },
+     "rk": -40,
+     "front": {
+      "t": 20,
+      "s": -12
+     },
+     "back": {
+      "t": -30,
+      "s": 25
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      30
+     ],
+     "r": [
+      66,
+      66,
+      60
+     ],
+     "sh": 100
+    },
+    "ball": [
+     146,
+     118
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "Legs drive up, hips fire, the arm lags then whips through. Contact is in front of the body at hip-to-chest height with the racket brushing low-to-high.",
+    "pose": {
+     "torso": 10,
+     "armR": {
+      "u": 65,
+      "f": 85
+     },
+     "armL": {
+      "u": 5,
+      "f": -45
+     },
+     "rk": 115,
+     "front": {
+      "t": 14,
+      "s": -6
+     },
+     "back": {
+      "t": -8,
+      "s": 2
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      20
+     ],
+     "r": [
+      66,
+      60,
+      40
+     ],
+     "sh": 20
+    },
+    "ball": [
+     150,
+     116
+    ]
+   },
+   {
+    "name": "Finish & recover",
+    "caption": "Finish over the opposite shoulder (or windscreen-wiper across the body on high balls). Weight has moved onto the front foot; recover with a crossover step.",
+    "pose": {
+     "torso": 14,
+     "armR": {
+      "u": 80,
+      "f": 160
+     },
+     "armL": {
+      "u": -25,
+      "f": -70
+     },
+     "rk": 250,
+     "front": {
+      "t": 10,
+      "s": -4
+     },
+     "back": {
+      "t": 0,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      60,
+      10
+     ],
+     "r": [
+      64,
+      60,
+      20
+     ],
+     "sh": -10
+    },
+    "ball": [
+     195,
+     92
+    ]
+   }
+  ],
+  "mistakes": [
+   "Arm-only swing with no shoulder turn",
+   "Contact late (beside the body) instead of in front",
+   "Standing tall: no knee bend means no leg drive"
+  ]
+ },
+ "backhand_2h": {
+  "label": "Two-handed backhand",
+  "summary": "The most stable stroke in the game: both hands turn the racket back with the shoulders, the hips drive, and the top hand pushes through contact.",
+  "defaultGrip": "Continental (bottom) + Semi-Western or Eastern (top)",
+  "phases": [
+   {
+    "name": "Ready & split step",
+    "caption": "Same ready position as the forehand. Both hands on the grip, racket in front.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 25,
+      "f": 75
+     },
+     "armL": {
+      "u": 25,
+      "f": 75
+     },
+     "rk": 100,
+     "front": {
+      "t": 12,
+      "s": -8
+     },
+     "back": {
+      "t": -12,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      0
+     ],
+     "r": [
+      60,
+      62,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     190,
+     118
+    ]
+   },
+   {
+    "name": "Unit turn",
+    "caption": "Turn the shoulders fully; the racket goes back because the shoulders turn, not because the arms pull. The back (left) leg takes the weight.",
+    "pose": {
+     "torso": -6,
+     "armR": {
+      "u": -45,
+      "f": -15
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 205,
+     "front": {
+      "t": 16,
+      "s": -8
+     },
+     "back": {
+      "t": -26,
+      "s": 18
+     },
+     "hands": "two"
+    },
+    "fp": {
+     "l": [
+      40,
+      66,
+      60
+     ],
+     "r": [
+      62,
+      58,
+      40
+     ],
+     "sh": -95
+    },
+    "ball": [
+     170,
+     112
+    ]
+   },
+   {
+    "name": "Load & drop",
+    "caption": "Knees bend, racket head drops below the ball. Keep the hands away from the body so the swing has room.",
+    "pose": {
+     "torso": -2,
+     "armR": {
+      "u": -40,
+      "f": -60
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": -40,
+     "front": {
+      "t": 22,
+      "s": -14
+     },
+     "back": {
+      "t": -24,
+      "s": 20
+     },
+     "hands": "two"
+    },
+    "fp": {
+     "l": [
+      40,
+      66,
+      60
+     ],
+     "r": [
+      62,
+      58,
+      40
+     ],
+     "sh": -100
+    },
+    "ball": [
+     146,
+     118
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "Hips open first, then shoulders. Both arms extend through the ball in front of the body at waist-to-chest height. The top hand drives the racket.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 60,
+      "f": 80
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 110,
+     "front": {
+      "t": 14,
+      "s": -6
+     },
+     "back": {
+      "t": -6,
+      "s": 2
+     },
+     "hands": "two"
+    },
+    "fp": {
+     "l": [
+      42,
+      64,
+      30
+     ],
+     "r": [
+      62,
+      58,
+      20
+     ],
+     "sh": -15
+    },
+    "ball": [
+     148,
+     112
+    ]
+   },
+   {
+    "name": "Finish",
+    "caption": "Finish high over the right shoulder with the chest facing the net. Weight is on the front foot.",
+    "pose": {
+     "torso": 12,
+     "armR": {
+      "u": 70,
+      "f": 165
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 245,
+     "front": {
+      "t": 10,
+      "s": -4
+     },
+     "back": {
+      "t": 0,
+      "s": 0
+     },
+     "hands": "two"
+    },
+    "fp": {
+     "l": [
+      44,
+      62,
+      10
+     ],
+     "r": [
+      62,
+      58,
+      10
+     ],
+     "sh": 10
+    },
+    "ball": [
+     195,
+     95
+    ]
+   }
+  ],
+  "mistakes": [
+   "Bottom hand dominates (hits like a weak forehand)",
+   "Hands too close to the body",
+   "Opening the shoulders early"
+  ]
+ },
+ "backhand_1h": {
+  "label": "One-handed backhand",
+  "summary": "Elegant and demanding: a full shoulder coil, a step across, contact well in front with a straight arm, and the free arm thrown back for balance.",
+  "defaultGrip": "Eastern backhand",
+  "phases": [
+   {
+    "name": "Ready & split step",
+    "caption": "Ready position; the left hand cradles the throat so it can help take the racket back.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 25,
+      "f": 75
+     },
+     "armL": {
+      "u": 25,
+      "f": 75
+     },
+     "rk": 100,
+     "front": {
+      "t": 12,
+      "s": -8
+     },
+     "back": {
+      "t": -12,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      0
+     ],
+     "r": [
+      60,
+      62,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     190,
+     118
+    ]
+   },
+   {
+    "name": "Unit turn & high set",
+    "caption": "Shoulders turn until the back nearly faces the net. The left hand takes the racket back high. Weight on the back (left) leg.",
+    "pose": {
+     "torso": -8,
+     "armR": {
+      "u": -50,
+      "f": -10
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 210,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -28,
+      "s": 22
+     },
+     "hands": "throat"
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      70
+     ],
+     "r": [
+      60,
+      56,
+      45
+     ],
+     "sh": -100
+    },
+    "ball": [
+     172,
+     112
+    ]
+   },
+   {
+    "name": "Step across & drop",
+    "caption": "Step across with the right foot (closed stance), knees bent. The racket drops below the ball as the left hand lets go.",
+    "pose": {
+     "torso": 0,
+     "armR": {
+      "u": -45,
+      "f": -50
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": -45,
+     "front": {
+      "t": 24,
+      "s": -14
+     },
+     "back": {
+      "t": -20,
+      "s": 18
+     },
+     "hands": "throat"
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      70
+     ],
+     "r": [
+      64,
+      50,
+      50
+     ],
+     "sh": -100
+    },
+    "ball": [
+     148,
+     118
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "Contact far in front with a straight arm. The shoulders stay sideways; the left arm swings back to counter-balance.",
+    "pose": {
+     "torso": 4,
+     "armR": {
+      "u": 70,
+      "f": 85
+     },
+     "armL": {
+      "u": -40,
+      "f": -50
+     },
+     "rk": 120,
+     "front": {
+      "t": 16,
+      "s": -6
+     },
+     "back": {
+      "t": -4,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      60
+     ],
+     "r": [
+      64,
+      50,
+      45
+     ],
+     "sh": -70
+    },
+    "ball": [
+     152,
+     112
+    ]
+   },
+   {
+    "name": "Finish",
+    "caption": "A high finish with the arms spread. Hold the sideways position until the ball is gone, then recover.",
+    "pose": {
+     "torso": 2,
+     "armR": {
+      "u": 100,
+      "f": 150
+     },
+     "armL": {
+      "u": -60,
+      "f": -70
+     },
+     "rk": 190,
+     "front": {
+      "t": 12,
+      "s": -4
+     },
+     "back": {
+      "t": 0,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      50
+     ],
+     "r": [
+      64,
+      50,
+      40
+     ],
+     "sh": -60
+    },
+    "ball": [
+     195,
+     95
+    ]
+   }
+  ],
+  "mistakes": [
+   "Opening the shoulders before contact",
+   "Bent hitting arm (contact too close)",
+   "No step across: hitting off the back foot"
+  ]
+ },
+ "slice": {
+  "label": "Backhand slice",
+  "summary": "High-to-low with a slightly open face, driven THROUGH the ball so it skids low. Buys time, changes rhythm and sets up the forehand.",
+  "defaultGrip": "Continental",
+  "phases": [
+   {
+    "name": "Ready & split step",
+    "caption": "Ready position, Continental grip already in hand.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 25,
+      "f": 75
+     },
+     "armL": {
+      "u": 25,
+      "f": 75
+     },
+     "rk": 100,
+     "front": {
+      "t": 12,
+      "s": -8
+     },
+     "back": {
+      "t": -12,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      0
+     ],
+     "r": [
+      60,
+      62,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     190,
+     118
+    ]
+   },
+   {
+    "name": "Turn & set high",
+    "caption": "Full shoulder turn with the racket set up high, above the ball. The left hand holds the throat.",
+    "pose": {
+     "torso": -6,
+     "armR": {
+      "u": -40,
+      "f": 0
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 200,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -26,
+      "s": 20
+     },
+     "hands": "throat"
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      70
+     ],
+     "r": [
+      60,
+      56,
+      45
+     ],
+     "sh": -100
+    },
+    "ball": [
+     172,
+     112
+    ]
+   },
+   {
+    "name": "Step across",
+    "caption": "Step across with the right foot into a closed stance. The racket stays high; the face is slightly open.",
+    "pose": {
+     "torso": 0,
+     "armR": {
+      "u": -35,
+      "f": -20
+     },
+     "armL": {
+      "u": 0,
+      "f": 0
+     },
+     "rk": 215,
+     "front": {
+      "t": 26,
+      "s": -14
+     },
+     "back": {
+      "t": -24,
+      "s": 20
+     },
+     "hands": "throat"
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      70
+     ],
+     "r": [
+      66,
+      48,
+      50
+     ],
+     "sh": -100
+    },
+    "ball": [
+     150,
+     116
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "High-to-low but mostly forward: drive through the ball, do not chop under it. Contact slightly in front, left arm goes back.",
+    "pose": {
+     "torso": 6,
+     "armR": {
+      "u": 55,
+      "f": 75
+     },
+     "armL": {
+      "u": -35,
+      "f": -45
+     },
+     "rk": 95,
+     "front": {
+      "t": 16,
+      "s": -6
+     },
+     "back": {
+      "t": -4,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      60
+     ],
+     "r": [
+      66,
+      48,
+      45
+     ],
+     "sh": -70
+    },
+    "ball": [
+     150,
+     118
+    ]
+   },
+   {
+    "name": "Finish",
+    "caption": "Arms spread like wings; the racket finishes pointing at the target. The ball stays low and skids.",
+    "pose": {
+     "torso": 6,
+     "armR": {
+      "u": 75,
+      "f": 95
+     },
+     "armL": {
+      "u": -70,
+      "f": -80
+     },
+     "rk": 80,
+     "front": {
+      "t": 12,
+      "s": -4
+     },
+     "back": {
+      "t": 0,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      68,
+      50
+     ],
+     "r": [
+      66,
+      48,
+      40
+     ],
+     "sh": -60
+    },
+    "ball": [
+     195,
+     125
+    ]
+   }
+  ],
+  "mistakes": [
+   "Chopping down steeply (ball floats)",
+   "Face too open",
+   "Not turning the shoulders"
+  ]
+ },
+ "serve": {
+  "label": "Serve",
+  "summary": "Rhythm, toss, trophy, racket drop, explode up and pronate. The only shot you control completely.",
+  "defaultGrip": "Continental",
+  "phases": [
+   {
+    "name": "Stance & rhythm",
+    "caption": "Side-on to the baseline, front foot angled toward the net post. Ball in the left hand, racket relaxed. Rock gently to start the rhythm.",
+    "pose": {
+     "torso": 5,
+     "armR": {
+      "u": 20,
+      "f": 60
+     },
+     "armL": {
+      "u": 20,
+      "f": 60
+     },
+     "rk": 100,
+     "front": {
+      "t": 8,
+      "s": -4
+     },
+     "back": {
+      "t": -8,
+      "s": 4
+     }
+    },
+    "fp": {
+     "l": [
+      46,
+      72,
+      20
+     ],
+     "r": [
+      58,
+      80,
+      30
+     ],
+     "sh": 110
+    },
+    "ball": [
+     128,
+     118
+    ]
+   },
+   {
+    "name": "Toss & trophy",
+    "caption": "Toss with a straight arm to a spot just inside the court. Knees bend, hips push forward, the racket arm forms the trophy with the tip pointing up.",
+    "pose": {
+     "torso": -10,
+     "armR": {
+      "u": -100,
+      "f": -170
+     },
+     "armL": {
+      "u": 160,
+      "f": 175
+     },
+     "rk": 190,
+     "front": {
+      "t": 20,
+      "s": -22
+     },
+     "back": {
+      "t": -14,
+      "s": 20
+     }
+    },
+    "fp": {
+     "l": [
+      46,
+      72,
+      20
+     ],
+     "r": [
+      58,
+      80,
+      30
+     ],
+     "sh": 110
+    },
+    "ball": [
+     112,
+     36
+    ]
+   },
+   {
+    "name": "Racket drop",
+    "caption": "As the legs drive up, the racket drops deep behind the back. Elbow high, forearm loose. Deepest knee bend here.",
+    "pose": {
+     "torso": -14,
+     "armR": {
+      "u": -140,
+      "f": -20
+     },
+     "armL": {
+      "u": 160,
+      "f": 170
+     },
+     "rk": -10,
+     "front": {
+      "t": 26,
+      "s": -28
+     },
+     "back": {
+      "t": -18,
+      "s": 26
+     }
+    },
+    "fp": {
+     "l": [
+      46,
+      72,
+      20
+     ],
+     "r": [
+      54,
+      76,
+      30
+     ],
+     "sh": 110
+    },
+    "ball": [
+     112,
+     28
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "Full extension, body airborne, contact in front and above the head. Forearm pronates so the strings face the target. Left arm tucks into the body.",
+    "pose": {
+     "torso": 6,
+     "armR": {
+      "u": 175,
+      "f": 178
+     },
+     "armL": {
+      "u": -30,
+      "f": -40
+     },
+     "rk": 185,
+     "front": {
+      "t": 10,
+      "s": -2
+     },
+     "back": {
+      "t": -16,
+      "s": 6
+     }
+    },
+    "fp": {
+     "l": [
+      48,
+      68,
+      20
+     ],
+     "r": [
+      56,
+      70,
+      30
+     ],
+     "sh": 40
+    },
+    "ball": [
+     118,
+     8
+    ]
+   },
+   {
+    "name": "Landing",
+    "caption": "Land inside the baseline on the left foot, back leg kicks up for balance, racket finishes across the body. Immediately split step.",
+    "pose": {
+     "torso": 20,
+     "armR": {
+      "u": 40,
+      "f": 120
+     },
+     "armL": {
+      "u": -20,
+      "f": -50
+     },
+     "rk": 60,
+     "front": {
+      "t": 24,
+      "s": -8
+     },
+     "back": {
+      "t": -30,
+      "s": 30
+     }
+    },
+    "fp": {
+     "l": [
+      50,
+      44,
+      10
+     ],
+     "r": [
+      56,
+      62,
+      40
+     ],
+     "sh": 0
+    },
+    "ball": [
+     195,
+     60
+    ]
+   }
+  ],
+  "mistakes": [
+   "Toss too far behind or to the side",
+   "No leg drive (arm-only serve)",
+   "Hitting with a forehand grip (no pronation)"
+  ]
+ },
+ "return": {
+  "label": "Return of serve",
+  "summary": "Short backswing, early contact, use the server's pace. The goal is a deep, neutral ball and a reset to the middle.",
+  "defaultGrip": "Semi-Western (forehand) / two-handed",
+  "phases": [
+   {
+    "name": "Wide ready stance",
+    "caption": "Wider than a normal ready position, weight forward, eyes on the toss.",
+    "pose": {
+     "torso": 12,
+     "armR": {
+      "u": 30,
+      "f": 80
+     },
+     "armL": {
+      "u": 30,
+      "f": 80
+     },
+     "rk": 100,
+     "front": {
+      "t": 20,
+      "s": -14
+     },
+     "back": {
+      "t": -20,
+      "s": 14
+     }
+    },
+    "fp": {
+     "l": [
+      36,
+      64,
+      0
+     ],
+     "r": [
+      64,
+      64,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     195,
+     100
+    ]
+   },
+   {
+    "name": "Split step",
+    "caption": "Hop as the server hits so you land as the ball crosses the net, ready to push off.",
+    "pose": {
+     "torso": 10,
+     "armR": {
+      "u": 30,
+      "f": 80
+     },
+     "armL": {
+      "u": 30,
+      "f": 80
+     },
+     "rk": 100,
+     "front": {
+      "t": 16,
+      "s": -8
+     },
+     "back": {
+      "t": -16,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      36,
+      64,
+      0
+     ],
+     "r": [
+      64,
+      64,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     180,
+     105
+    ]
+   },
+   {
+    "name": "Compact turn",
+    "caption": "Shoulder turn only; the racket barely goes back. The left hand points at the ball.",
+    "pose": {
+     "torso": -2,
+     "armR": {
+      "u": -30,
+      "f": -10
+     },
+     "armL": {
+      "u": 45,
+      "f": 70
+     },
+     "rk": 200,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -26,
+      "s": 18
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      20
+     ],
+     "r": [
+      64,
+      66,
+      50
+     ],
+     "sh": 80
+    },
+    "ball": [
+     168,
+     112
+    ]
+   },
+   {
+    "name": "Block contact",
+    "caption": "Contact in front with a firm wrist. Let the serve supply the pace; aim deep to the middle.",
+    "pose": {
+     "torso": 6,
+     "armR": {
+      "u": 55,
+      "f": 80
+     },
+     "armL": {
+      "u": 0,
+      "f": -40
+     },
+     "rk": 110,
+     "front": {
+      "t": 14,
+      "s": -6
+     },
+     "back": {
+      "t": -6,
+      "s": 2
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      20
+     ],
+     "r": [
+      64,
+      62,
+      30
+     ],
+     "sh": 20
+    },
+    "ball": [
+     150,
+     114
+    ]
+   },
+   {
+    "name": "Short finish & recover",
+    "caption": "Abbreviated follow-through. Recover to the middle of the baseline before the next ball.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 65,
+      "f": 130
+     },
+     "armL": {
+      "u": -20,
+      "f": -60
+     },
+     "rk": 220,
+     "front": {
+      "t": 10,
+      "s": -4
+     },
+     "back": {
+      "t": 0,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      62,
+      10
+     ],
+     "r": [
+      62,
+      62,
+      10
+     ],
+     "sh": -5
+    },
+    "ball": [
+     195,
+     100
+    ]
+   }
+  ],
+  "mistakes": [
+   "Full backswing against a fast serve",
+   "Standing flat-footed (no split step)",
+   "Trying to win the point on the return"
+  ]
+ },
+ "volley": {
+  "label": "Volley",
+  "summary": "Short punch, racket head above the wrist, step across into the ball. The feet volley; the arm just presents the strings.",
+  "defaultGrip": "Continental",
+  "phases": [
+   {
+    "name": "Ready at the net",
+    "caption": "Racket out in front, head up, knees bent, weight forward.",
+    "pose": {
+     "torso": 10,
+     "armR": {
+      "u": 35,
+      "f": 85
+     },
+     "armL": {
+      "u": 35,
+      "f": 85
+     },
+     "rk": 150,
+     "front": {
+      "t": 14,
+      "s": -10
+     },
+     "back": {
+      "t": -14,
+      "s": 10
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      40,
+      0
+     ],
+     "r": [
+      60,
+      40,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     195,
+     110
+    ]
+   },
+   {
+    "name": "Split step",
+    "caption": "Hop as the opponent strikes. Land light and balanced.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 35,
+      "f": 85
+     },
+     "armL": {
+      "u": 35,
+      "f": 85
+     },
+     "rk": 150,
+     "front": {
+      "t": 10,
+      "s": -4
+     },
+     "back": {
+      "t": -10,
+      "s": 4
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      40,
+      0
+     ],
+     "r": [
+      60,
+      40,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     185,
+     105
+    ]
+   },
+   {
+    "name": "Turn & set",
+    "caption": "Turn the shoulders, not the arm; the racket moves a few inches, no more. Racket head stays above the wrist.",
+    "pose": {
+     "torso": 2,
+     "armR": {
+      "u": 0,
+      "f": 60
+     },
+     "armL": {
+      "u": 20,
+      "f": 50
+     },
+     "rk": 170,
+     "front": {
+      "t": 6,
+      "s": -2
+     },
+     "back": {
+      "t": -20,
+      "s": 10
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      42,
+      30
+     ],
+     "r": [
+      60,
+      46,
+      45
+     ],
+     "sh": 60
+    },
+    "ball": [
+     170,
+     100
+    ]
+   },
+   {
+    "name": "Step across & punch",
+    "caption": "Step across with the opposite foot into the ball and punch forward. Contact in front, firm wrist, face slightly open.",
+    "pose": {
+     "torso": 12,
+     "armR": {
+      "u": 50,
+      "f": 85
+     },
+     "armL": {
+      "u": -10,
+      "f": 0
+     },
+     "rk": 150,
+     "front": {
+      "t": 28,
+      "s": -12
+     },
+     "back": {
+      "t": -10,
+      "s": 6
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      30,
+      30
+     ],
+     "r": [
+      60,
+      46,
+      45
+     ],
+     "sh": 40
+    },
+    "ball": [
+     150,
+     96
+    ]
+   },
+   {
+    "name": "Short finish",
+    "caption": "The follow-through is short; move through the volley toward the net to cover the reply.",
+    "pose": {
+     "torso": 12,
+     "armR": {
+      "u": 60,
+      "f": 95
+     },
+     "armL": {
+      "u": -10,
+      "f": -10
+     },
+     "rk": 130,
+     "front": {
+      "t": 18,
+      "s": -8
+     },
+     "back": {
+      "t": -6,
+      "s": 4
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      28,
+      20
+     ],
+     "r": [
+      58,
+      40,
+      30
+     ],
+     "sh": 20
+    },
+    "ball": [
+     195,
+     112
+    ]
+   }
+  ],
+  "mistakes": [
+   "Swinging at the volley",
+   "Racket head drooping below the wrist",
+   "Standing still instead of stepping across"
+  ]
+ },
+ "dropshot": {
+  "label": "Drop shot",
+  "summary": "Disguise is everything: prepare like a drive, then soften the grip, open the face and cut under the ball at the last instant.",
+  "defaultGrip": "Continental (changed late)",
+  "phases": [
+   {
+    "name": "Ready & split step",
+    "caption": "Same as a groundstroke. The opponent should not know what is coming.",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 25,
+      "f": 75
+     },
+     "armL": {
+      "u": 25,
+      "f": 75
+     },
+     "rk": 100,
+     "front": {
+      "t": 12,
+      "s": -8
+     },
+     "back": {
+      "t": -12,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      62,
+      0
+     ],
+     "r": [
+      60,
+      62,
+      0
+     ],
+     "sh": 0
+    },
+    "ball": [
+     190,
+     118
+    ]
+   },
+   {
+    "name": "Disguised unit turn",
+    "caption": "Identical to the forehand drive: full shoulder turn, weight on the back leg.",
+    "pose": {
+     "torso": -8,
+     "armR": {
+      "u": -55,
+      "f": -20
+     },
+     "armL": {
+      "u": 55,
+      "f": 80
+     },
+     "rk": 200,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -28,
+      "s": 20
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      30
+     ],
+     "r": [
+      66,
+      66,
+      60
+     ],
+     "sh": 90
+    },
+    "ball": [
+     168,
+     112
+    ]
+   },
+   {
+    "name": "Late change",
+    "caption": "At the last moment the grip softens to Continental and the face opens. The racket comes forward high rather than dropping below the ball.",
+    "pose": {
+     "torso": -2,
+     "armR": {
+      "u": -20,
+      "f": 10
+     },
+     "armL": {
+      "u": 30,
+      "f": 50
+     },
+     "rk": 170,
+     "front": {
+      "t": 18,
+      "s": -10
+     },
+     "back": {
+      "t": -24,
+      "s": 18
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      30
+     ],
+     "r": [
+      66,
+      66,
+      60
+     ],
+     "sh": 80
+    },
+    "ball": [
+     150,
+     116
+    ]
+   },
+   {
+    "name": "Soft contact",
+    "caption": "A short, downward-forward cut under the ball with soft hands. Think \"catch the ball on the strings\".",
+    "pose": {
+     "torso": 8,
+     "armR": {
+      "u": 45,
+      "f": 70
+     },
+     "armL": {
+      "u": 0,
+      "f": -30
+     },
+     "rk": 120,
+     "front": {
+      "t": 14,
+      "s": -6
+     },
+     "back": {
+      "t": -8,
+      "s": 2
+     }
+    },
+    "fp": {
+     "l": [
+      42,
+      60,
+      20
+     ],
+     "r": [
+      66,
+      60,
+      40
+     ],
+     "sh": 20
+    },
+    "ball": [
+     142,
+     118
+    ]
+   },
+   {
+    "name": "Short finish & move in",
+    "caption": "The racket stops almost immediately. Move forward: a good drop shot is followed by a volley or a pass.",
+    "pose": {
+     "torso": 10,
+     "armR": {
+      "u": 60,
+      "f": 75
+     },
+     "armL": {
+      "u": -10,
+      "f": -30
+     },
+     "rk": 60,
+     "front": {
+      "t": 12,
+      "s": -4
+     },
+     "back": {
+      "t": -4,
+      "s": 0
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      56,
+      10
+     ],
+     "r": [
+      64,
+      54,
+      20
+     ],
+     "sh": 0
+    },
+    "ball": [
+     172,
+     114
+    ],
+    "arc": true
+   }
+  ],
+  "mistakes": [
+   "Telegraphing with a different preparation",
+   "Hitting it from behind the baseline",
+   "Too much backspin, not enough touch"
+  ]
+ },
+ "overhead": {
+  "label": "Overhead smash",
+  "summary": "Turn sideways, point at the ball, shuffle back, then serve it: same mechanics as a serve with footwork added.",
+  "defaultGrip": "Continental",
+  "phases": [
+   {
+    "name": "Turn & point",
+    "caption": "As soon as the lob goes up, turn sideways and point at the ball with the left hand. Racket up behind the head.",
+    "pose": {
+     "torso": -6,
+     "armR": {
+      "u": -90,
+      "f": -170
+     },
+     "armL": {
+      "u": 110,
+      "f": 160
+     },
+     "rk": 190,
+     "front": {
+      "t": 10,
+      "s": -4
+     },
+     "back": {
+      "t": -20,
+      "s": 12
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      48,
+      60
+     ],
+     "r": [
+      60,
+      56,
+      45
+     ],
+     "sh": 100
+    },
+    "ball": [
+     112,
+     14
+    ]
+   },
+   {
+    "name": "Shuffle back",
+    "caption": "Small sideways shuffle steps, staying under the ball. Keep pointing.",
+    "pose": {
+     "torso": -8,
+     "armR": {
+      "u": -90,
+      "f": -170
+     },
+     "armL": {
+      "u": 110,
+      "f": 160
+     },
+     "rk": 190,
+     "front": {
+      "t": 8,
+      "s": -2
+     },
+     "back": {
+      "t": -26,
+      "s": 20
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      56,
+      60
+     ],
+     "r": [
+      60,
+      64,
+      45
+     ],
+     "sh": 100
+    },
+    "ball": [
+     110,
+     18
+    ]
+   },
+   {
+    "name": "Racket drop",
+    "caption": "Racket drops behind the back, knees bend, back leg loaded.",
+    "pose": {
+     "torso": -12,
+     "armR": {
+      "u": -130,
+      "f": -40
+     },
+     "armL": {
+      "u": 110,
+      "f": 160
+     },
+     "rk": -10,
+     "front": {
+      "t": 14,
+      "s": -10
+     },
+     "back": {
+      "t": -24,
+      "s": 24
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      56,
+      60
+     ],
+     "r": [
+      60,
+      64,
+      45
+     ],
+     "sh": 100
+    },
+    "ball": [
+     110,
+     22
+    ]
+   },
+   {
+    "name": "Contact",
+    "caption": "Explode up, full extension, contact slightly in front. Snap the wrist through the ball.",
+    "pose": {
+     "torso": 6,
+     "armR": {
+      "u": 170,
+      "f": 178
+     },
+     "armL": {
+      "u": -20,
+      "f": -40
+     },
+     "rk": 185,
+     "front": {
+      "t": 10,
+      "s": -2
+     },
+     "back": {
+      "t": -16,
+      "s": 6
+     }
+    },
+    "fp": {
+     "l": [
+      46,
+      54,
+      40
+     ],
+     "r": [
+      58,
+      60,
+      30
+     ],
+     "sh": 40
+    },
+    "ball": [
+     116,
+     8
+    ]
+   },
+   {
+    "name": "Finish",
+    "caption": "Racket finishes across the body; land balanced and recover to the net.",
+    "pose": {
+     "torso": 18,
+     "armR": {
+      "u": 40,
+      "f": 120
+     },
+     "armL": {
+      "u": -20,
+      "f": -50
+     },
+     "rk": 60,
+     "front": {
+      "t": 22,
+      "s": -8
+     },
+     "back": {
+      "t": -26,
+      "s": 26
+     }
+    },
+    "fp": {
+     "l": [
+      48,
+      44,
+      10
+     ],
+     "r": [
+      56,
+      56,
+      30
+     ],
+     "sh": 0
+    },
+    "ball": [
+     195,
+     80
+    ]
+   }
+  ],
+  "mistakes": [
+   "Backpedalling instead of turning sideways",
+   "Letting the ball drop too low",
+   "Not pointing at the ball"
+  ]
+ },
+ "tweener": {
+  "label": "Tweener (between the legs)",
+  "summary": "For a lob you cannot otherwise reach: sprint, let the ball drop below the knees, flick between the legs. Low percentage, high joy.",
+  "defaultGrip": "Continental",
+  "flip": true,
+  "phases": [
+   {
+    "name": "Sprint back",
+    "caption": "Turn and sprint after the lob with the racket low. Do not look back yet.",
+    "pose": {
+     "torso": 25,
+     "armR": {
+      "u": 60,
+      "f": 60
+     },
+     "armL": {
+      "u": -40,
+      "f": -20
+     },
+     "rk": 60,
+     "front": {
+      "t": 40,
+      "s": -30
+     },
+     "back": {
+      "t": -30,
+      "s": 40
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      20,
+      180
+     ],
+     "r": [
+      56,
+      28,
+      180
+     ],
+     "sh": 180
+    },
+    "ball": [
+     150,
+     20
+    ]
+   },
+   {
+    "name": "Track the bounce",
+    "caption": "Let the ball bounce and run past it so the ball drops between your legs.",
+    "pose": {
+     "torso": 20,
+     "armR": {
+      "u": 40,
+      "f": 20
+     },
+     "armL": {
+      "u": -30,
+      "f": -10
+     },
+     "rk": 20,
+     "front": {
+      "t": 34,
+      "s": -20
+     },
+     "back": {
+      "t": -26,
+      "s": 30
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      36,
+      180
+     ],
+     "r": [
+      56,
+      44,
+      180
+     ],
+     "sh": 180
+    },
+    "ball": [
+     165,
+     150
+    ]
+   },
+   {
+    "name": "Straddle",
+    "caption": "Feet wide, racket pointing straight down behind you, ball at knee height.",
+    "pose": {
+     "torso": 15,
+     "armR": {
+      "u": 20,
+      "f": -20
+     },
+     "armL": {
+      "u": -20,
+      "f": 0
+     },
+     "rk": -30,
+     "front": {
+      "t": 30,
+      "s": -10
+     },
+     "back": {
+      "t": -30,
+      "s": 10
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      50,
+      180
+     ],
+     "r": [
+      60,
+      50,
+      180
+     ],
+     "sh": 180
+    },
+    "ball": [
+     100,
+     150
+    ]
+   },
+   {
+    "name": "Flick",
+    "caption": "A sharp wrist flick through the ball between the legs. Aim high over the net; your opponent is usually at net.",
+    "pose": {
+     "torso": 10,
+     "armR": {
+      "u": 10,
+      "f": -40
+     },
+     "armL": {
+      "u": -20,
+      "f": 0
+     },
+     "rk": -60,
+     "front": {
+      "t": 28,
+      "s": -8
+     },
+     "back": {
+      "t": -28,
+      "s": 8
+     }
+    },
+    "fp": {
+     "l": [
+      40,
+      50,
+      180
+     ],
+     "r": [
+      60,
+      50,
+      180
+     ],
+     "sh": 180
+    },
+    "ball": [
+     96,
+     152
+    ]
+   },
+   {
+    "name": "Turn & see",
+    "caption": "Turn immediately to see where it went and get back into the point.",
+    "pose": {
+     "torso": -5,
+     "armR": {
+      "u": 30,
+      "f": 30
+     },
+     "armL": {
+      "u": -30,
+      "f": -20
+     },
+     "rk": 60,
+     "front": {
+      "t": 12,
+      "s": -6
+     },
+     "back": {
+      "t": -12,
+      "s": 6
+     }
+    },
+    "fp": {
+     "l": [
+      44,
+      52,
+      90
+     ],
+     "r": [
+      56,
+      56,
+      90
+     ],
+     "sh": 90
+    },
+    "ball": [
+     20,
+     105
+    ]
+   }
+  ],
+  "mistakes": [
+   "Trying it when a normal lob is possible",
+   "Hitting before the ball has dropped low enough",
+   "Not turning around afterwards"
+  ]
+ }
+}

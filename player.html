@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><script src="/js/anim.js"></script><title>Player — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap" id="main"><p class="muted" style="padding:40px 0">Loading…</p></main>
+<div id="site-footer"></div>
+<script>
+(async()=>{
+ const [P,S,RV]=await TL.load('players','shots','rivalries');
+ const id=TL.q().id; const p=P.find(x=>x.id===id);
+ const main=document.getElementById('main');
+ if(!p){main.innerHTML='<section class="hero"><h1>Player not found</h1><p><a href="/players">Back to players</a></p></section>';return;}
+ document.title=`${p.name} — profile, equipment and signature shots — Tennis Lab`;
+ const total=TL.slams(p); const stars=n=>'★'.repeat(n)+'☆'.repeat(5-n);
+ const rivals=RV.filter(r=>r.a===p.name||r.b===p.name).map(r=>{const other=r.a===p.name?r.b:r.a;const o=P.find(x=>x.name===other);return {r,other,o}}).filter(x=>x.o);
+ const nearby=P.filter(x=>x.featured&&x.tour===p.tour&&x!==p).sort((a,b)=>Math.abs(a.born-p.born)-Math.abs(b.born-p.born)).slice(0,6);
+ main.innerHTML=`
+ <section class="hero" style="padding:36px 0 8px"><div class="kicker"><a href="/players" style="color:inherit;text-decoration:none">← Players</a> · ${p.tour==='ATP'?'Men':'Women'} · ${TL.esc(TL.eraLabel[p.era])}</div><h1>${TL.flag(p)} ${TL.esc(p.name)}</h1><p class="lead">${TL.esc(p.style||'')}</p></section>
+ <div class="profile-head">
+  <div class="card"><p>${TL.esc(p.bio||'')}</p>
+   <div class="bigslams"><div><b>${total}</b><span>MAJORS</span></div><div><b>${p.slams.ao}</b><span>AUS OPEN</span></div><div><b>${p.slams.rg}</b><span>ROLAND G.</span></div><div><b>${p.slams.w}</b><span>WIMBLEDON</span></div><div><b>${p.slams.uso}</b><span>US OPEN</span></div></div>
+   <dl class="kv"><dt>Born</dt><dd>${p.born}</dd><dt>Plays</dt><dd>${p.hand==='L'?'Left-handed':'Right-handed'}, ${p.backhand==='1'?'one-handed':'two-handed'} backhand</dd><dt>Olympics</dt><dd>${TL.esc(p.olympics||'—')}</dd><dt>Weeks at No. 1</dt><dd>${p.weeksNo1==null?'Active (see rankings)':p.weeksNo1||'—'}</dd></dl></div>
+  <div class="card"><div class="ribbon">Equipment & grips</div><dl class="kv" style="margin-top:8px"><dt>Racket</dt><dd>${TL.esc(p.racket||'—')}</dd><dt>Strings</dt><dd>${TL.esc(p.strings||'—')}</dd><dt>Forehand grip</dt><dd>${TL.esc(p.grip?.fh||'—')}</dd><dt>Backhand grip</dt><dd>${TL.esc(p.grip?.bh||'—')}</dd><dt>Serve grip</dt><dd>${TL.esc(p.grip?.serve||'—')}</dd></dl><p class="small" style="margin-top:10px"><a href="/grip">Learn these grips →</a> · <a href="/rackets">Racket guide →</a></p>
+   <div class="ribbon" style="margin-top:14px">Watch</div><div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(p.name+' best points')}">▶ Best points</a><a target="_blank" rel="noopener" href="${TL.yt(p.name+' best shots')}">▶ Best shots</a><a target="_blank" rel="noopener" href="${TL.yt(p.name+' slow motion')}">▶ Slow motion</a><a target="_blank" rel="noopener" href="${TL.yt(p.name+' full match')}">▶ Full matches</a><a target="_blank" rel="noopener" href="${TL.yt(p.name+' documentary')}">▶ Documentary</a></div></div>
+ </div>
+ <h2 id="shots">Signature shots, step by step</h2>
+ <p class="muted">Each animation runs through five phases: ready position, unit turn, leg load and racket drop, contact, finish. The footprint shows the stance from above. Stars rate how realistic it is for a club player to copy.</p>
+ <div id="shotlist">${(p.shots||[]).map((s,i)=>{const t=S[s.type];return`<div class="card" style="margin-top:16px"><div class="shot"><div id="anim-${i}"></div><div><div class="ribbon">${TL.esc(t.label)} · <span class="stars">${stars(s.replicable)}</span> replicable</div><h3>${TL.esc(s.name)}</h3><div class="badges"><span class="pill clay">Grip: ${TL.esc(s.grip)}</span><span class="pill grass">Stance: ${TL.esc(s.stance)}</span></div><p class="small">${TL.esc(s.why)}</p><b class="small">How ${TL.esc(p.name.split(' ')[0])} does it</b><ol class="cues small">${s.cues.map(c=>`<li>${TL.esc(c)}</li>`).join('')}</ol><b class="small">Common mistakes</b><ul class="cues small muted">${t.mistakes.map(c=>`<li>${TL.esc(c)}</li>`).join('')}</ul><div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(p.name+' '+t.label+' slow motion')}">▶ ${TL.esc(p.name.split(' ').slice(-1)[0])} ${TL.esc(t.label.toLowerCase())} in slow motion</a><a target="_blank" rel="noopener" href="${TL.yt(t.label+' technique lesson')}">▶ Technique lesson</a></div></div></div></div>`}).join('')}</div>
+ ${rivals.length?`<h2>Rivalries</h2><p class="muted">Open the archive for any of these in the cross-table.</p><div class="grid">${rivals.map(({r,other,o})=>`<a class="card link" href="/players?h2h=${p.id},${o.id}#crosstable"><div class="ribbon">${r.meetings.length} curated meetings</div><h3>${TL.flag(o)} vs ${TL.esc(other)}</h3><p class="small muted">${TL.esc(r.h2h)}${r.slam&&r.slam!=='—'?' · majors: '+TL.esc(r.slam):''}</p></a>`).join('')}</div>`:''}
+ <h2>Contemporaries</h2><div class="grid">${nearby.map(o=>`<a class="card link" href="/player?id=${o.id}"><div class="ribbon">${TL.slams(o)} majors</div><h3>${TL.flag(o)} ${TL.esc(o.name)}</h3><p class="small muted">${TL.esc(o.style)}</p></a>`).join('')}</div>`;
+ (p.shots||[]).forEach((s,i)=>ShotAnim.mount(document.getElementById('anim-'+i),S[s.type],{autoplay:i===0}));
+})();
+</script></body></html>

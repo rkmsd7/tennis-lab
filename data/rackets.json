@@ -1,0 +1,33 @@
+{
+ "types":[
+  {"name":"Power / game-improvement","head":"105–115 in² (oversize)","weight":"240–280 g","balance":"Head-heavy","beam":"Thick (26–30 mm), stiff","for":"Beginners and players with short, slow swings who need free power and a big sweet spot.","examples":["Wilson Clash 108","Babolat Boost Aero","HEAD Ti.S6"]},
+  {"name":"Tweener / modern all-round","head":"98–104 in²","weight":"285–305 g","balance":"Even to slightly head-light","beam":"Medium (22–25 mm)","for":"Most club players: a blend of power, spin and control. The biggest category on the market.","examples":["Babolat Pure Aero","Babolat Pure Drive","HEAD Speed MP","Yonex EZONE 100","Wilson Blade 100"]},
+  {"name":"Control / player's frame","head":"95–98 in²","weight":"305–340 g","balance":"Head-light","beam":"Thin (20–22 mm), flexible","for":"Advanced players with long, fast swings who generate their own power and want feel and precision.","examples":["Wilson Pro Staff 97","HEAD Prestige","Yonex VCORE Pro 97","Wilson Blade 98 18x20"]},
+  {"name":"Junior","head":"Varies by length","weight":"Light","balance":"Even","beam":"Varies","for":"19 in (under 5), 21 in (5–6), 23 in (6–8), 25 in (8–10), 26 in (10–11) then full size 27 in.","examples":["Babolat Nadal Junior","HEAD Speed Jr","Wilson Federer Jr"]}
+ ],
+ "specs":[
+  {"spec":"Head size","what":"String-bed area in square inches. Bigger = larger sweet spot and more power; smaller = more control and feel.","range":"95 in² (control) to 115 in² (oversize). 98–100 is the sweet spot for most players."},
+  {"spec":"Weight (unstrung)","what":"Heavier frames are more stable and plow through the ball; lighter frames are easier to swing but twist on off-centre hits.","range":"250 g (light) to 340 g (pro). Most club players: 285–305 g."},
+  {"spec":"Balance","what":"Where the weight sits. Head-light frames are manoeuvrable at net; head-heavy frames add power to short swings.","range":"Measured in points or cm from the butt. 32 cm = even balance for a 68.5 cm racket."},
+  {"spec":"Swingweight","what":"How heavy the racket feels when you swing it. The single best predictor of stability and power.","range":"280 (easy to swing) to 340+ (pro). Club players: 300–320."},
+  {"spec":"Stiffness (RA)","what":"How much the frame flexes. Stiff frames return more energy (power) but transmit more shock; flexible frames feel softer and more controlled.","range":"55 RA (very flexible) to 72 RA (very stiff). Arm-friendly: under 65."},
+  {"spec":"String pattern","what":"Mains x crosses. Open patterns (16x19) grip the ball for spin; dense patterns (18x20) give control and string durability.","range":"16x19 is the modern standard; 18x20 for flat hitters; 16x16 / 14x18 for spin."},
+  {"spec":"Beam width","what":"Thickness of the frame. Thicker = stiffer and more powerful.","range":"20 mm (thin control) to 30 mm (thick power)."},
+  {"spec":"Grip size","what":"Handle circumference. Hold the racket with an Eastern grip: your other hand's index finger should fit between fingertips and palm.","range":"L1 (4 1/8 in) to L5 (4 5/8 in). Most men L3, most women L2. When in doubt go smaller and add an overgrip."},
+  {"spec":"Length","what":"Standard is 27 in. Extended frames (27.5 in) add serve leverage but reduce manoeuvrability.","range":"27–28 in."}
+ ],
+ "strings":[
+  {"type":"Natural gut","feel":"Softest, most powerful, holds tension best","for":"Arm problems, feel players, pros in hybrids","cons":"Expensive, dislikes moisture","examples":"Babolat VS Touch, Wilson Natural Gut"},
+  {"type":"Multifilament","feel":"Soft, powerful, gut-like","for":"Club players wanting comfort","cons":"Breaks quickly for spin players","examples":"Tecnifibre X-One Biphase, Wilson NXT"},
+  {"type":"Polyester (poly)","feel":"Firm, low-powered, huge spin and control","for":"Hard hitters and string breakers; most pros","cons":"Loses tension fast, harsh on the arm, restring every 10–15 hours","examples":"Luxilon ALU Power, Babolat RPM Blast, Solinco Hyper-G"},
+  {"type":"Synthetic gut (nylon)","feel":"All-round, cheap","for":"Beginners, recreational play","cons":"Nothing special at anything","examples":"Prince Synthetic Gut, Gosen OG-Sheep Micro"},
+  {"type":"Hybrid","feel":"Poly mains + gut/multi crosses (or reverse)","for":"The pro standard: spin from the poly, comfort from the gut","cons":"Two reels to buy","examples":"Federer and Djokovic: gut mains / ALU Power Rough crosses"}
+ ],
+ "tension":"Lower tension (20–23 kg / 45–50 lb) = more power, comfort and spin with poly. Higher tension (25–27 kg / 55–60 lb) = more control. Pros range from Nadal's ~25 kg to Sampras's ~34 kg of gut; modern poly users sit around 22–25 kg.",
+ "choose":[
+  {"level":"Beginner","advice":"100–105 in², 270–290 g, synthetic gut or multifilament at 23 kg. Prioritise a big sweet spot and comfort."},
+  {"level":"Improver (NTRP 3.0–3.5)","advice":"100 in² tweener, 290–300 g, 16x19, multi or soft poly. Demo three frames before buying."},
+  {"level":"Advanced (4.0+)","advice":"98–100 in², 300–315 g, poly or hybrid. Choose by swingweight: 310–325 for stability."},
+  {"level":"Arm pain","advice":"Flexible frame (RA under 65), natural gut or multifilament, lower tension, larger grip. Avoid stiff frames with full poly."}
+ ]
+}

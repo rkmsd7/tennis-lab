@@ -1,0 +1,31 @@
+[
+ {"group":"Must-haves","items":[
+  {"name":"Two rackets (at least)","why":"Strings break. Pros carry 6–8; you need two strung at the same tension.","tip":"Keep them in a thermal bag; heat kills poly strings."},
+  {"name":"Overgrips","why":"A fresh overgrip gives tack and absorbs sweat. Pros change them every set.","tip":"Tacky (Wilson Pro, Yonex Super Grap) for dry hands; dry (Tourna Grip) for sweaty hands."},
+  {"name":"Tennis shoes for your surface","why":"Hard-court shoes have durable outsoles; clay shoes have herringbone tread for sliding; grass shoes have nubs.","tip":"Replace when the outsole tread under the big toe is gone."},
+  {"name":"Balls","why":"Pressurised balls go dead in a few hours of hard play. Keep a fresh can for matches, old balls for serving practice.","tip":"Pressureless balls for ball-machine and feeding drills."},
+  {"name":"Water and electrolytes","why":"A three-set match in heat loses 2–3 litres of sweat.","tip":"Drink at every changeover, not just when thirsty."},
+  {"name":"Towel","why":"Dry the grip, the hands and the face.","tip":"Two small towels beat one big one."}
+ ]},
+ {"group":"Strings and racket care","items":[
+  {"name":"Spare strings","why":"If you break strings often, carry a set so the stringer can restring overnight.","tip":"Restring as many times a year as you play per week, minimum."},
+  {"name":"Vibration dampener","why":"Removes the 'ping' sound. It does not reduce shock to the arm, whatever anyone says.","tip":"Optional. Federer and Djokovic use none; Nadal and Agassi did."},
+  {"name":"Lead tape / tungsten tape","why":"Customise weight and balance. 2 g at 12 o'clock adds plow-through.","tip":"Add in small steps; swingweight changes fast."},
+  {"name":"Grip tape and finishing tape","why":"Secure the end of the overgrip and replace worn base grips.","tip":"A thinner base grip + overgrip gives the same feel as the stock grip."}
+ ]},
+ {"group":"Body","items":[
+  {"name":"Sunscreen, hat or visor, sunglasses","why":"Four hours in the sun at a tournament is a serious dose.","tip":"Sweat-resistant sunscreen; reapply at the changeover."},
+  {"name":"Wristbands and headband","why":"Keep sweat off the grip and out of the eyes.","tip":"Nadal and Federer wore them for a reason."},
+  {"name":"Spare shirt and socks","why":"A dry shirt in the third set feels like a new match.","tip":"Change socks too: blisters start in wet socks."},
+  {"name":"Energy","why":"Bananas, energy gels, dates, dried fruit.","tip":"Eat small amounts every few games in long matches."},
+  {"name":"Recovery kit","why":"Foam roller, resistance band, massage ball.","tip":"Five minutes of band work before play prevents most shoulder pain."},
+  {"name":"Medical kit","why":"Blister plasters, athletic tape, anti-inflammatory gel, anti-chafe stick, ankle brace if you need it.","tip":"Tape fingers that blister before you play, not after."}
+ ]},
+ {"group":"Training tools","items":[
+  {"name":"Ball machine or rebounder","why":"Repetition builds technique faster than matches.","tip":"Film yourself from the side to compare with the animations on this site."},
+  {"name":"Cones and targets","why":"Hit to targets, not just over the net.","tip":"Deep crosscourt targets first; angles later."},
+  {"name":"Jump rope and agility ladder","why":"Footwork wins club matches.","tip":"Five minutes before each session."},
+  {"name":"Phone tripod and a slow-motion app","why":"Compare your contact point and finish to the pros.","tip":"Film from behind and from the side."},
+  {"name":"A big tennis bag","why":"6-pack or 12-pack with a shoe compartment and a thermal pocket.","tip":"Pack it the night before."}
+ ]}
+]

@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Players — every Grand Slam champion and the rivalry cross-table — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap"><section class="hero" style="padding:40px 0 10px"><div class="kicker">Players</div><h1>The champions</h1><p class="lead">Every Open Era Grand Slam singles champion, men and women, plus a few fan favourites. Featured players have full profiles with equipment and animated signature shots. Scroll down for the <a href="#crosstable">rivalry cross-table</a>: click any two players to open their video archive.</p></section>
+<div class="controls">
+ <input type="search" id="q" placeholder="Search a player, country or style…">
+ <div class="seg" id="tour"><button class="on" data-v="all">All</button><button data-v="ATP">Men · ATP</button><button data-v="WTA">Women · WTA</button></div>
+ <select id="era"><option value="all">All eras</option><option value="modern">Modern (2020+)</option><option value="golden">Golden (2000–2019)</option><option value="classic">Classic (1968–1999)</option></select>
+ <label class="small muted" style="display:flex;align-items:center;gap:6px"><input type="checkbox" id="feat"> Featured profiles only</label>
+ <span class="muted small" id="count"></span>
+</div>
+<div class="grid" id="cards"></div>
+
+<div class="section-head" id="crosstable"><h2>Rivalry cross-table: watch any two players</h2></div>
+<p class="muted">Rows and columns are the same players. Click a cell to open that rivalry: curated meetings grouped by Grand Slam, Olympics, team events, Masters and Finals, each with a YouTube link, plus search links that work for any pair. Green cells have curated matches; the number is the overall head-to-head.</p>
+<div class="controls">
+ <div class="seg" id="xtour"><button class="on" data-v="ATP">Men</button><button data-v="WTA">Women</button></div>
+ <div class="seg" id="xscope"><button class="on" data-v="featured">Featured players</button><button data-v="all">All champions</button></div>
+ <span class="legend"><span><i style="background:rgba(67,179,106,.5)"></i>curated matches</span><span><i style="background:var(--bg2)"></i>search only</span></span>
+</div>
+<div class="xt-wrap"><table class="xt" id="xt"></table></div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="box"><div class="head"><h2 id="mtitle"></h2><button class="close" id="mclose" aria-label="Close">✕</button></div><div class="body" id="mbody"></div></div></div>
+</main><div id="site-footer"></div>
+<script>
+(async()=>{
+ const [P,RV]=await TL.load('players','rivalries');
+ const byId=Object.fromEntries(P.map(p=>[p.id,p])), byName=Object.fromEntries(P.map(p=>[p.name,p]));
+ const rkey=(a,b)=>[a,b].sort().join('|'); const riv={}; RV.forEach(r=>riv[rkey(r.a,r.b)]=r);
+ const state={q:'',tour:'all',era:'all',feat:false,xtour:'ATP',xscope:'featured'};
+ const last=n=>n.split(' ').slice(-1)[0];
+ function cards(){
+  const q=state.q.toLowerCase();
+  const list=P.filter(p=>(state.tour==='all'||p.tour===state.tour)&&(state.era==='all'||p.era===state.era)&&(!state.feat||p.featured)&&(!q||[p.name,p.country,p.style||'',p.bio||''].join(' ').toLowerCase().includes(q)));
+  document.getElementById('count').textContent=`${list.length} players`;
+  document.getElementById('cards').innerHTML=list.map(p=>`<a class="card link player-card" href="${p.featured?`/player?id=${p.id}`:`#`}" ${p.featured?'':'data-riv="'+p.id+'"'}><div class="ribbon">${p.tour==='ATP'?'Men':'Women'} · ${TL.esc(TL.eraLabel[p.era].split(' (')[0])}${p.featured?' · profile + shots':''}</div><div class="name"><span class="flag">${TL.flag(p)}</span>${TL.esc(p.name)}</div><div class="muted small">${TL.esc(p.style||(p.hand==='L'?'Left-handed':'Right-handed')+' · '+(p.backhand==='1'?'one-handed backhand':'two-handed backhand'))}</div><div class="slamrow"><div><b>${p.slams.ao}</b><span>AO</span></div><div><b>${p.slams.rg}</b><span>RG</span></div><div><b>${p.slams.w}</b><span>WIM</span></div><div><b>${p.slams.uso}</b><span>USO</span></div></div><div class="small" style="margin-top:6px"><b>${TL.slams(p)}</b> <span class="muted">major title${TL.slams(p)===1?'':'s'}${p.featured?'':' · click to find in cross-table'}</span></div></a>`).join('');
+  document.querySelectorAll('[data-riv]').forEach(a=>a.onclick=e=>{e.preventDefault();const p=byId[a.dataset.riv];state.xtour=p.tour;state.xscope='all';syncSeg('xtour',p.tour);syncSeg('xscope','all');table();document.getElementById('crosstable').scrollIntoView({behavior:'smooth'});setTimeout(()=>{const th=document.querySelector(`[data-row="${p.id}"]`);th&&th.scrollIntoView({block:'center',inline:'nearest'});},400)});
+ }
+ function syncSeg(id,v){document.querySelectorAll(`#${id} button`).forEach(b=>b.classList.toggle('on',b.dataset.v===v));}
+ function table(){
+  const list=P.filter(p=>p.tour===state.xtour&&(state.xscope==='all'||p.featured)).sort((a,b)=>TL.slams(b)-TL.slams(a)||a.born-b.born);
+  const t=document.getElementById('xt');
+  t.innerHTML=`<thead><tr><th></th>${list.map(p=>`<th><span class="rot" title="${TL.esc(p.name)}">${TL.esc(last(p.name))}</span></th>`).join('')}</tr></thead><tbody>${list.map(a=>`<tr><th data-row="${a.id}">${TL.flag(a)} ${TL.esc(a.name)}</th>${list.map(b=>{if(a===b)return`<td class="self">·</td>`;const r=riv[rkey(a.name,b.name)];const lab=r?(r.h2h.match(/\d+–\d+/)||[''])[0]||'✓':'▶';return`<td class="${r?'has':''}"><button data-a="${a.id}" data-b="${b.id}" title="${TL.esc(a.name)} vs ${TL.esc(b.name)}${r?' · '+TL.esc(r.h2h):''}">${lab}</button></td>`}).join('')}</tr>`).join('')}</tbody>`;
+  t.querySelectorAll('button').forEach(b=>b.onclick=()=>open(byId[b.dataset.a],byId[b.dataset.b]));
+ }
+ const SLAMS=['Australian Open','Roland Garros','Wimbledon','US Open'], TEAM=['Davis Cup','Fed Cup','Billie Jean King Cup','Laver Cup','United Cup','Hopman Cup'], FINALS=['ATP Finals','WTA Finals','Masters (NY)','Masters'], M1000=['Indian Wells','Miami','Monte Carlo','Madrid','Rome','Canadian Open','Montreal','Toronto','Cincinnati','Shanghai','Paris','Hamburg','Beijing','Wuhan','Doha','Dubai','Stuttgart','Brisbane','Tokyo','Basel','Umag','Barcelona'];
+ const cat=e=>SLAMS.includes(e)?'slam':e==='Olympics'?'oly':TEAM.includes(e)?'team':FINALS.includes(e)?'finals':M1000.includes(e)?'m1000':'other';
+ const CATS=[['slam','Grand Slams'],['oly','Olympics'],['team','Davis Cup & team events'],['finals','Tour Finals'],['m1000','Masters 1000 / WTA 1000 & 500s'],['other','Other matches'],['full','Full matches & documentaries']];
+ function open(a,b){
+  const r=riv[rkey(a.name,b.name)]; const vs=`${a.name} vs ${b.name}`;
+  document.getElementById('mtitle').innerHTML=`${TL.flag(a)} ${TL.esc(a.name)} <span class="muted">vs</span> ${TL.flag(b)} ${TL.esc(b.name)}`;
+  const meetings=(r?r.meetings:[]).map(m=>({...m,c:cat(m.event)}));
+  const genericQ={slam:`${vs} grand slam highlights`,oly:`${vs} olympics`,team:`${vs} davis cup OR "laver cup" OR "fed cup"`,finals:`${vs} ATP Finals OR WTA Finals`,m1000:`${vs} masters highlights`,other:`${vs} highlights`,full:`${vs} full match`};
+  const body=document.getElementById('mbody');
+  const tabs=CATS.filter(([k])=>k==='full'||k==='other'||k==='slam'||meetings.some(m=>m.c===k));
+  body.innerHTML=`<p class="small">${r?`<b>Head-to-head:</b> ${TL.esc(r.h2h)}${r.slam&&r.slam!=='—'?` · <b>At majors:</b> ${TL.esc(r.slam)}`:''} · ${meetings.length} curated meetings`:`No curated archive yet for this pair; use the search links. ${a.era==='classic'||b.era==='classic'?'Classic-era matches are often on YouTube in full.':''}`}</p>
+   <div class="tabs">${tabs.map(([k,l],i)=>`<button data-c="${k}" class="${i===0?'on':''}">${l}${meetings.filter(m=>m.c===k).length?` (${meetings.filter(m=>m.c===k).length})`:''}</button>`).join('')}</div><div id="tabbody"></div>
+   <p class="small muted" style="margin-top:14px">Links open YouTube searches so they keep working as new uploads appear. Scores curated from public records; the overall record may have changed since our last update.</p>`;
+  const show=k=>{
+   const ms=meetings.filter(m=>m.c===k);
+   let html='';
+   if(k==='slam'){SLAMS.forEach(s=>{const x=ms.filter(m=>m.event===s);html+=`<h3 style="margin-top:10px">${s} <span class="muted small">${x.length?x.length+' meeting'+(x.length>1?'s':''):''}</span></h3>${x.length?list(x):''}<div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(`${vs} ${s} highlights`)}">▶ All ${s} highlights</a></div>`});}
+   else if(k==='full'){html=`<div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(vs+' full match')}">▶ Full matches</a><a target="_blank" rel="noopener" href="${TL.yt(vs+' extended highlights')}">▶ Extended highlights</a><a target="_blank" rel="noopener" href="${TL.yt(vs+' rivalry documentary')}">▶ Rivalry documentaries</a><a target="_blank" rel="noopener" href="${TL.yt(vs+' best points')}">▶ Best points</a></div>`;}
+   else{html=(ms.length?list(ms):'')+`<div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(genericQ[k])}">▶ Search all ${CATS.find(c=>c[0]===k)[1].toLowerCase()}</a></div>`;}
+   document.getElementById('tabbody').innerHTML=html;
+  };
+  const list=ms=>`<ul class="matchlist">${ms.sort((x,y)=>x.year-y.year).map(m=>`<li><span class="yr">${m.year}</span><span><span class="ev">${TL.esc(m.event)} ${TL.esc(m.round)}</span><br><span class="sc">${TL.esc(m.winner)} won ${TL.esc(m.score)}</span></span><a class="yt" target="_blank" rel="noopener" href="${TL.yt(`${vs} ${m.event} ${m.year} ${m.round==='F'?'final':m.round==='SF'?'semifinal':m.round==='QF'?'quarterfinal':m.round} highlights`)}">▶ Watch</a></li>`).join('')}</ul>`;
+  body.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{body.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('on',x===b));show(b.dataset.c)});
+  show(tabs[0][0]);
+  document.getElementById('modal').classList.add('open'); history.replaceState(null,'',`?h2h=${a.id},${b.id}#crosstable`);
+ }
+ const close=()=>{document.getElementById('modal').classList.remove('open');history.replaceState(null,'',location.pathname+'#crosstable')};
+ document.getElementById('mclose').onclick=close; document.getElementById('modal').onclick=e=>{if(e.target.id==='modal')close()}; document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+ document.getElementById('q').oninput=e=>{state.q=e.target.value;cards()};
+ document.getElementById('era').onchange=e=>{state.era=e.target.value;cards()};
+ document.getElementById('feat').onchange=e=>{state.feat=e.target.checked;cards()};
+ document.querySelectorAll('#tour button').forEach(b=>b.onclick=()=>{state.tour=b.dataset.v;syncSeg('tour',b.dataset.v);cards()});
+ document.querySelectorAll('#xtour button').forEach(b=>b.onclick=()=>{state.xtour=b.dataset.v;syncSeg('xtour',b.dataset.v);table()});
+ document.querySelectorAll('#xscope button').forEach(b=>b.onclick=()=>{state.xscope=b.dataset.v;syncSeg('xscope',b.dataset.v);table()});
+ cards(); table();
+ const h=TL.q().h2h; if(h){const [x,y]=h.split(',').map(i=>byId[i]); if(x&&y){state.xtour=x.tour;syncSeg('xtour',x.tour);if(!x.featured||!y.featured){state.xscope='all';syncSeg('xscope','all')}table();open(x,y);}}
+})();
+</script></body></html>

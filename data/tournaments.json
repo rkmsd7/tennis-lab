@@ -1,0 +1,41 @@
+{
+ "season":2026,
+ "slams":[
+  {"name":"Australian Open","city":"Melbourne","surface":"Hard","dates":"12–25 January 2026","start":"2026-01-12","end":"2026-01-25","men":{"champion":"Carlos Alcaraz","runnerUp":"Novak Djokovic","score":"2–6 6–2 6–3 7–5"},"women":{"champion":"Elena Rybakina","runnerUp":"Aryna Sabalenka","score":"6–4 4–6 6–4"}},
+  {"name":"Roland Garros","city":"Paris","surface":"Clay","dates":"24 May – 7 June 2026","start":"2026-05-24","end":"2026-06-07","men":{"champion":"Alexander Zverev","runnerUp":"Flavio Cobolli","score":"6–1 4–6 6–4 6–7 6–1"},"women":{"champion":"Mirra Andreeva","runnerUp":"Maja Chwalińska","score":"6–3 6–2"}},
+  {"name":"Wimbledon","city":"London","surface":"Grass","dates":"29 June – 12 July 2026","start":"2026-06-29","end":"2026-07-12","men":{"champion":"Jannik Sinner","runnerUp":"Alexander Zverev","score":"6–7 7–6 6–3 6–4"},"women":{"champion":"Linda Nosková","runnerUp":"Karolína Muchová","score":"6–2 5–7 6–3"}},
+  {"name":"US Open","city":"New York","surface":"Hard","dates":"31 August – 13 September 2026","start":"2026-08-31","end":"2026-09-13","men":{"champion":"Alexander Zverev","runnerUp":"Ben Shelton","score":"6–3 7–6 5–7 6–2"},"women":{"champion":"Elena Rybakina","runnerUp":"Aryna Sabalenka","score":"6–4 5–7 6–2"}}
+ ],
+ "upcoming":[
+  {"name":"WTA Finals","tour":"WTA","city":"Indian Wells, USA","surface":"Hard","start":"2026-11-08","end":"2026-11-15","note":"Qualified: Rybakina, Sabalenka, Andreeva, Nosková, Pegula, Gauff, Svitolina, Muchová"},
+  {"name":"ATP Finals","tour":"ATP","city":"Turin, Italy","surface":"Indoor hard","start":"2026-11-15","end":"2026-11-22","note":"Qualified so far: Sinner, Zverev, Alcaraz, Shelton, Medvedev, Cobolli"},
+  {"name":"Davis Cup Finals","tour":"ATP","city":"Bologna, Italy","surface":"Indoor hard","start":"2026-11-24","end":"2026-11-29","note":"Final 8: Italy (hosts), South Korea, Czech Republic, Canada, Great Britain, Germany, Austria, Spain"},
+  {"name":"Australian Open 2027","tour":"Both","city":"Melbourne","surface":"Hard","start":"2027-01-18","end":"2027-01-31","note":"First major of the 2027 season"}
+ ],
+ "masters":[
+  {"event":"Indian Wells","tour":"ATP","champion":"Jannik Sinner","runnerUp":"Daniil Medvedev"},{"event":"Indian Wells","tour":"WTA","champion":"Aryna Sabalenka","runnerUp":"Elena Rybakina"},
+  {"event":"Miami","tour":"ATP","champion":"Jannik Sinner","runnerUp":"Jiří Lehečka"},{"event":"Miami","tour":"WTA","champion":"Aryna Sabalenka","runnerUp":"Coco Gauff"},
+  {"event":"Monte Carlo","tour":"ATP","champion":"Jannik Sinner","runnerUp":"Carlos Alcaraz"},
+  {"event":"Madrid","tour":"ATP","champion":"Jannik Sinner","runnerUp":"Alexander Zverev"},{"event":"Madrid","tour":"WTA","champion":"Marta Kostyuk","runnerUp":"Mirra Andreeva"},
+  {"event":"Rome","tour":"ATP","champion":"Jannik Sinner","runnerUp":"Casper Ruud"},{"event":"Rome","tour":"WTA","champion":"Elina Svitolina","runnerUp":"Coco Gauff"},
+  {"event":"Canadian Open","tour":"ATP","champion":"Ben Shelton","runnerUp":"Brandon Nakashima"},{"event":"Canadian Open","tour":"WTA","champion":"Iga Świątek","runnerUp":"Elena Rybakina"},
+  {"event":"Cincinnati","tour":"ATP","champion":"Arthur Fils","runnerUp":"Frances Tiafoe"},{"event":"Cincinnati","tour":"WTA","champion":"Coco Gauff","runnerUp":"Jessica Pegula"},
+  {"event":"Shanghai","tour":"ATP","champion":"Alejandro Davidovich Fokina","runnerUp":"Rafael Jódar"},
+  {"event":"China Open","tour":"WTA","champion":"Zheng Qinwen","runnerUp":"Mirra Andreeva"},{"event":"Wuhan","tour":"WTA","champion":"Maja Chwalińska","runnerUp":"Sonay Kartal"},
+  {"event":"Doha","tour":"WTA","champion":"Karolína Muchová","runnerUp":"Victoria Mboko"},{"event":"Dubai","tour":"WTA","champion":"Jessica Pegula","runnerUp":"Elina Svitolina"}
+ ],
+ "slamGuide":[
+  {"name":"Australian Open","when":"January","surface":"Hard (GreenSet)","since":1905,"fact":"The 'Happy Slam'. Night sessions, extreme heat policy, retractable roofs on three courts."},
+  {"name":"Roland Garros","when":"May–June","surface":"Red clay","since":1891,"fact":"The slowest major and the hardest to win physically. Nadal won it 14 times."},
+  {"name":"Wimbledon","when":"June–July","surface":"Grass","since":1877,"fact":"The oldest tournament in the world. All-white clothing, no play on the middle Sunday until 2022."},
+  {"name":"US Open","when":"August–September","surface":"Hard (Laykold)","since":1881,"fact":"The loudest major. Arthur Ashe Stadium holds 23,000; first major to use tiebreaks in the final set."}
+ ],
+ "tiers":[
+  {"tier":"Grand Slams","points":"2000","events":"4 per year","note":"Best of five sets for men, three for women. 128-player draws."},
+  {"tier":"ATP Finals / WTA Finals","points":"Up to 1500","events":"1 per year","note":"Top 8 of the season; round-robin then knockouts."},
+  {"tier":"Masters 1000 / WTA 1000","points":"1000","events":"9 ATP, 10 WTA","note":"Indian Wells, Miami, Monte Carlo, Madrid, Rome, Canada, Cincinnati, Shanghai, Paris (ATP)."},
+  {"tier":"ATP 500 / WTA 500","points":"500","events":"~16","note":"Dubai, Barcelona, Queen's, Halle, Washington, Tokyo, Vienna, Basel and more."},
+  {"tier":"ATP 250 / WTA 250","points":"250","events":"~40","note":"The weekly tour: smaller draws, where rising players win their first titles."},
+  {"tier":"Team events","points":"Varies","events":"Davis Cup, Billie Jean King Cup, Laver Cup, United Cup, Olympics","note":"Olympics every four years (next: Los Angeles 2028)."}
+ ]
+}

@@ -1,0 +1,45 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Tennis Lab — rackets, grips, players, rivalries and signature shots</title><meta name="description" content="A tennis encyclopedia: racket and grip guides, every Grand Slam champion, a head-to-head video archive and animated signature shots you can copy."></head><body>
+<div id="site-header"></div>
+<section class="hero"><div class="wrap">
+<svg class="court-lines" viewBox="0 0 400 220" fill="none" stroke="#fff" stroke-width="3"><rect x="20" y="20" width="360" height="180"/><rect x="20" y="40" width="360" height="140"/><line x1="200" y1="20" x2="200" y2="200" stroke-dasharray="6 6"/><rect x="110" y="40" width="180" height="140"/><line x1="110" y1="110" x2="290" y2="110"/></svg>
+<div class="kicker">Rackets · Grips · Accessories · Players · Tournaments · Rankings</div>
+<h1>Everything tennis, in one place.</h1>
+<p class="lead">Pick a racket and a grip, pack the right bag, then study the greats: every Open Era Grand Slam champion, a head-to-head grid that opens the video archive of any two players, and their signature shots broken down into animated steps you can copy on court.</p>
+<div class="controls"><a class="btn" href="/players">Explore the players</a><a class="btn ghost" href="/players#crosstable">Open the rivalry cross-table</a><a class="btn ghost" href="/grip">Which grip should I use?</a></div>
+</div></section>
+<main class="wrap">
+<div class="section-head"><h2>On tour right now</h2><a href="/tournaments" class="small">Full 2026 calendar →</a></div>
+<div class="now" id="now"></div>
+<h2>Start here</h2>
+<div class="grid">
+<a class="card link" href="/rackets"><h3>🎾 Rackets</h3><p class="muted">Power, control and tweener frames explained. Head size, weight, balance, stiffness, string patterns, and what the pros actually swing.</p></a>
+<a class="card link" href="/grip"><h3>✋ Grips</h3><p class="muted">Continental, Eastern, Semi-Western, Western, one- and two-handed backhand grips with bevel diagrams and the shots each one is for.</p></a>
+<a class="card link" href="/accessories"><h3>🎒 Accessories</h3><p class="muted">The bag checklist: strings, overgrips, shoes by surface, balls, hydration, sun, recovery and training tools.</p></a>
+<a class="card link" href="/players"><h3>🏆 Players</h3><p class="muted">Every Grand Slam champion, men and women, with full profiles, equipment and animated signature shots for the all-time greats.</p></a>
+<a class="card link" href="/players#crosstable"><h3>⚔️ Rivalry cross-table</h3><p class="muted">Federer v Nadal, Graf v Seles, Alcaraz v Sinner: click any pair to watch their matches by Grand Slam, Olympics, Davis Cup and Masters.</p></a>
+<a class="card link" href="/rankings"><h3>📈 ATP & WTA rankings</h3><p class="muted">Current top 20 on both tours with links to the official live lists.</p></a>
+</div>
+<div class="section-head"><h2>2026 Grand Slam champions</h2><a href="/tournaments" class="small">All results →</a></div>
+<div class="grid" id="slams"></div>
+<div class="section-head"><h2>World top 5</h2><a href="/rankings" class="small">Top 20 →</a></div>
+<div class="grid wide" id="top5"></div>
+<h2>Signature shots you can actually copy</h2>
+<p class="muted">Each featured player's best strokes are rated for how replicable they are at club level and animated step by step: ready position, unit turn, leg load, contact and finish, with the grip and stance they use.</p>
+<div class="grid" id="shotpicks"></div>
+</main>
+<div id="site-footer"></div>
+<script>
+(async()=>{
+ const [T,R,P]=await TL.load('tournaments','rankings','players');
+ const today=new Date(); const d=s=>new Date(s+'T00:00:00');
+ const fmt=(a,b)=>{const o={day:'numeric',month:'short'};return d(a).toLocaleDateString('en-GB',o)+' – '+d(b).toLocaleDateString('en-GB',{...o,year:'numeric'})};
+ const events=[...T.slams.map(s=>({name:s.name,city:s.city,surface:s.surface,start:s.start,end:s.end,note:s.men.champion?`Champions: ${s.men.champion} · ${s.women.champion}`:''})),...T.upcoming];
+ const live=events.filter(e=>d(e.start)<=today&&today<=d(e.end)); const next=events.filter(e=>d(e.start)>today).sort((a,b)=>d(a.start)-d(b.start)).slice(0,live.length?2:3); const last=events.filter(e=>d(e.end)<today).sort((a,b)=>d(b.end)-d(a.end))[0];
+ document.getElementById('now').innerHTML=[...live.map(e=>({...e,k:'',tag:'Happening now'})),...next.map(e=>({...e,k:'next',tag:'Next up'})),...(last?[{...last,k:'done',tag:'Just finished'}]:[])].map(e=>`<div class="card ${e.k}"><div class="ribbon">${e.tag}</div><h3>${TL.esc(e.name)}</h3><p class="muted small">${TL.esc(e.city)} · ${TL.esc(e.surface)} · ${fmt(e.start,e.end)}</p><p class="small">${TL.esc(e.note||'')}</p></div>`).join('');
+ document.getElementById('slams').innerHTML=T.slams.map(s=>`<div class="card"><div class="ribbon">${TL.esc(s.surface)}</div><h3>${TL.esc(s.name)}</h3><p><b>Men:</b> ${TL.esc(s.men.champion)} <span class="muted small">d. ${TL.esc(s.men.runnerUp)} ${TL.esc(s.men.score)}</span></p><p><b>Women:</b> ${TL.esc(s.women.champion)} <span class="muted small">d. ${TL.esc(s.women.runnerUp)} ${TL.esc(s.women.score)}</span></p></div>`).join('');
+ const row=(list,label)=>`<div class="card"><div class="ribbon">${label} · as of ${R.asOf}</div><table>${list.slice(0,5).map(r=>`<tr><td class="num" style="width:30px"><b>${r.rank}</b></td><td>${TL.esc(r.player)} <span class="muted small">${r.country}</span></td><td class="num muted">${r.points.toLocaleString()}</td></tr>`).join('')}</table></div>`;
+ document.getElementById('top5').innerHTML=row(R.atp,'ATP')+row(R.wta,'WTA');
+ const picks=P.filter(p=>p.featured).flatMap(p=>p.shots.filter(s=>s.replicable>=4).map(s=>({p,s}))).sort(()=>Math.random()-.5).slice(0,6);
+ document.getElementById('shotpicks').innerHTML=picks.map(({p,s})=>`<a class="card link" href="/player?id=${p.id}#shots"><div class="ribbon">${'★'.repeat(s.replicable)}${'☆'.repeat(5-s.replicable)} replicable</div><h3>${TL.esc(s.name)}</h3><p class="muted small">${TL.flag(p)} ${TL.esc(p.name)} · ${TL.esc(s.grip)} grip · ${TL.esc(s.stance)} stance</p></a>`).join('');
+})();
+</script></body></html>
