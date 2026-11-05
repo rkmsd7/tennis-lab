@@ -22,7 +22,8 @@ const TL = (() => {
   });
   const q = () => Object.fromEntries(new URLSearchParams(location.search));
   const pct = (n, d) => d ? Math.round(100 * n / d) : 0;
-  return { load, esc, yt, slams, flag, eraLabel, q, pct };
+  const plink = (p, label) => p && p.id ? `<a class="plink" href="/player?id=${p.id}">${esc(label ?? p.name)}</a>` : esc(label ?? (p && p.name) ?? p ?? '');
+  return { load, esc, yt, slams, flag, eraLabel, q, pct, plink };
 })();
 // YouTube embeds: lazy facade (thumbnail + play) and GIF-style muted loop.
 TL.video = (v, opts = {}) => {

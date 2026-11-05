@@ -144,3 +144,8 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:24px 0;color:var
 .buy a.amz{border-color:rgba(245,197,66,.6);color:#ffe9a3}
 .anim3d .attrib{margin:0;padding:6px 10px 9px;font-size:.72rem;color:#7d8bab;border-top:1px solid var(--line)}.anim3d .attrib a{color:inherit}
 .shotvideo .loopbox{margin-top:4px}
+
+/* player-name links */
+.plink{color:inherit;text-decoration:none;border-bottom:1px dotted rgba(199,208,234,.45)}.plink:hover{color:var(--clay);border-bottom-color:var(--clay)}
+.xt thead th a.rot{border-bottom:0;text-decoration:none}.xt thead th a.rot:hover{color:var(--clay)}
+.plink-inline{color:var(--clay);cursor:pointer}.plink-inline:hover{text-decoration:underline}

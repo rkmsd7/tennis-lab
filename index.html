@@ -31,12 +31,13 @@
 <script>
 (async()=>{
  const [T,R,P]=await TL.load('tournaments','rankings','players');
+ const byName=Object.fromEntries(P.map(p=>[p.name,p])); const pl=n=>TL.plink(byName[n],n);
  const today=new Date(); const d=s=>new Date(s+'T00:00:00');
  const fmt=(a,b)=>{const o={day:'numeric',month:'short'};return d(a).toLocaleDateString('en-GB',o)+' – '+d(b).toLocaleDateString('en-GB',{...o,year:'numeric'})};
  const events=[...T.slams.map(s=>({name:s.name,city:s.city,surface:s.surface,start:s.start,end:s.end,note:s.men.champion?`Champions: ${s.men.champion} · ${s.women.champion}`:''})),...T.upcoming];
  const live=events.filter(e=>d(e.start)<=today&&today<=d(e.end)); const next=events.filter(e=>d(e.start)>today).sort((a,b)=>d(a.start)-d(b.start)).slice(0,live.length?2:3); const last=events.filter(e=>d(e.end)<today).sort((a,b)=>d(b.end)-d(a.end))[0];
  document.getElementById('now').innerHTML=[...live.map(e=>({...e,k:'',tag:'Happening now'})),...next.map(e=>({...e,k:'next',tag:'Next up'})),...(last?[{...last,k:'done',tag:'Just finished'}]:[])].map(e=>`<div class="card ${e.k}"><div class="ribbon">${e.tag}</div><h3>${TL.esc(e.name)}</h3><p class="muted small">${TL.esc(e.city)} · ${TL.esc(e.surface)} · ${fmt(e.start,e.end)}</p><p class="small">${TL.esc(e.note||'')}</p></div>`).join('');
- document.getElementById('slams').innerHTML=T.slams.map(s=>`<div class="card"><div class="ribbon">${TL.esc(s.surface)}</div><h3>${TL.esc(s.name)}</h3><p><b>Men:</b> ${TL.esc(s.men.champion)} <span class="muted small">d. ${TL.esc(s.men.runnerUp)} ${TL.esc(s.men.score)}</span></p><p><b>Women:</b> ${TL.esc(s.women.champion)} <span class="muted small">d. ${TL.esc(s.women.runnerUp)} ${TL.esc(s.women.score)}</span></p></div>`).join('');
+ document.getElementById('slams').innerHTML=T.slams.map(s=>`<div class="card"><div class="ribbon">${TL.esc(s.surface)}</div><h3>${TL.esc(s.name)}</h3><p><b>Men:</b> ${pl(s.men.champion)} <span class="muted small">d. ${pl(s.men.runnerUp)} ${TL.esc(s.men.score)}</span></p><p><b>Women:</b> ${pl(s.women.champion)} <span class="muted small">d. ${pl(s.women.runnerUp)} ${TL.esc(s.women.score)}</span></p></div>`).join('');
  const row=(list,label)=>`<div class="card"><div class="ribbon">${label} · as of ${R.asOf}</div><table>${list.slice(0,5).map(r=>`<tr><td class="num" style="width:30px"><b>${r.rank}</b></td><td>${TL.esc(r.player)} <span class="muted small">${r.country}</span></td><td class="num muted">${r.points.toLocaleString()}</td></tr>`).join('')}</table></div>`;
  document.getElementById('top5').innerHTML=row(R.atp,'ATP')+row(R.wta,'WTA');
  const picks=P.filter(p=>p.featured).flatMap(p=>p.shots.filter(s=>s.replicable>=4).map(s=>({p,s}))).sort(()=>Math.random()-.5).slice(0,6);
