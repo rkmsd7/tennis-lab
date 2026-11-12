@@ -7,7 +7,7 @@ const TL = (() => {
   const slams = p => p.slams.ao + p.slams.rg + p.slams.w + p.slams.uso;
   const flag = p => p.flag || '🏳️';
   const eraLabel = { classic: 'Classic era (1968–1999)', golden: 'Golden era (2000–2019)', modern: 'Modern era (2020+)' };
-  const nav = [['/', 'Home'], ['/rackets', 'Rackets'], ['/grip', 'Grip'], ['/accessories', 'Accessories'], ['/players', 'Players'], ['/tournaments', 'Tournaments'], ['/rankings', 'Rankings']];
+  const nav = [['/', 'Home'], ['/rackets', 'Rackets'], ['/grip', 'Grip'], ['/accessories', 'Accessories'], ['/players', 'Players'], ['/generator', 'Match generator'], ['/tournaments', 'Tournaments'], ['/rankings', 'Rankings']];
   function header() {
     const here = location.pathname.replace(/\.html$/, '').replace(/\/index$/, '/') || '/';
     const isActive = h => h === '/' ? here === '/' : here.startsWith(h) || (h === '/players' && here.startsWith('/player'));

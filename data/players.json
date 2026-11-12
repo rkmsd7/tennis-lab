@@ -85,7 +85,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 90,
+   "backhand": 99,
+   "return": 99,
+   "volley": 80,
+   "movement": 97,
+   "mental": 99
+  }
  },
  {
   "id": "serena-williams",
@@ -159,7 +168,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 99,
+   "forehand": 95,
+   "backhand": 92,
+   "return": 92,
+   "volley": 80,
+   "movement": 88,
+   "mental": 98
+  }
  },
  {
   "id": "rafael-nadal",
@@ -247,7 +265,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 99,
+   "backhand": 90,
+   "return": 93,
+   "volley": 85,
+   "movement": 96,
+   "mental": 99
+  }
  },
  {
   "id": "steffi-graf",
@@ -307,7 +334,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 90,
+   "forehand": 99,
+   "backhand": 80,
+   "return": 85,
+   "volley": 80,
+   "movement": 97,
+   "mental": 95
+  }
  },
  {
   "id": "roger-federer",
@@ -395,7 +431,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 93,
+   "forehand": 98,
+   "backhand": 88,
+   "return": 88,
+   "volley": 95,
+   "movement": 96,
+   "mental": 94
+  }
  },
  {
   "id": "chris-evert",
@@ -455,7 +500,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 90,
+   "backhand": 97,
+   "return": 92,
+   "volley": 70,
+   "movement": 90,
+   "mental": 99
+  }
  },
  {
   "id": "martina-navratilova",
@@ -515,7 +569,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 85,
+   "backhand": 88,
+   "return": 85,
+   "volley": 99,
+   "movement": 95,
+   "mental": 95
+  }
  },
  {
   "id": "pete-sampras",
@@ -589,7 +652,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 99,
+   "forehand": 92,
+   "backhand": 80,
+   "return": 78,
+   "volley": 95,
+   "movement": 88,
+   "mental": 92
+  }
  },
  {
   "id": "bjorn-borg",
@@ -649,7 +721,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 80,
+   "forehand": 90,
+   "backhand": 92,
+   "return": 90,
+   "volley": 72,
+   "movement": 97,
+   "mental": 97
+  }
  },
  {
   "id": "margaret-court",
@@ -668,7 +749,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 90,
+   "forehand": 88,
+   "backhand": 84,
+   "return": 82,
+   "volley": 96,
+   "movement": 90,
+   "mental": 92
+  }
  },
  {
   "id": "billie-jean-king",
@@ -687,7 +777,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 84,
+   "forehand": 84,
+   "backhand": 86,
+   "return": 84,
+   "volley": 97,
+   "movement": 90,
+   "mental": 94
+  }
  },
  {
   "id": "monica-seles",
@@ -747,7 +846,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 75,
+   "forehand": 95,
+   "backhand": 99,
+   "return": 96,
+   "volley": 65,
+   "movement": 85,
+   "mental": 97
+  }
  },
  {
   "id": "andre-agassi",
@@ -807,7 +915,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 78,
+   "forehand": 94,
+   "backhand": 93,
+   "return": 99,
+   "volley": 70,
+   "movement": 85,
+   "mental": 88
+  }
  },
  {
   "id": "ivan-lendl",
@@ -867,7 +984,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 90,
+   "forehand": 97,
+   "backhand": 85,
+   "return": 85,
+   "volley": 70,
+   "movement": 88,
+   "mental": 94
+  }
  },
  {
   "id": "jimmy-connors",
@@ -927,7 +1053,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 85,
+   "backhand": 92,
+   "return": 97,
+   "volley": 80,
+   "movement": 90,
+   "mental": 95
+  }
  },
  {
   "id": "carlos-alcaraz",
@@ -1001,7 +1136,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 85,
+   "forehand": 96,
+   "backhand": 88,
+   "return": 90,
+   "volley": 92,
+   "movement": 98,
+   "mental": 90
+  }
  },
  {
   "id": "evonne-goolagong-cawley",
@@ -1020,7 +1164,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 78,
+   "forehand": 86,
+   "backhand": 90,
+   "return": 82,
+   "volley": 94,
+   "movement": 96,
+   "mental": 80
+  }
  },
  {
   "id": "john-mcenroe",
@@ -1080,7 +1233,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 85,
+   "backhand": 85,
+   "return": 86,
+   "volley": 99,
+   "movement": 90,
+   "mental": 85
+  }
  },
  {
   "id": "justine-henin",
@@ -1140,7 +1302,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 92,
+   "backhand": 99,
+   "return": 88,
+   "volley": 88,
+   "movement": 94,
+   "mental": 93
+  }
  },
  {
   "id": "mats-wilander",
@@ -1200,7 +1371,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 84,
+   "backhand": 90,
+   "return": 90,
+   "volley": 75,
+   "movement": 90,
+   "mental": 95
+  }
  },
  {
   "id": "venus-williams",
@@ -1260,7 +1440,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 95,
+   "forehand": 90,
+   "backhand": 88,
+   "return": 85,
+   "volley": 85,
+   "movement": 90,
+   "mental": 88
+  }
  },
  {
   "id": "boris-becker",
@@ -1320,7 +1509,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 97,
+   "forehand": 88,
+   "backhand": 82,
+   "return": 80,
+   "volley": 96,
+   "movement": 85,
+   "mental": 90
+  }
  },
  {
   "id": "iga-swiatek",
@@ -1380,7 +1578,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 82,
+   "forehand": 99,
+   "backhand": 90,
+   "return": 92,
+   "volley": 75,
+   "movement": 97,
+   "mental": 93
+  }
  },
  {
   "id": "stefan-edberg",
@@ -1454,7 +1661,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 85,
+   "forehand": 78,
+   "backhand": 92,
+   "return": 82,
+   "volley": 99,
+   "movement": 92,
+   "mental": 86
+  }
  },
  {
   "id": "jannik-sinner",
@@ -1528,7 +1744,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 95,
+   "backhand": 95,
+   "return": 93,
+   "volley": 78,
+   "movement": 92,
+   "mental": 93
+  }
  },
  {
   "id": "john-newcombe",
@@ -1547,7 +1772,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 94,
+   "forehand": 90,
+   "backhand": 80,
+   "return": 78,
+   "volley": 95,
+   "movement": 84,
+   "mental": 88
+  }
  },
  {
   "id": "maria-sharapova",
@@ -1607,7 +1841,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 88,
+   "forehand": 94,
+   "backhand": 94,
+   "return": 90,
+   "volley": 60,
+   "movement": 78,
+   "mental": 97
+  }
  },
  {
   "id": "martina-hingis",
@@ -1626,7 +1869,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 85,
+   "backhand": 88,
+   "return": 92,
+   "volley": 85,
+   "movement": 92,
+   "mental": 95
+  }
  },
  {
   "id": "rod-laver",
@@ -1645,7 +1897,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 86,
+   "forehand": 92,
+   "backhand": 88,
+   "return": 86,
+   "volley": 94,
+   "movement": 92,
+   "mental": 96
+  }
  },
  {
   "id": "arantxa-sanchez-vicario",
@@ -1664,7 +1925,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 86,
+   "backhand": 86,
+   "return": 96,
+   "volley": 68,
+   "movement": 98,
+   "mental": 95
+  }
  },
  {
   "id": "aryna-sabalenka",
@@ -1724,7 +1994,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 92,
+   "forehand": 96,
+   "backhand": 92,
+   "return": 90,
+   "volley": 70,
+   "movement": 85,
+   "mental": 86
+  }
  },
  {
   "id": "guillermo-vilas",
@@ -1743,7 +2022,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 76,
+   "forehand": 92,
+   "backhand": 90,
+   "return": 86,
+   "volley": 70,
+   "movement": 88,
+   "mental": 92
+  }
  },
  {
   "id": "hana-mandlikova",
@@ -1762,7 +2050,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 86,
+   "forehand": 92,
+   "backhand": 86,
+   "return": 80,
+   "volley": 90,
+   "movement": 90,
+   "mental": 74
+  }
  },
  {
   "id": "jim-courier",
@@ -1781,7 +2078,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 95,
+   "backhand": 80,
+   "return": 84,
+   "volley": 65,
+   "movement": 82,
+   "mental": 90
+  }
  },
  {
   "id": "ken-rosewall",
@@ -1800,7 +2106,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 84,
+   "backhand": 98,
+   "return": 92,
+   "volley": 92,
+   "movement": 90,
+   "mental": 95
+  }
  },
  {
   "id": "kim-clijsters",
@@ -1819,7 +2134,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 92,
+   "backhand": 90,
+   "return": 90,
+   "volley": 75,
+   "movement": 98,
+   "mental": 88
+  }
  },
  {
   "id": "naomi-osaka",
@@ -1879,7 +2203,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 93,
+   "forehand": 95,
+   "backhand": 88,
+   "return": 86,
+   "volley": 60,
+   "movement": 82,
+   "mental": 85
+  }
  },
  {
   "id": "andy-murray",
@@ -1953,7 +2286,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 85,
+   "forehand": 84,
+   "backhand": 94,
+   "return": 96,
+   "volley": 85,
+   "movement": 94,
+   "mental": 90
+  }
  },
  {
   "id": "angelique-kerber",
@@ -1972,7 +2314,16 @@
   "hand": "L",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 80,
+   "backhand": 92,
+   "return": 94,
+   "volley": 72,
+   "movement": 94,
+   "mental": 90
+  }
  },
  {
   "id": "arthur-ashe",
@@ -1991,7 +2342,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 86,
+   "backhand": 88,
+   "return": 78,
+   "volley": 88,
+   "movement": 84,
+   "mental": 88
+  }
  },
  {
   "id": "ashleigh-barty",
@@ -2051,7 +2411,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 84,
+   "forehand": 88,
+   "backhand": 86,
+   "return": 86,
+   "volley": 90,
+   "movement": 92,
+   "mental": 92
+  }
  },
  {
   "id": "elena-rybakina",
@@ -2111,7 +2480,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 97,
+   "forehand": 94,
+   "backhand": 88,
+   "return": 82,
+   "volley": 72,
+   "movement": 84,
+   "mental": 84
+  }
  },
  {
   "id": "gustavo-kuerten",
@@ -2130,7 +2508,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 84,
+   "forehand": 90,
+   "backhand": 96,
+   "return": 80,
+   "volley": 72,
+   "movement": 88,
+   "mental": 86
+  }
  },
  {
   "id": "jan-kodes",
@@ -2149,7 +2536,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 87,
+   "forehand": 83,
+   "backhand": 79,
+   "return": 77,
+   "volley": 91,
+   "movement": 84,
+   "mental": 87
+  }
  },
  {
   "id": "jennifer-capriati",
@@ -2168,7 +2564,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 94,
+   "backhand": 90,
+   "return": 88,
+   "volley": 66,
+   "movement": 84,
+   "mental": 86
+  }
  },
  {
   "id": "lindsay-davenport",
@@ -2188,7 +2593,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat power",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 90,
+   "forehand": 95,
+   "backhand": 88,
+   "return": 82,
+   "volley": 70,
+   "movement": 70,
+   "mental": 85
+  }
  },
  {
   "id": "stan-wawrinka",
@@ -2248,7 +2662,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 88,
+   "forehand": 90,
+   "backhand": 96,
+   "return": 78,
+   "volley": 75,
+   "movement": 80,
+   "mental": 82
+  }
  },
  {
   "id": "virginia-wade",
@@ -2267,7 +2690,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 86,
+   "forehand": 84,
+   "backhand": 80,
+   "return": 78,
+   "volley": 92,
+   "movement": 86,
+   "mental": 82
+  }
  },
  {
   "id": "alexander-zverev",
@@ -2327,7 +2759,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 92,
+   "forehand": 84,
+   "backhand": 93,
+   "return": 86,
+   "volley": 76,
+   "movement": 88,
+   "mental": 80
+  }
  },
  {
   "id": "amelie-mauresmo",
@@ -2346,7 +2787,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 84,
+   "forehand": 86,
+   "backhand": 94,
+   "return": 80,
+   "volley": 92,
+   "movement": 90,
+   "mental": 76
+  }
  },
  {
   "id": "barbora-krejcikova",
@@ -2365,7 +2815,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 80,
+   "forehand": 86,
+   "backhand": 88,
+   "return": 86,
+   "volley": 90,
+   "movement": 86,
+   "mental": 84
+  }
  },
  {
   "id": "coco-gauff",
@@ -2425,7 +2884,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 82,
+   "backhand": 94,
+   "return": 96,
+   "volley": 78,
+   "movement": 99,
+   "mental": 88
+  }
  },
  {
   "id": "garbine-muguruza",
@@ -2444,7 +2912,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 92,
+   "backhand": 88,
+   "return": 84,
+   "volley": 72,
+   "movement": 85,
+   "mental": 82
+  }
  },
  {
   "id": "ilie-nastase",
@@ -2463,7 +2940,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 78,
+   "forehand": 88,
+   "backhand": 88,
+   "return": 86,
+   "volley": 90,
+   "movement": 94,
+   "mental": 70
+  }
  },
  {
   "id": "johan-kriek",
@@ -2482,7 +2968,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 76,
+   "forehand": 72,
+   "backhand": 73,
+   "return": 74,
+   "volley": 78,
+   "movement": 72,
+   "mental": 77
+  }
  },
  {
   "id": "li-na",
@@ -2501,7 +2996,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 92,
+   "backhand": 92,
+   "return": 88,
+   "volley": 68,
+   "movement": 88,
+   "mental": 80
+  }
  },
  {
   "id": "lleyton-hewitt",
@@ -2520,7 +3024,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 84,
+   "backhand": 88,
+   "return": 97,
+   "volley": 70,
+   "movement": 97,
+   "mental": 96
+  }
  },
  {
   "id": "marat-safin",
@@ -2539,7 +3052,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 92,
+   "backhand": 94,
+   "return": 86,
+   "volley": 72,
+   "movement": 82,
+   "mental": 70
+  }
  },
  {
   "id": "mary-pierce",
@@ -2558,7 +3080,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 88,
+   "forehand": 96,
+   "backhand": 86,
+   "return": 80,
+   "volley": 66,
+   "movement": 72,
+   "mental": 78
+  }
  },
  {
   "id": "patrick-rafter",
@@ -2577,7 +3108,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 84,
+   "forehand": 80,
+   "backhand": 80,
+   "return": 80,
+   "volley": 99,
+   "movement": 94,
+   "mental": 86
+  }
  },
  {
   "id": "petra-kvitova",
@@ -2596,7 +3136,16 @@
   "hand": "L",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 94,
+   "forehand": 97,
+   "backhand": 88,
+   "return": 78,
+   "volley": 72,
+   "movement": 78,
+   "mental": 80
+  }
  },
  {
   "id": "sergi-bruguera",
@@ -2615,7 +3164,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 92,
+   "backhand": 86,
+   "return": 86,
+   "volley": 65,
+   "movement": 92,
+   "mental": 88
+  }
  },
  {
   "id": "simona-halep",
@@ -2634,7 +3192,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 88,
+   "backhand": 90,
+   "return": 94,
+   "volley": 70,
+   "movement": 96,
+   "mental": 88
+  }
  },
  {
   "id": "stan-smith",
@@ -2653,7 +3220,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 94,
+   "forehand": 86,
+   "backhand": 82,
+   "return": 78,
+   "volley": 94,
+   "movement": 82,
+   "mental": 88
+  }
  },
  {
   "id": "svetlana-kuznetsova",
@@ -2672,7 +3248,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 92,
+   "backhand": 86,
+   "return": 86,
+   "volley": 80,
+   "movement": 90,
+   "mental": 78
+  }
  },
  {
   "id": "tracy-austin",
@@ -2691,7 +3276,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 68,
+   "forehand": 88,
+   "backhand": 94,
+   "return": 92,
+   "volley": 62,
+   "movement": 86,
+   "mental": 95
+  }
  },
  {
   "id": "victoria-azarenka",
@@ -2710,7 +3304,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 80,
+   "forehand": 88,
+   "backhand": 95,
+   "return": 96,
+   "volley": 70,
+   "movement": 88,
+   "mental": 90
+  }
  },
  {
   "id": "yevgeny-kafelnikov",
@@ -2729,7 +3332,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 86,
+   "backhand": 92,
+   "return": 88,
+   "volley": 78,
+   "movement": 82,
+   "mental": 78
+  }
  },
  {
   "id": "adriano-panatta",
@@ -2748,7 +3360,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 68,
+   "forehand": 70,
+   "backhand": 66,
+   "return": 64,
+   "volley": 71,
+   "movement": 71,
+   "mental": 67
+  }
  },
  {
   "id": "albert-costa",
@@ -2767,7 +3388,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 67,
+   "backhand": 63,
+   "return": 62,
+   "volley": 59,
+   "movement": 69,
+   "mental": 65
+  }
  },
  {
   "id": "ana-ivanovic",
@@ -2786,7 +3416,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 80,
+   "forehand": 96,
+   "backhand": 84,
+   "return": 82,
+   "volley": 62,
+   "movement": 84,
+   "mental": 76
+  }
  },
  {
   "id": "anastasia-myskina",
@@ -2805,7 +3444,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 84,
+   "backhand": 88,
+   "return": 90,
+   "volley": 70,
+   "movement": 92,
+   "mental": 80
+  }
  },
  {
   "id": "andres-gimeno",
@@ -2824,7 +3472,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 69,
+   "forehand": 71,
+   "backhand": 66,
+   "return": 65,
+   "volley": 72,
+   "movement": 72,
+   "mental": 68
+  }
  },
  {
   "id": "andres-gomez",
@@ -2843,7 +3500,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 72,
+   "backhand": 68,
+   "return": 66,
+   "volley": 73,
+   "movement": 73,
+   "mental": 70
+  }
  },
  {
   "id": "andy-roddick",
@@ -2862,7 +3528,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 99,
+   "forehand": 93,
+   "backhand": 74,
+   "return": 78,
+   "volley": 72,
+   "movement": 82,
+   "mental": 85
+  }
  },
  {
   "id": "ann-haydon-jones",
@@ -2881,7 +3556,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 75,
+   "forehand": 69,
+   "backhand": 70,
+   "return": 69,
+   "volley": 81,
+   "movement": 69,
+   "mental": 71
+  }
  },
  {
   "id": "barbara-jordan",
@@ -2900,7 +3584,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 67,
+   "forehand": 68,
+   "backhand": 69,
+   "return": 70,
+   "volley": 75,
+   "movement": 68,
+   "mental": 70
+  }
  },
  {
   "id": "bianca-andreescu",
@@ -2919,7 +3612,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 82,
+   "forehand": 90,
+   "backhand": 88,
+   "return": 86,
+   "volley": 84,
+   "movement": 86,
+   "mental": 80
+  }
  },
  {
   "id": "brian-teacher",
@@ -2938,7 +3640,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 67,
+   "backhand": 68,
+   "return": 69,
+   "volley": 73,
+   "movement": 66,
+   "mental": 69
+  }
  },
  {
   "id": "carlos-moya",
@@ -2957,7 +3668,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 86,
+   "forehand": 96,
+   "backhand": 78,
+   "return": 80,
+   "volley": 68,
+   "movement": 84,
+   "mental": 82
+  }
  },
  {
   "id": "caroline-wozniacki",
@@ -2976,7 +3696,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 82,
+   "backhand": 90,
+   "return": 94,
+   "volley": 66,
+   "movement": 97,
+   "mental": 90
+  }
  },
  {
   "id": "chris-o-neil",
@@ -2995,7 +3724,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 64,
+   "backhand": 65,
+   "return": 68,
+   "volley": 72,
+   "movement": 64,
+   "mental": 67
+  }
  },
  {
   "id": "conchita-martinez",
@@ -3014,7 +3752,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 88,
+   "backhand": 86,
+   "return": 88,
+   "volley": 72,
+   "movement": 88,
+   "mental": 86
+  }
  },
  {
   "id": "daniil-medvedev",
@@ -3074,7 +3821,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 86,
+   "backhand": 92,
+   "return": 94,
+   "volley": 72,
+   "movement": 90,
+   "mental": 88
+  }
  },
  {
   "id": "dominic-thiem",
@@ -3134,7 +3890,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 94,
+   "backhand": 90,
+   "return": 80,
+   "volley": 72,
+   "movement": 86,
+   "mental": 82
+  }
  },
  {
   "id": "emma-raducanu",
@@ -3153,7 +3918,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 80,
+   "forehand": 86,
+   "backhand": 90,
+   "return": 90,
+   "volley": 70,
+   "movement": 88,
+   "mental": 78
+  }
  },
  {
   "id": "flavia-pennetta",
@@ -3172,7 +3946,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 76,
+   "forehand": 88,
+   "backhand": 86,
+   "return": 88,
+   "volley": 74,
+   "movement": 84,
+   "mental": 80
+  }
  },
  {
   "id": "francesca-schiavone",
@@ -3191,7 +3974,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 88,
+   "backhand": 86,
+   "return": 82,
+   "volley": 86,
+   "movement": 92,
+   "mental": 86
+  }
  },
  {
   "id": "gabriela-sabatini",
@@ -3210,7 +4002,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 78,
+   "forehand": 90,
+   "backhand": 88,
+   "return": 80,
+   "volley": 86,
+   "movement": 86,
+   "mental": 78
+  }
  },
  {
   "id": "gaston-gaudio",
@@ -3229,7 +4030,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 74,
+   "backhand": 69,
+   "return": 68,
+   "volley": 65,
+   "movement": 74,
+   "mental": 71
+  }
  },
  {
   "id": "goran-ivanisevic",
@@ -3248,7 +4058,16 @@
   "hand": "L",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 99,
+   "forehand": 84,
+   "backhand": 82,
+   "return": 70,
+   "volley": 85,
+   "movement": 78,
+   "mental": 72
+  }
  },
  {
   "id": "iva-majoli",
@@ -3267,7 +4086,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 72,
+   "forehand": 90,
+   "backhand": 84,
+   "return": 84,
+   "volley": 64,
+   "movement": 84,
+   "mental": 80
+  }
  },
  {
   "id": "jana-novotna",
@@ -3286,7 +4114,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 84,
+   "forehand": 80,
+   "backhand": 86,
+   "return": 80,
+   "volley": 97,
+   "movement": 88,
+   "mental": 78
+  }
  },
  {
   "id": "jelena-ostapenko",
@@ -3305,7 +4142,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 80,
+   "forehand": 98,
+   "backhand": 92,
+   "return": 84,
+   "volley": 62,
+   "movement": 76,
+   "mental": 70
+  }
  },
  {
   "id": "juan-carlos-ferrero",
@@ -3324,7 +4170,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 94,
+   "backhand": 84,
+   "return": 88,
+   "volley": 70,
+   "movement": 94,
+   "mental": 86
+  }
  },
  {
   "id": "juan-martin-del-potro",
@@ -3384,7 +4239,16 @@
     ]
    }
   ],
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 88,
+   "forehand": 99,
+   "backhand": 82,
+   "return": 82,
+   "volley": 70,
+   "movement": 78,
+   "mental": 84
+  }
  },
  {
   "id": "kerry-melville-reid",
@@ -3403,7 +4267,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 69,
+   "forehand": 68,
+   "backhand": 69,
+   "return": 72,
+   "volley": 76,
+   "movement": 68,
+   "mental": 72
+  }
  },
  {
   "id": "linda-noskova",
@@ -3422,7 +4295,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 69,
+   "forehand": 63,
+   "backhand": 67,
+   "return": 67,
+   "volley": 63,
+   "movement": 66,
+   "mental": 66
+  }
  },
  {
   "id": "madison-keys",
@@ -3442,7 +4324,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Power baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 94,
+   "forehand": 97,
+   "backhand": 86,
+   "return": 80,
+   "volley": 70,
+   "movement": 80,
+   "mental": 80
+  }
  },
  {
   "id": "manuel-orantes",
@@ -3461,7 +4352,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 74,
+   "forehand": 70,
+   "backhand": 71,
+   "return": 73,
+   "volley": 78,
+   "movement": 70,
+   "mental": 74
+  }
  },
  {
   "id": "marin-cilic",
@@ -3480,7 +4380,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 94,
+   "forehand": 90,
+   "backhand": 86,
+   "return": 80,
+   "volley": 72,
+   "movement": 78,
+   "mental": 80
+  }
  },
  {
   "id": "marion-bartoli",
@@ -3499,7 +4408,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 74,
+   "forehand": 88,
+   "backhand": 92,
+   "return": 94,
+   "volley": 68,
+   "movement": 82,
+   "mental": 86
+  }
  },
  {
   "id": "mark-edmondson",
@@ -3518,7 +4436,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 67,
+   "forehand": 63,
+   "backhand": 64,
+   "return": 66,
+   "volley": 69,
+   "movement": 63,
+   "mental": 65
+  }
  },
  {
   "id": "marketa-vondrousova",
@@ -3537,7 +4464,16 @@
   "hand": "L",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 74,
+   "forehand": 82,
+   "backhand": 88,
+   "return": 86,
+   "volley": 86,
+   "movement": 92,
+   "mental": 82
+  }
  },
  {
   "id": "michael-chang",
@@ -3556,7 +4492,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 68,
+   "forehand": 84,
+   "backhand": 86,
+   "return": 94,
+   "volley": 70,
+   "movement": 99,
+   "mental": 94
+  }
  },
  {
   "id": "michael-stich",
@@ -3575,7 +4520,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 94,
+   "forehand": 86,
+   "backhand": 88,
+   "return": 76,
+   "volley": 92,
+   "movement": 86,
+   "mental": 80
+  }
  },
  {
   "id": "mima-jausovec",
@@ -3594,7 +4548,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 72,
+   "backhand": 68,
+   "return": 66,
+   "volley": 73,
+   "movement": 73,
+   "mental": 69
+  }
  },
  {
   "id": "mirra-andreeva",
@@ -3654,7 +4617,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 76,
+   "forehand": 86,
+   "backhand": 92,
+   "return": 88,
+   "volley": 76,
+   "movement": 92,
+   "mental": 84
+  }
  },
  {
   "id": "nancy-richey",
@@ -3673,7 +4645,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 69,
+   "backhand": 65,
+   "return": 65,
+   "volley": 72,
+   "movement": 70,
+   "mental": 68
+  }
  },
  {
   "id": "pat-cash",
@@ -3692,7 +4673,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 86,
+   "forehand": 80,
+   "backhand": 80,
+   "return": 76,
+   "volley": 99,
+   "movement": 90,
+   "mental": 82
+  }
  },
  {
   "id": "petr-korda",
@@ -3711,7 +4701,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 65,
+   "backhand": 66,
+   "return": 69,
+   "volley": 73,
+   "movement": 65,
+   "mental": 69
+  }
  },
  {
   "id": "richard-krajicek",
@@ -3730,7 +4729,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 98,
+   "forehand": 88,
+   "backhand": 78,
+   "return": 70,
+   "volley": 90,
+   "movement": 78,
+   "mental": 78
+  }
  },
  {
   "id": "roscoe-tanner",
@@ -3749,7 +4757,16 @@
   "hand": "L",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 69,
+   "forehand": 65,
+   "backhand": 66,
+   "return": 68,
+   "volley": 71,
+   "movement": 65,
+   "mental": 68
+  }
  },
  {
   "id": "sloane-stephens",
@@ -3768,7 +4785,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 78,
+   "forehand": 90,
+   "backhand": 86,
+   "return": 88,
+   "volley": 70,
+   "movement": 96,
+   "mental": 78
+  }
  },
  {
   "id": "sofia-kenin",
@@ -3787,7 +4813,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 74,
+   "forehand": 86,
+   "backhand": 92,
+   "return": 90,
+   "volley": 70,
+   "movement": 86,
+   "mental": 86
+  }
  },
  {
   "id": "thomas-johansson",
@@ -3806,7 +4841,16 @@
   "hand": "R",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 66,
+   "backhand": 69,
+   "return": 72,
+   "volley": 60,
+   "movement": 66,
+   "mental": 69
+  }
  },
  {
   "id": "thomas-muster",
@@ -3825,7 +4869,16 @@
   "hand": "L",
   "backhand": "2",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 80,
+   "forehand": 94,
+   "backhand": 84,
+   "return": 86,
+   "volley": 65,
+   "movement": 92,
+   "mental": 96
+  }
  },
  {
   "id": "virginia-ruzici",
@@ -3844,7 +4897,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 64,
+   "forehand": 68,
+   "backhand": 65,
+   "return": 64,
+   "volley": 71,
+   "movement": 69,
+   "mental": 67
+  }
  },
  {
   "id": "vitas-gerulaitis",
@@ -3863,7 +4925,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 67,
+   "forehand": 63,
+   "backhand": 64,
+   "return": 66,
+   "volley": 70,
+   "movement": 63,
+   "mental": 66
+  }
  },
  {
   "id": "yannick-noah",
@@ -3882,7 +4953,16 @@
   "hand": "R",
   "backhand": "1",
   "featured": false,
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 88,
+   "forehand": 86,
+   "backhand": 78,
+   "return": 78,
+   "volley": 96,
+   "movement": 94,
+   "mental": 84
+  }
  },
  {
   "id": "gael-monfils",
@@ -3956,7 +5036,16 @@
     ]
    }
   ],
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 88,
+   "forehand": 90,
+   "backhand": 80,
+   "return": 85,
+   "volley": 80,
+   "movement": 99,
+   "mental": 70
+  }
  },
  {
   "id": "ben-shelton",
@@ -3976,7 +5065,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Explosive lefty server",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 98,
+   "forehand": 92,
+   "backhand": 78,
+   "return": 76,
+   "volley": 82,
+   "movement": 86,
+   "mental": 78
+  }
  },
  {
   "id": "taylor-fritz",
@@ -3996,7 +5094,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Big-serving baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 94,
+   "forehand": 92,
+   "backhand": 86,
+   "return": 84,
+   "volley": 72,
+   "movement": 80,
+   "mental": 84
+  }
  },
  {
   "id": "alex-de-minaur",
@@ -4016,7 +5123,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Speed and counter-punching",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 76,
+   "forehand": 82,
+   "backhand": 86,
+   "return": 94,
+   "volley": 76,
+   "movement": 99,
+   "mental": 92
+  }
  },
  {
   "id": "stefanos-tsitsipas",
@@ -4036,7 +5152,16 @@
   "backhand": "1",
   "featured": false,
   "style": "Aggressive all-court, one-handed backhand",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 94,
+   "backhand": 80,
+   "return": 78,
+   "volley": 88,
+   "movement": 88,
+   "mental": 80
+  }
  },
  {
   "id": "holger-rune",
@@ -4056,7 +5181,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Aggressive baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 90,
+   "backhand": 90,
+   "return": 86,
+   "volley": 80,
+   "movement": 90,
+   "mental": 74
+  }
  },
  {
   "id": "casper-ruud",
@@ -4076,7 +5210,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Clay-court forehand specialist",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 84,
+   "forehand": 94,
+   "backhand": 82,
+   "return": 84,
+   "volley": 68,
+   "movement": 86,
+   "mental": 88
+  }
  },
  {
   "id": "jack-draper",
@@ -4096,7 +5239,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Heavy lefty forehand",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 92,
+   "backhand": 84,
+   "return": 86,
+   "volley": 78,
+   "movement": 84,
+   "mental": 82
+  }
  },
  {
   "id": "flavio-cobolli",
@@ -4116,7 +5268,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Fast-rising Italian baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 62,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 61,
+   "volley": 55,
+   "movement": 63,
+   "mental": 59
+  }
  },
  {
   "id": "arthur-fils",
@@ -4136,7 +5297,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Power baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 90,
+   "forehand": 94,
+   "backhand": 84,
+   "return": 82,
+   "volley": 76,
+   "movement": 90,
+   "mental": 78
+  }
  },
  {
   "id": "lorenzo-musetti",
@@ -4156,7 +5326,16 @@
   "backhand": "1",
   "featured": false,
   "style": "Artistic one-handed backhand",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 82,
+   "forehand": 86,
+   "backhand": 94,
+   "return": 82,
+   "volley": 86,
+   "movement": 88,
+   "mental": 80
+  }
  },
  {
   "id": "frances-tiafoe",
@@ -4176,7 +5355,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Athletic showman",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 90,
+   "backhand": 82,
+   "return": 82,
+   "volley": 80,
+   "movement": 90,
+   "mental": 76
+  }
  },
  {
   "id": "tommy-paul",
@@ -4196,7 +5384,16 @@
   "backhand": "2",
   "featured": false,
   "style": "All-court mover",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 82,
+   "forehand": 86,
+   "backhand": 86,
+   "return": 88,
+   "volley": 80,
+   "movement": 94,
+   "mental": 84
+  }
  },
  {
   "id": "rafael-jodar",
@@ -4216,7 +5413,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Spanish prodigy",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 62,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 61,
+   "volley": 55,
+   "movement": 63,
+   "mental": 58
+  }
  },
  {
   "id": "jakub-mensik",
@@ -4236,7 +5442,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Big serve, flat backhand",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 96,
+   "forehand": 86,
+   "backhand": 88,
+   "return": 80,
+   "volley": 74,
+   "movement": 84,
+   "mental": 78
+  }
  },
  {
   "id": "jiri-lehecka",
@@ -4256,7 +5471,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Clean power baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 67,
+   "forehand": 64,
+   "backhand": 68,
+   "return": 66,
+   "volley": 57,
+   "movement": 68,
+   "mental": 63
+  }
  },
  {
   "id": "learner-tien",
@@ -4276,7 +5500,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Crafty lefty counter-puncher",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 63,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 62,
+   "volley": 55,
+   "movement": 64,
+   "mental": 59
+  }
  },
  {
   "id": "felix-auger-aliassime",
@@ -4296,7 +5529,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Serve and forehand",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 94,
+   "forehand": 92,
+   "backhand": 82,
+   "return": 80,
+   "volley": 82,
+   "movement": 86,
+   "mental": 78
+  }
  },
  {
   "id": "grigor-dimitrov",
@@ -4316,7 +5558,16 @@
   "backhand": "1",
   "featured": false,
   "style": "One-handed elegance",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 86,
+   "forehand": 88,
+   "backhand": 90,
+   "return": 82,
+   "volley": 90,
+   "movement": 92,
+   "mental": 78
+  }
  },
  {
   "id": "matteo-berrettini",
@@ -4336,7 +5587,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Serve-forehand power",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 96,
+   "forehand": 96,
+   "backhand": 76,
+   "return": 74,
+   "volley": 80,
+   "movement": 80,
+   "mental": 80
+  }
  },
  {
   "id": "nick-kyrgios",
@@ -4356,7 +5616,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Serve and showmanship",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 97,
+   "forehand": 92,
+   "backhand": 82,
+   "return": 78,
+   "volley": 86,
+   "movement": 84,
+   "mental": 60
+  }
  },
  {
   "id": "kei-nishikori",
@@ -4376,7 +5645,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Early-ball counter-puncher",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 76,
+   "forehand": 92,
+   "backhand": 94,
+   "return": 92,
+   "volley": 70,
+   "movement": 92,
+   "mental": 84
+  }
  },
  {
   "id": "jo-wilfried-tsonga",
@@ -4396,7 +5674,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Athletic power",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 94,
+   "backhand": 80,
+   "return": 78,
+   "volley": 88,
+   "movement": 86,
+   "mental": 80
+  }
  },
  {
   "id": "david-ferrer",
@@ -4416,7 +5703,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Relentless grinder",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 86,
+   "backhand": 86,
+   "return": 96,
+   "volley": 66,
+   "movement": 97,
+   "mental": 97
+  }
  },
  {
   "id": "tomas-berdych",
@@ -4436,7 +5732,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat power baseliner",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 90,
+   "forehand": 94,
+   "backhand": 88,
+   "return": 80,
+   "volley": 72,
+   "movement": 78,
+   "mental": 78
+  }
  },
  {
   "id": "milos-raonic",
@@ -4456,7 +5761,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Huge serve",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 65,
+   "backhand": 70,
+   "return": 69,
+   "volley": 60,
+   "movement": 66,
+   "mental": 67
+  }
  },
  {
   "id": "robin-soderling",
@@ -4476,7 +5790,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat power; the man who beat Nadal at RG",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 63,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 62,
+   "volley": 55,
+   "movement": 59,
+   "mental": 58
+  }
  },
  {
   "id": "david-nalbandian",
@@ -4496,7 +5819,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Backhand artist",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 62,
+   "backhand": 66,
+   "return": 64,
+   "volley": 55,
+   "movement": 62,
+   "mental": 61
+  }
  },
  {
   "id": "fernando-verdasco",
@@ -4516,7 +5848,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Lefty forehand power",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 69,
+   "forehand": 65,
+   "backhand": 69,
+   "return": 68,
+   "volley": 59,
+   "movement": 65,
+   "mental": 64
+  }
  },
  {
   "id": "nikolay-davydenko",
@@ -4536,7 +5877,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Early-ball baseliner",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 65,
+   "volley": 56,
+   "movement": 61,
+   "mental": 62
+  }
  },
  {
   "id": "tommy-haas",
@@ -4556,7 +5906,16 @@
   "backhand": "1",
   "featured": false,
   "style": "Classic all-court",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 67,
+   "forehand": 64,
+   "backhand": 65,
+   "return": 63,
+   "volley": 60,
+   "movement": 64,
+   "mental": 63
+  }
  },
  {
   "id": "marcos-baghdatis",
@@ -4576,7 +5935,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Crowd favourite",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 66,
+   "forehand": 62,
+   "backhand": 66,
+   "return": 65,
+   "volley": 56,
+   "movement": 63,
+   "mental": 62
+  }
  },
  {
   "id": "jessica-pegula",
@@ -4596,7 +5964,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat, early-ball counter-puncher",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 80,
+   "forehand": 86,
+   "backhand": 92,
+   "return": 94,
+   "volley": 74,
+   "movement": 88,
+   "mental": 88
+  }
  },
  {
   "id": "elina-svitolina",
@@ -4616,7 +5993,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Defensive baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 74,
+   "forehand": 84,
+   "backhand": 90,
+   "return": 92,
+   "volley": 72,
+   "movement": 94,
+   "mental": 88
+  }
  },
  {
   "id": "karolina-muchova",
@@ -4636,7 +6022,16 @@
   "backhand": "2",
   "featured": false,
   "style": "All-court variety",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 66,
+   "forehand": 57,
+   "backhand": 61,
+   "return": 69,
+   "volley": 61,
+   "movement": 62,
+   "mental": 67
+  }
  },
  {
   "id": "marta-kostyuk",
@@ -4656,7 +6051,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Aggressive baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 65,
+   "forehand": 65,
+   "backhand": 69,
+   "return": 68,
+   "volley": 59,
+   "movement": 69,
+   "mental": 64
+  }
  },
  {
   "id": "diana-shnaider",
@@ -4676,7 +6080,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Lefty power",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 63,
+   "volley": 55,
+   "movement": 64,
+   "mental": 60
+  }
  },
  {
   "id": "maja-chwalinska",
@@ -4696,7 +6109,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Crafty baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 63,
+   "forehand": 62,
+   "backhand": 66,
+   "return": 66,
+   "volley": 56,
+   "movement": 66,
+   "mental": 62
+  }
  },
  {
   "id": "iva-jovic",
@@ -4716,7 +6138,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Teen prodigy",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 61,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 64,
+   "volley": 55,
+   "movement": 64,
+   "mental": 61
+  }
  },
  {
   "id": "alexandra-eala",
@@ -4736,7 +6167,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Lefty counter-puncher",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 63,
+   "volley": 55,
+   "movement": 64,
+   "mental": 60
+  }
  },
  {
   "id": "victoria-mboko",
@@ -4756,7 +6196,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Power prodigy",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 67,
+   "forehand": 57,
+   "backhand": 62,
+   "return": 70,
+   "volley": 61,
+   "movement": 61,
+   "mental": 67
+  }
  },
  {
   "id": "belinda-bencic",
@@ -4776,7 +6225,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Clean early-ball hitter; Olympic champion 2020",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 63,
+   "volley": 55,
+   "movement": 63,
+   "mental": 59
+  }
  },
  {
   "id": "ons-jabeur",
@@ -4796,7 +6254,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Drop shots and variety",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 80,
+   "forehand": 88,
+   "backhand": 84,
+   "return": 82,
+   "volley": 96,
+   "movement": 90,
+   "mental": 76
+  }
  },
  {
   "id": "jasmine-paolini",
@@ -4816,7 +6283,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Energetic baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 70,
+   "forehand": 88,
+   "backhand": 86,
+   "return": 90,
+   "volley": 76,
+   "movement": 97,
+   "mental": 88
+  }
  },
  {
   "id": "zheng-qinwen",
@@ -4836,7 +6312,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Big serve and forehand; Olympic champion 2024",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 94,
+   "forehand": 94,
+   "backhand": 84,
+   "return": 82,
+   "volley": 70,
+   "movement": 86,
+   "mental": 84
+  }
  },
  {
   "id": "amanda-anisimova",
@@ -4856,7 +6341,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat power",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 60,
+   "backhand": 63,
+   "return": 63,
+   "volley": 55,
+   "movement": 63,
+   "mental": 60
+  }
  },
  {
   "id": "maria-sakkari",
@@ -4876,7 +6370,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Athletic baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 58,
+   "forehand": 58,
+   "backhand": 62,
+   "return": 61,
+   "volley": 55,
+   "movement": 61,
+   "mental": 58
+  }
  },
  {
   "id": "paula-badosa",
@@ -4896,7 +6399,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Power baseliner",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 84,
+   "forehand": 92,
+   "backhand": 86,
+   "return": 84,
+   "volley": 70,
+   "movement": 86,
+   "mental": 78
+  }
  },
  {
   "id": "daria-kasatkina",
@@ -4916,7 +6428,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Variety and touch",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 65,
+   "forehand": 66,
+   "backhand": 69,
+   "return": 68,
+   "volley": 59,
+   "movement": 70,
+   "mental": 65
+  }
  },
  {
   "id": "emma-navarro",
@@ -4936,7 +6457,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Consistent counter-puncher",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 63,
+   "volley": 55,
+   "movement": 63,
+   "mental": 60
+  }
  },
  {
   "id": "clara-tauson",
@@ -4956,7 +6486,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Flat power",
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 60,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 63,
+   "volley": 55,
+   "movement": 65,
+   "mental": 60
+  }
  },
  {
   "id": "karolina-pliskova",
@@ -4976,7 +6515,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Serve and flat power",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 61,
+   "forehand": 60,
+   "backhand": 64,
+   "return": 64,
+   "volley": 55,
+   "movement": 60,
+   "mental": 60
+  }
  },
  {
   "id": "agnieszka-radwanska",
@@ -4996,7 +6544,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Touch and angles",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 60,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 63,
+   "volley": 55,
+   "movement": 59,
+   "mental": 60
+  }
  },
  {
   "id": "jelena-jankovic",
@@ -5016,7 +6573,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Two-handed backhand defence",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 70,
+   "forehand": 82,
+   "backhand": 94,
+   "return": 92,
+   "volley": 66,
+   "movement": 94,
+   "mental": 84
+  }
  },
  {
   "id": "dinara-safina",
@@ -5036,7 +6602,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Power baseliner",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 82,
+   "forehand": 90,
+   "backhand": 92,
+   "return": 84,
+   "volley": 62,
+   "movement": 80,
+   "mental": 76
+  }
  },
  {
   "id": "elena-dementieva",
@@ -5056,7 +6631,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Movement and groundstrokes",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 66,
+   "backhand": 70,
+   "return": 68,
+   "volley": 59,
+   "movement": 66,
+   "mental": 66
+  }
  },
  {
   "id": "vera-zvonareva",
@@ -5076,7 +6660,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Consistent baseliner",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 57,
+   "forehand": 58,
+   "backhand": 62,
+   "return": 70,
+   "volley": 55,
+   "movement": 58,
+   "mental": 57
+  }
  },
  {
   "id": "samantha-stosur",
@@ -5096,7 +6689,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Kick serve and heavy forehand",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 92,
+   "forehand": 95,
+   "backhand": 76,
+   "return": 78,
+   "volley": 86,
+   "movement": 84,
+   "mental": 74
+  }
  },
  {
   "id": "lucie-safarova",
@@ -5116,7 +6718,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Lefty power",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 62,
+   "forehand": 61,
+   "backhand": 65,
+   "return": 65,
+   "volley": 56,
+   "movement": 61,
+   "mental": 62
+  }
  },
  {
   "id": "sabine-lisicki",
@@ -5136,7 +6747,16 @@
   "backhand": "2",
   "featured": false,
   "style": "Big serve",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 57,
+   "forehand": 66,
+   "backhand": 71,
+   "return": 60,
+   "volley": 55,
+   "movement": 67,
+   "mental": 58
+  }
  },
  {
   "id": "roberta-vinci",
@@ -5156,7 +6776,16 @@
   "backhand": "1",
   "featured": false,
   "style": "Slice and net play",
-  "active": false
+  "active": false,
+  "ratings": {
+   "serve": 65,
+   "forehand": 65,
+   "backhand": 66,
+   "return": 65,
+   "volley": 62,
+   "movement": 65,
+   "mental": 66
+  }
  },
  {
   "id": "alejandro-davidovich-fokina",
@@ -5176,7 +6805,16 @@
    "uso": 0
   },
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 63,
+   "forehand": 59,
+   "backhand": 63,
+   "return": 62,
+   "volley": 55,
+   "movement": 62,
+   "mental": 59
+  }
  },
  {
   "id": "brandon-nakashima",
@@ -5196,6 +6834,15 @@
    "uso": 0
   },
   "featured": false,
-  "active": true
+  "active": true,
+  "ratings": {
+   "serve": 66,
+   "forehand": 62,
+   "backhand": 66,
+   "return": 65,
+   "volley": 56,
+   "movement": 66,
+   "mental": 63
+  }
  }
 ]

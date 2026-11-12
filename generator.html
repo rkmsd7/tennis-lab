@@ -1,0 +1,128 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg"><link rel="stylesheet" href="/css/style.css"><script src="/js/common.js"></script><title>Match generator — pick a player, a court and a tournament, get the videos — Tennis Lab</title></head><body>
+<div id="site-header"></div>
+<main class="wrap">
+<section class="hero" style="padding:40px 0 10px"><div class="kicker">Match generator</div><h1>Choose your fighter. Choose the court.</h1><p class="lead">Type a player (or two), pick a surface and a tournament type, and the generator lines up their matches year by year with the YouTube clips. Or hit <b>Surprise me</b> and let it serve you a random classic.</p></section>
+
+<div class="gen-controls card">
+ <div class="gen-row">
+  <label class="gen-field"><span class="ribbon">Player</span><input type="text" id="p1" list="names" placeholder="Start typing a name… e.g. Monfils" autocomplete="off"></label>
+  <div class="gen-vs">vs</div>
+  <label class="gen-field"><span class="ribbon">Opponent <span class="muted">(optional)</span></span><input type="text" id="p2" list="names" placeholder="Anyone" autocomplete="off"></label>
+ </div>
+ <datalist id="names"></datalist>
+ <div class="gen-row">
+  <div class="gen-field"><span class="ribbon">Court</span><div class="seg" id="surf"><button class="on" data-v="any">Any</button><button data-v="hard">Hard</button><button data-v="clay">Clay</button><button data-v="grass">Grass</button><button data-v="indoor">Indoor</button></div></div>
+  <div class="gen-field"><span class="ribbon">Tournament</span><div class="seg" id="cat"><button class="on" data-v="any">Any</button><button data-v="slam">Grand Slams</button><button data-v="m1000">Masters / 1000s</button><button data-v="finals">Tour Finals</button><button data-v="oly">Olympics</button><button data-v="team">Davis Cup &amp; team</button><button data-v="tour">Other tour events</button></div></div>
+ </div>
+ <div class="gen-row gen-actions">
+  <button class="btn" id="go">Generate matches</button>
+  <button class="btn ghost" id="rnd">🎲 Surprise me</button>
+  <span class="muted small" id="gcount"></span>
+ </div>
+</div>
+
+<div class="stage" id="stage" hidden>
+ <div class="fighter-slot" id="f1"></div>
+ <div class="vsflash" id="vsflash">VS</div>
+ <div class="fighter-slot" id="f2"></div>
+</div>
+
+<div id="pick"></div>
+<div id="results"></div>
+</main><div id="site-footer"></div>
+<script>
+(async()=>{
+ const [P,RV]=await TL.load('players','rivalries'); let V={matches:{},rivalries:{},shots:{},players:{}}; try{[V]=await TL.load('videos');}catch(e){}
+ const byName=Object.fromEntries(P.map(p=>[p.name,p])), byId=Object.fromEntries(P.map(p=>[p.id,p]));
+ const last=n=>n.split(' ').slice(-1)[0];
+ const norm=s=>s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').trim();
+ const findP=q=>{q=norm(q);if(!q)return null;return byName[Object.keys(byName).find(n=>norm(n)===q)]||P.find(p=>norm(p.name).includes(q))||P.find(p=>norm(last(p.name))===q)||null};
+
+ // Surface by event (and year, where the event moved) and tournament category.
+ const CLAY=['Roland Garros','Rome','Monte Carlo','Barcelona','Hamburg','Umag','Houston'], GRASS=['Wimbledon',"Queen's Club",'Halle'], INDOOR=['ATP Finals','WTA Finals','Paris','Basel','Rotterdam','Vienna','Sofia','Masters (NY)','Philadelphia','Laver Cup'];
+ const OLY={1988:'hard',1992:'clay',1996:'hard',2000:'hard',2004:'hard',2008:'hard',2012:'grass',2016:'hard',2020:'hard',2021:'hard',2024:'clay'};
+ function surf(e,y,tour){
+  if(e==='Australian Open')return y<=1987?'grass':'hard';
+  if(e==='US Open')return y<=1974?'grass':y<=1977?'clay':'hard';
+  if(e==='Madrid')return y>=2009?'clay':'indoor';
+  if(e==='Stuttgart')return tour==='ATP'&&y>=2015?'grass':'clay';
+  if(e==='Acapulco')return y>=2014?'hard':'clay';
+  if(e==='Olympics')return OLY[y]||'hard';
+  if(e==='Davis Cup')return 'mixed';
+  if(CLAY.includes(e))return 'clay'; if(GRASS.includes(e))return 'grass'; if(INDOOR.includes(e))return 'indoor'; return 'hard';
+ }
+ const SLAMS=['Australian Open','Roland Garros','Wimbledon','US Open'], TEAM=['Davis Cup','Fed Cup','Billie Jean King Cup','Laver Cup','United Cup','Hopman Cup'], FINALS=['ATP Finals','WTA Finals','Masters (NY)','Masters'], M1000=['Indian Wells','Miami','Rome','Madrid','Cincinnati','Monte Carlo','Shanghai','Paris','Montreal','Toronto','Canadian Open','Hamburg','Wuhan'];
+ const cat=(e,tour)=>SLAMS.includes(e)?'slam':e==='Olympics'?'oly':TEAM.includes(e)?'team':FINALS.includes(e)?'finals':(M1000.includes(e)||(e==='Beijing'&&tour==='WTA'))?'m1000':'tour';
+ const SURFL={hard:'Hard court',clay:'Clay',grass:'Grass',indoor:'Indoor hard',mixed:'Davis Cup (varies)'}, CATL={slam:'Grand Slam',m1000:'Masters / 1000',finals:'Tour Finals',oly:'Olympics',team:'Team event',tour:'Tour event'};
+ const ROUND={F:'Final',SF:'Semifinal',QF:'Quarterfinal',R16:'Round of 16',R32:'Third round',R64:'Second round',R128:'First round',RR:'Round robin'};
+ // Flatten every curated meeting once.
+ const ALL=[];RV.forEach(r=>{const a=byName[r.a],b=byName[r.b];if(!a||!b)return;r.meetings.forEach(m=>ALL.push({r,a,b,...m,s:surf(m.event,m.year,a.tour),c:cat(m.event,a.tour),vids:V.matches[[r.a,r.b,m.year,m.event,m.round].join('|')]||[]}))});
+
+ const state={p1:null,p2:null,surf:'any',cat:'any'};
+ document.getElementById('names').innerHTML=P.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(p=>`<option value="${TL.esc(p.name)}">${TL.flag(p)} ${p.tour} · ${TL.slams(p)} majors</option>`).join('');
+ const filtered=()=>ALL.filter(m=>(!state.p1||m.a===state.p1||m.b===state.p1)&&(!state.p2||m.a===state.p2||m.b===state.p2)&&(state.surf==='any'||m.s===state.surf||(state.surf==='hard'&&m.s==='indoor'))&&(state.cat==='any'||m.c===state.cat));
+
+ // ---- Fighter cards (character-select screen) ----
+ const KEYS=[['serve','Serve'],['forehand','Forehand'],['backhand','Backhand'],['return','Return'],['volley','Net game'],['movement','Movement'],['mental','Clutch']];
+ const overall=p=>Math.round(Object.values(p.ratings||{}).reduce((a,b)=>a+b,0)/7);
+ function fighter(p,side){
+  const slot=document.getElementById(side);
+  if(!p){slot.innerHTML=`<div class="fighter empty"><div class="qmark">?</div><p class="muted small">${side==='f1'?'Pick a player':'Any opponent'}</p></div>`;return;}
+  const best=(V.players[p.id+'|best']||[])[0];
+  const bg=best?`style="background-image:linear-gradient(180deg,rgba(11,18,32,.15),rgba(11,18,32,.95)),url(https://i.ytimg.com/vi/${best.id}/hqdefault.jpg)"`:'';
+  slot.innerHTML=`<div class="fighter ${p.tour==='ATP'?'atp':'wta'}" ${bg}>
+   <div class="bigflag">${TL.flag(p)}</div>
+   <div class="fname"><span class="first">${TL.esc(p.name.split(' ').slice(0,-1).join(' '))}</span><span class="lastname">${TL.esc(last(p.name))}</span></div>
+   <div class="ftag">${TL.esc(p.style||'')}</div>
+   <div class="fmeta"><span class="pill">${TL.slams(p)} majors</span><span class="pill">${p.hand==='L'?'Lefty':'Righty'} · ${p.backhand==='1'?'1HBH':'2HBH'}</span><span class="pill gold">OVR ${overall(p)}</span></div>
+   <div class="bars">${KEYS.map(([k,l],i)=>`<div class="bar"><span>${l}</span><div class="track"><i style="--w:${p.ratings?.[k]||60}%;--d:${i*90}ms"></i></div><b>${p.ratings?.[k]||60}</b></div>`).join('')}</div>
+   <a class="small" href="/player?id=${p.id}">Full profile →</a>
+  </div>`;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>slot.querySelector('.fighter').classList.add('in')));
+ }
+ function stage(){const st=document.getElementById('stage');if(!state.p1&&!state.p2){st.hidden=true;return;}st.hidden=false;fighter(state.p1,'f1');fighter(state.p2,'f2');const v=document.getElementById('vsflash');v.classList.remove('hit');void v.offsetWidth;v.classList.add('hit');}
+
+ // ---- Results ----
+ const chips=m=>`<span class="pill ${m.s}">${SURFL[m.s]}</span><span class="pill">${CATL[m.c]}</span>`;
+ const matchCard=(m,big)=>{const v=m.vids[0];const vs=`${m.a.name} vs ${m.b.name}`;const q=TL.yt(`${vs} ${m.event} ${m.year} ${(ROUND[m.round]||m.round).toLowerCase()} highlights`);
+  return`<div class="mcard ${big?'big':''}"><div class="mhead"><span class="yr">${m.year}</span><div><b>${TL.esc(m.event)} · ${TL.esc(ROUND[m.round]||m.round)}</b><br><span class="small">${TL.flag(m.a)} ${TL.plink(m.a)} <span class="muted">vs</span> ${TL.flag(m.b)} ${TL.plink(m.b)} · <span class="muted">${TL.esc(m.winner)} won ${TL.esc(m.score)}</span></span><div style="margin-top:4px">${chips(m)}</div></div></div>
+  ${v?`<div class="mvid">${TL.video(v)}</div>`:`<div class="searchall"><a target="_blank" rel="noopener" href="${q}">▶ Find this match on YouTube</a></div>`}
+  ${m.vids.length>1&&big?`<div class="vidgrid">${m.vids.slice(1,4).map(x=>TL.video(x)).join('')}</div>`:''}
+  <div class="searchall small"><a target="_blank" rel="noopener" href="${q}">▶ More of this match</a><a href="/players?h2h=${m.a.id},${m.b.id}#crosstable">Full ${TL.esc(last(m.a.name))}–${TL.esc(last(m.b.name))} archive →</a></div></div>`};
+ const surfWord={any:'',hard:'hard court',clay:'clay court',grass:'grass court',indoor:'indoor'}, catWord={any:'',slam:'grand slam',m1000:'masters 1000',finals:'ATP Finals OR WTA Finals',oly:'olympics',team:'davis cup',tour:'ATP 500 OR ATP 250 OR WTA 500'};
+ function fallback(){
+  const n1=state.p1?state.p1.name:document.getElementById('p1').value.trim(), n2=state.p2?state.p2.name:document.getElementById('p2').value.trim();
+  if(!n1&&!n2)return'';
+  const who=n1&&n2?`${n1} vs ${n2}`:(n1||n2); const ctx=[surfWord[state.surf],catWord[state.cat]].filter(Boolean).join(' ');
+  const yrs=[];for(let i=0;i<4;i++)yrs.push(1995+Math.floor(Math.random()*31));
+  return`<div class="card" style="margin-top:16px"><div class="ribbon">Beyond the curated archive</div><h3>${TL.esc(who)}${ctx?` · ${TL.esc(ctx)}`:''}</h3><p class="small muted">The curated archive only covers champions and their big rivalries. These searches open YouTube directly for the combination you chose — including players who are not in the database (Dustin Brown fans, this is for you).</p><div class="searchall"><a target="_blank" rel="noopener" href="${TL.yt(`${who} ${ctx} highlights`)}">▶ ${TL.esc(who)} ${TL.esc(ctx)} highlights</a><a target="_blank" rel="noopener" href="${TL.yt(`${who} ${ctx} full match`)}">▶ Full match</a><a target="_blank" rel="noopener" href="${TL.yt(`${who} best points`)}">▶ Best points</a>${yrs.map(y=>`<a target="_blank" rel="noopener" href="${TL.yt(`${who} ${y} ${ctx} highlights`)}">🎲 ${y}</a>`).join('')}</div></div>`;
+ }
+ function render(pick){
+  const ms=filtered().sort((x,y)=>y.year-x.year||x.event.localeCompare(y.event));
+  document.getElementById('gcount').textContent=ms.length?`${ms.length} curated match${ms.length>1?'es':''} with ${ms.reduce((n,m)=>n+m.vids.length,0)} videos`:'';
+  const pk=document.getElementById('pick'), rs=document.getElementById('results');
+  pk.innerHTML=pick?`<div class="section-head"><h2>🎲 Tonight's match</h2><button class="btn ghost sm" id="again">Spin again</button></div>${matchCard(pick,true)}`:'';
+  if(pick){document.getElementById('again').onclick=()=>surprise();pk.scrollIntoView({behavior:'smooth',block:'start'});}
+  if(!ms.length){rs.innerHTML=(state.p1||document.getElementById('p1').value?`<p class="muted" style="margin-top:14px">No curated meeting matches that combination yet.</p>`:'')+fallback();return;}
+  const years=[...new Set(ms.map(m=>m.year))];
+  rs.innerHTML=`<div class="section-head"><h2>Year by year</h2><span class="muted small">${years[years.length-1]}–${years[0]} · newest first</span></div>${years.map(y=>`<h3 class="yearhead">${y} <span class="muted small">${ms.filter(m=>m.year===y).length} match${ms.filter(m=>m.year===y).length>1?'es':''}</span></h3><div class="mgrid">${ms.filter(m=>m.year===y).map(m=>matchCard(m)).join('')}</div>`).join('')}${fallback()}`;
+ }
+ function surprise(){
+  let ms=filtered(); if(!ms.length)ms=ALL.filter(m=>m.vids.length); if(!ms.length)ms=ALL;
+  const m=ms[Math.floor(Math.random()*ms.length)];
+  if(!state.p1){state.p1=m.a;document.getElementById('p1').value=m.a.name;}
+  const other=m.a===state.p1?m.b:m.a; state.p2=other; document.getElementById('p2').value=other.name;
+  sync(); stage(); render(m);
+ }
+ function sync(){const u=new URLSearchParams();if(state.p1)u.set('p',state.p1.id);if(state.p2)u.set('o',state.p2.id);if(state.surf!=='any')u.set('court',state.surf);if(state.cat!=='any')u.set('type',state.cat);history.replaceState(null,'',u.toString()?'?'+u:location.pathname);}
+ function readInputs(){state.p1=findP(document.getElementById('p1').value);state.p2=findP(document.getElementById('p2').value);if(state.p2&&state.p2===state.p1)state.p2=null;}
+ ['p1','p2'].forEach(id=>{const el=document.getElementById(id);el.addEventListener('change',()=>{readInputs();sync();stage();});el.addEventListener('keydown',e=>{if(e.key==='Enter'){readInputs();sync();stage();render();}});});
+ ['surf','cat'].forEach(id=>document.querySelectorAll(`#${id} button`).forEach(b=>b.onclick=()=>{document.querySelectorAll(`#${id} button`).forEach(x=>x.classList.toggle('on',x===b));state[id]=b.dataset.v;sync();if(state.p1||state.p2)render();}));
+ document.getElementById('go').onclick=()=>{readInputs();sync();stage();render();};
+ document.getElementById('rnd').onclick=()=>{readInputs();surprise();};
+ // Deep link: ?p=id&o=id&court=clay&type=slam
+ const q=TL.q(); if(q.p&&byId[q.p]){document.getElementById('p1').value=byId[q.p].name;} if(q.o&&byId[q.o]){document.getElementById('p2').value=byId[q.o].name;}
+ if(q.court){state.surf=q.court;document.querySelectorAll('#surf button').forEach(x=>x.classList.toggle('on',x.dataset.v===q.court));} if(q.type){state.cat=q.type;document.querySelectorAll('#cat button').forEach(x=>x.classList.toggle('on',x.dataset.v===q.type));}
+ if(q.p){readInputs();stage();render();}
+})();
+</script></body></html>
