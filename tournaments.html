@@ -4,6 +4,14 @@
 <h2>Now and next</h2><div class="now" id="now"></div>
 <h2>2026 Grand Slams</h2><div class="table-wrap"><table><thead><tr><th>Major</th><th>Surface · dates</th><th>Men's final</th><th>Women's final</th></tr></thead><tbody id="slams"></tbody></table></div>
 <h2>Masters 1000 & WTA 1000 winners</h2><div class="table-wrap"><table><thead><tr><th>Event</th><th>Tour</th><th>Champion</th><th>Runner-up</th></tr></thead><tbody id="masters"></tbody></table></div>
+<div class="section-head" id="draws"><h2>Draws, year by year</h2><span class="muted small">Round of 16 to the final, every score · Grand Slams since 1950, Olympics since 1988</span></div>
+<div class="controls">
+ <select id="byear"></select>
+ <div class="seg" id="bev"><button class="on" data-v="ao">Australian Open</button><button data-v="rg">Roland Garros</button><button data-v="w">Wimbledon</button><button data-v="uso">US Open</button><button data-v="oly">Olympics</button></div>
+ <div class="seg" id="bg"><button class="on" data-v="Men">Men</button><button data-v="Women">Women</button></div>
+</div>
+<div id="bracket" class="bracket-wrap"></div>
+
 <h2>The four majors</h2><div class="grid" id="guide"></div>
 <h2>Tournament tiers</h2><div class="table-wrap"><table><thead><tr><th>Tier</th><th>Points to the winner</th><th>Events</th><th>Notes</th></tr></thead><tbody id="tiers"></tbody></table></div>
 </main><div id="site-footer"></div>
@@ -15,4 +23,34 @@ document.getElementById('now').innerHTML=[...live.map(e=>({...e,k:'',tag:'Happen
 document.getElementById('slams').innerHTML=T.slams.map(s=>`<tr><td><b>${s.name}</b></td><td>${s.surface}<br><span class="muted small">${s.dates}</span></td><td>${link(s.men.champion)} d. ${link(s.men.runnerUp)}<br><span class="muted small">${s.men.score}</span></td><td>${link(s.women.champion)} d. ${link(s.women.runnerUp)}<br><span class="muted small">${s.women.score}</span></td></tr>`).join('');
 document.getElementById('masters').innerHTML=T.masters.map(m=>`<tr><td>${m.event}</td><td><span class="pill">${m.tour}</span></td><td>${link(m.champion)}</td><td class="muted">${link(m.runnerUp)}</td></tr>`).join('');
 document.getElementById('guide').innerHTML=T.slamGuide.map(g=>`<div class="card"><div class="ribbon">${g.when} · since ${g.since}</div><h3>${g.name}</h3><p class="muted small">${g.surface}</p><p>${g.fact}</p></div>`).join('');
-document.getElementById('tiers').innerHTML=T.tiers.map(t=>`<tr><td><b>${t.tier}</b></td><td>${t.points}</td><td>${t.events}</td><td class="muted">${t.note}</td></tr>`).join('');})();</script></body></html>
+document.getElementById('tiers').innerHTML=T.tiers.map(t=>`<tr><td><b>${t.tier}</b></td><td>${t.points}</td><td>${t.events}</td><td class="muted">${t.note}</td></tr>`).join('');
+// ---- Year-by-year draws (flow chart) ----
+let BR={};try{[BR]=await TL.load('brackets');}catch(e){}
+const EVL={ao:'Australian Open',rg:'Roland Garros',w:'Wimbledon',uso:'US Open',oly:'Olympic Games'};
+const bs={year:null,ev:'ao',g:'Men'};
+const keysFor=(ev,g)=>Object.keys(BR).filter(k=>BR[k].event===ev&&BR[k].gender===g);
+const years=[...new Set(Object.values(BR).map(d=>d.year))].sort((a,b)=>b-a);
+const ysel=document.getElementById('byear');ysel.innerHTML=years.map(y=>`<option value="${y}">${y}</option>`).join('');
+function drawFor(){return keysFor(bs.ev,bs.g).filter(k=>BR[k].year===bs.year).map(k=>BR[k])}
+function nearest(){const ys=keysFor(bs.ev,bs.g).map(k=>BR[k].year);if(!ys.length)return null;return ys.sort((a,b)=>Math.abs(a-bs.year)-Math.abs(b-bs.year)||b-a)[0]}
+function renderBracket(){
+ const box=document.getElementById('bracket');let ds=drawFor();
+ if(!ds.length){const ny=nearest();if(ny!=null&&ny!==bs.year){bs.year=ny;ysel.value=ny;ds=drawFor()}}
+ if(!ds.length){box.innerHTML='<p class="muted">No draw available for that combination yet.</p>';return}
+ history.replaceState(null,'','?draw='+encodeURIComponent(bs.year+'|'+bs.ev+'|'+bs.g)+'#draws');
+ box.innerHTML=ds.map(d=>{
+  const order=['Final','Semifinal','Quarterfinal'];const r16=d.bracket.find(m=>!order.includes(m.r))?.r;const seen=new Set();const uniq=d.bracket.filter(m=>{const k=m.r+'|'+m.w;if(seen.has(k))return false;seen.add(k);return true});const cols=[r16,'Quarterfinal','Semifinal','Final'].filter(Boolean).map(r=>({r,label:r===r16?'Round of 16':r+'s',ms:uniq.filter(m=>m.r===r).slice(0,r===r16?8:r==='Quarterfinal'?4:r==='Semifinal'?2:1)}));
+  const pl=n=>{const p=byName[n];return p?`<a class="plink" href="/player?id=${p.id}">${TL.esc(n)}</a>`:TL.esc(n)};
+  const match=m=>{const sets=(m.s||'').split(' ').filter(Boolean);const w=[],l=[];sets.forEach(x=>{const mm=x.match(/^(\d+)–(\d+)(\(\d+\))?(.*)$/);if(mm){w.push(mm[1]+(mm[3]&&+mm[1]<+mm[2]?mm[3]:''));l.push(mm[2]+(mm[3]&&+mm[2]<+mm[1]?mm[3]:''));}else{w.push(x);l.push('')}});
+   const row=(n,seed,sc,win)=>`<div class="brow ${win?'win':''}"><span class="seed">${TL.esc(seed||'')}</span><span class="nm">${pl(n)}</span><span class="sets">${sc.map(x=>`<i>${TL.esc(x)}</i>`).join('')}</span></div>`;
+   return`<div class="bmatch">${row(m.w,m.ws,w,true)}${row(m.l,m.ls,l,false)}</div>`};
+  const title=`${d.year} ${EVL[d.event]} · ${d.gender==='Men'?"Men's":"Women's"} singles`;
+  return`<div class="bracket-card"><div class="section-head"><h3>${TL.esc(title)}</h3><span class="small"><b>${pl(d.champion)}</b> <span class="muted">d.</span> ${pl(d.runnerUp)}</span></div><div class="bracket">${cols.map(c=>`<div class="bcol"><div class="bhead">${TL.esc(c.r==='Final'?'Final':c.label)}</div>${c.ms.map(match).join('')}</div>`).join('')}</div><p class="small muted" style="margin:8px 0 0">Scores read winner first; tiebreak points in brackets. Draw data from Wikipedia.</p></div>`}).join('');
+}
+const q=TL.q();if(q.draw){const [y,e,g]=q.draw.split('|');bs.year=+y;bs.ev=e;bs.g=g;document.querySelectorAll('#bev button').forEach(b=>b.classList.toggle('on',b.dataset.v===e));document.querySelectorAll('#bg button').forEach(b=>b.classList.toggle('on',b.dataset.v===g));}
+bs.year=bs.year||years[0];ysel.value=bs.year;
+ysel.onchange=()=>{bs.year=+ysel.value;renderBracket()};
+['bev','bg'].forEach(id=>document.querySelectorAll('#'+id+' button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#'+id+' button').forEach(x=>x.classList.toggle('on',x===b));bs[id==='bev'?'ev':'g']=b.dataset.v;renderBracket()}));
+if(years.length)renderBracket();else document.getElementById('bracket').innerHTML='<p class="muted">Draw archive not available.</p>';
+if(q.draw)document.getElementById('draws').scrollIntoView();
+})();</script></body></html>

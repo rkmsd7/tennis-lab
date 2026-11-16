@@ -6844,5 +6844,69 @@
    "movement": 66,
    "mental": 63
   }
+ },
+ {
+  "id": "bill-bowrey",
+  "flag": "🇦🇺",
+  "featured": false,
+  "name": "Bill Bowrey",
+  "country": "AUS",
+  "tour": "ATP",
+  "born": 1945,
+  "hand": "R",
+  "backhand": "1",
+  "slams": {
+   "ao": 1,
+   "rg": 0,
+   "w": 0,
+   "uso": 0
+  },
+  "olympics": "—",
+  "weeksNo1": 0,
+  "era": "classic",
+  "style": "Serve-and-volley Australian of the Harry Hopman school",
+  "bio": "",
+  "active": false,
+  "ratings": {
+   "serve": 68,
+   "forehand": 65,
+   "backhand": 66,
+   "return": 67,
+   "volley": 71,
+   "movement": 64,
+   "mental": 67
+  }
+ },
+ {
+  "id": "sue-barker",
+  "flag": "🇬🇧",
+  "featured": false,
+  "name": "Sue Barker",
+  "country": "GBR",
+  "tour": "WTA",
+  "born": 1956,
+  "hand": "R",
+  "backhand": "2",
+  "slams": {
+   "ao": 0,
+   "rg": 1,
+   "w": 0,
+   "uso": 0
+  },
+  "olympics": "—",
+  "weeksNo1": 0,
+  "era": "classic",
+  "style": "Big-forehand baseliner; 1976 Roland Garros champion",
+  "bio": "",
+  "active": false,
+  "ratings": {
+   "serve": 64,
+   "forehand": 68,
+   "backhand": 67,
+   "return": 67,
+   "volley": 68,
+   "movement": 70,
+   "mental": 67
+  }
  }
 ]
