@@ -199,3 +199,7 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:24px 0;color:var
 .brow .seed{font-size:.7rem;color:var(--muted);text-align:right}.brow .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brow .nm .plink{border-bottom:0}
 .brow .sets{display:flex;gap:4px}.brow .sets i{font-style:normal;min-width:18px;text-align:center;font-variant-numeric:tabular-nums;font-size:.8rem}
 .brow.win .sets i{color:var(--gold)}
+
+/* install button */
+.install-btn{margin-left:auto;background:var(--clay);color:#1a0d05;border:0;border-radius:999px;padding:7px 12px;font:inherit;font-weight:700;font-size:.8rem;cursor:pointer;white-space:nowrap}.install-btn[hidden]{display:none}
+@media(max-width:640px){.install-btn{margin-left:0}}
